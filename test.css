@@ -66,8 +66,10 @@ nav li:hover, nav li.selected {
 
 .glazes img {
     width: 200px;
-    padding: 20px;
+    margin: 20px;
     pointer-events: auto;
+    transition: opacity 0.5s;
+    transition-timing-function: cubic-bezier(0, 0, 0.08, 0.97);
 }
 
 .glazes:hover > * {
