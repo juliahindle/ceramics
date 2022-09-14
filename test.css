@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    box-shadow: 0 4px 28px 0px #d4d4d4;
+}
+
+header a {
+    display: flex;
+}
+
+header a img {
+    width: 50px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: unset;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 4%;
+    font-size: 25px;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    cursor: pointer;
+}
