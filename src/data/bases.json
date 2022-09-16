@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1-0",
+        "name": "Randy's",
+        "recipe": [
+            {"ingredient": "Gerstley Borate", "amount": 31.7},
+            {"ingredient": "Talc", "amount": 13.8},
+            {"ingredient": "F4 Feldspar", "amount": 19.8},
+            {"ingredient": "EP Kaolin", "amount": 5},
+            {"ingredient": "Silica", "amount": 29.7}
+        ]
+    },{
+        "id": "11-0",
+        "name": "Chun",
+        "recipe": [
+            {"ingredient": "F4 Feldspar", "amount": 41},
+            {"ingredient": "Silica", "amount": 27},
+            {"ingredient": "Whiting", "amount": 15},
+            {"ingredient": "EP Kaolin", "amount": 5},
+            {"ingredient": "Zinc Oxide", "amount": 12}
+        ]
+    }
+]
