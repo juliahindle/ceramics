@@ -98,31 +98,21 @@ section.glazes {
     pointer-events: none;
 }
 
-.glazes .container:hover > * {
-    opacity: 50%;
-}
-
 .glazes .container img {
     width: 190px;
     min-height: 190px;
-    margin: 35px 0;
+    margin: 35px 15px;
     pointer-events: auto;
     transition: opacity 0.5s;
     transition-timing-function: cubic-bezier(0, 0, 0.08, 0.97);
     border-bottom: 4px solid rgba(0, 0, 0, 0);
     justify-self: center;
-    padding: 15px;
+    padding: 15px 0;
 }
 
-.glazes .container img:hover {
-    opacity: 100%;
-    cursor: pointer;
-    border-bottom: 4px solid black;
-}
-
-.glazes .container:hover > *, main.aside-enabled .glazes .container img {
+/* main.aside-enabled .glazes .container img {
     opacity: 50%;
-}
+} */
 
 main.aside-enabled .glazes .container img.selected {
     opacity: 100%;
@@ -130,10 +120,15 @@ main.aside-enabled .glazes .container img.selected {
     border-bottom: 4px solid black;
 }
 
-.glazes .container img:hover, main.aside-enabled .glazes .container img:hover {
+.glazes .container img:hover {
     opacity: 100%;
     cursor: pointer;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.4);
+}
+
+main.aside-enabled .glazes .container img:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
 
 /* Sidebar */
@@ -145,9 +140,34 @@ main.aside-enabled .glazes .container img.selected {
     box-sizing: border-box;
 }
 
+.sidebar button.close-button {
+    position: fixed;
+    top: 80px;
+    right: -45px;
+    width: 30px;
+    padding: unset;
+    opacity: 40%;
+    background: unset;
+    border: none;
+    color: black;
+    font-family: Arial Rounded MT Bold;
+    font-size: 30px;
+    transition: opacity 0.2s, right 1s;
+}
+
+main.aside-enabled .sidebar button.close-button {
+    right: 355px;
+}
+
+.sidebar button.close-button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 .sidebar .container img {
     width: 200px;
     align-self: center;
+    padding-bottom: 30px;
 }
 
 .sidebar .container h2 {

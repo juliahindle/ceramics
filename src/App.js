@@ -6,7 +6,9 @@ import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
 
 function App() {
-    const [selectedGlaze, setSelectedGlaze] = useState({glaze: {id: "", base: "", additives : []}, base: {id: "", name: "", recipe : []}});
+    const BLANK_GLAZE = {glaze: {id: "", base: "", additives : []}, base: {id: "", name: "", recipe : []}};
+    const [selectedGlaze, setSelectedGlaze] = useState(BLANK_GLAZE)
+    const [showSidebar, setShowSidebar] = useState(false)
 
     return (<>
         <header>
@@ -21,7 +23,9 @@ function App() {
                 </ul>
             </nav>
         </header>
-        <main className={(selectedGlaze.glaze.id && "aside-enabled")}>
+
+
+        <main className={(showSidebar && "aside-enabled")}>
             <section className="glazes">
                 <div className="container">
                     {glazes.map(glaze => 
@@ -31,13 +35,27 @@ function App() {
                             alt={`glaze with id: ${glaze.id}`}
                             onClick={() => {
                                 setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
+                                setShowSidebar(true)
                             }}
                         />
                     )}
                 </div>
             </section>
+
             <aside className="sidebar">
                 <div className="container">
+                    <button 
+                        class="close-button" 
+                        aria-label="Close alert" 
+                        type="button" 
+                        onClick={() => {
+                            setShowSidebar(false)
+                            setTimeout(function() {
+                                setSelectedGlaze(BLANK_GLAZE)
+                            }.bind(this),600);
+                        }}>
+                        x
+                    </button>
                     <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 
 
                     <h2>Cone</h2>
