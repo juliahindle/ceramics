@@ -3,7 +3,6 @@ body {
 }
 
 main {
-    pointer-events: none;
     top: 70px;
     width: 100%;
     position: relative;
@@ -11,19 +10,27 @@ main {
 }
 
 section.glazes {
-    margin-right: 25%;
-    right: 0;
+    margin-right: 0;
     transition: margin-right 1s;
+}
+
+main.aside-enabled section.glazes {
+    margin-right: 400px;
 }
 
 aside {
     position: fixed;
-    width: 25%;
+    width: 400px;
     height: calc(100vh - 70px);
     background: #F3F3F3;
     transition: left 1s;
     font-family: 'sofia-pro';
     overflow-y: auto;
+    right: -400px;
+    transition: right 1s;
+}
+
+main.aside-enabled aside {
     right: 0;
 }
 
@@ -104,9 +111,26 @@ section.glazes {
     transition-timing-function: cubic-bezier(0, 0, 0.08, 0.97);
     border-bottom: 4px solid rgba(0, 0, 0, 0);
     justify-self: center;
+    padding: 15px;
 }
 
 .glazes .container img:hover {
+    opacity: 100%;
+    cursor: pointer;
+    border-bottom: 4px solid black;
+}
+
+.glazes .container:hover > *, main.aside-enabled .glazes .container img {
+    opacity: 50%;
+}
+
+main.aside-enabled .glazes .container img.selected {
+    opacity: 100%;
+    cursor: pointer;
+    border-bottom: 4px solid black;
+}
+
+.glazes .container img:hover, main.aside-enabled .glazes .container img:hover {
     opacity: 100%;
     cursor: pointer;
     border-bottom: 4px solid black;

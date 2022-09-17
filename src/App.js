@@ -21,11 +21,12 @@ function App() {
                 </ul>
             </nav>
         </header>
-        <main>
+        <main className={(selectedGlaze.glaze.id && "aside-enabled")}>
             <section className="glazes">
                 <div className="container">
                     {glazes.map(glaze => 
                         <img 
+                            className={(selectedGlaze.glaze.id === glaze.id && "selected")}
                             src={`images/glazes/2x/${glaze.id}.png`} 
                             alt={`glaze with id: ${glaze.id}`}
                             onClick={() => {
@@ -35,7 +36,7 @@ function App() {
                     )}
                 </div>
             </section>
-            <aside className={"sidebar " + (selectedGlaze.glaze.id? "enabled" : "disabled")}>
+            <aside className="sidebar">
                 <div className="container">
                     <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 
 
