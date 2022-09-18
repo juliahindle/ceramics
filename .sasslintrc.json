@@ -1,0 +1,40 @@
+{
+    "files": {
+      "include": "src/styles/*.scss",
+      "ignore": [
+        "node_modules/**"
+      ]
+    },
+    "rules": {
+      "property-sort-order": [
+        1,
+        {
+          "order": "smacss"
+        }
+      ],
+      "class-name-format": [
+        1,
+        {
+          "convention": "hyphenatedbem"
+        }
+      ],
+      "no-color-literals": 0,
+      "nesting-depth": [
+        1,
+        {
+          "max-depth": 5
+        }
+      ],
+      "mixins-before-declarations": [
+        1,
+        {
+          "exclude": ["mobile", "tablet", "mobile-and-tablet"]
+        }
+      ],
+      "no-qualifying-elements": 0,
+      "force-element-nesting": 0,
+      "force-pseudo-nesting": 0,
+      "no-invalid-hex": 0,
+      "no-misspelled-properties": 0
+    }
+  }

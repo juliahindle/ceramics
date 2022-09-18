@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b production -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/ && sass-lint -c .sasslintrc.json '**/*.scss' -v -q"
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +39,8 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.54.9"
+    "sass": "^1.54.9",
+    "sass-lint": "^1.13.1"
   },
-  "homepage": "http://juliahindle.github.io/ceramics"
+  "homepage": "https://juliahindle.github.io/ceramics/"
 }

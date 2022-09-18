@@ -1,7 +1,7 @@
-import 'styles/test.css'
+import 'styles/glazes.scss'
 import React, { useState } from 'react'
-import Header from 'components/Header'
-import Sidebar from 'components/Sidebar'
+// import Header from 'components/Header'
+// import Sidebar from 'components/Sidebar'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
 
@@ -50,9 +50,7 @@ function App() {
                         type="button" 
                         onClick={() => {
                             setShowSidebar(false)
-                            setTimeout(function() {
-                                setSelectedGlaze(BLANK_GLAZE)
-                            }.bind(this),600);
+                            setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600);
                         }}>
                         x
                     </button>
@@ -76,11 +74,7 @@ function App() {
                                     <td>{part.amount}</td>
                                 </tr>
                             )}
-                            <tr>
-                                <td>F4 Feldspar</td>
-                                <td>41</td>
-                            </tr>
-                                <tr className="add">
+                            <tr className="add">
                                 <td>Add:</td>
                             </tr>
                             {selectedGlaze.glaze.additives.map((part) =>
