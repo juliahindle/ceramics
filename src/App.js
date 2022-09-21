@@ -1,6 +1,6 @@
 import 'styles/base.scss'
 import React, { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from 'components/about/About';
 import Resources from 'components/resources/Resources';
 import Glazes from 'components/glazes/Glazes'
@@ -10,7 +10,7 @@ function App() {
     const [showSidebar, setShowSidebar] = useState(false)
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Base showSidebar={showSidebar}/>} >
                     <Route path="/" element={<p>TBD landing page</p>} />
@@ -19,7 +19,7 @@ function App() {
                     <Route path="/resources" element={<Resources />} />
                 </Route>
             </Routes>
-      </BrowserRouter>
+      </HashRouter>
     )
 }
 
