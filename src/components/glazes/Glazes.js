@@ -1,11 +1,10 @@
 import 'styles/glazes.scss'
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-
-function Glazes({setShowSidebar}) {
-    const BLANK_GLAZE = {glaze: {id: "", base: "", additives : []}, base: {id: "", name: "", recipe : []}};
-    const [selectedGlaze, setSelectedGlaze] = useState(BLANK_GLAZE)
+import { BLANK_GLAZE, GlazesContext } from 'Constants';
+function Glazes() {
+    const {setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext);
 
     return (<>
         {/* Glazes */}
