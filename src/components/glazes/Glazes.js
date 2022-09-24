@@ -2,13 +2,26 @@ import 'styles/glazes.scss'
 import React, { useContext } from 'react'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext } from 'Constants';
+import { BLANK_GLAZE, GlazesContext } from 'Constants'
+
 function Glazes() {
-    const {setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext);
+    const {setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
+
+    const closeSidebar = () => {
+        setShowSidebar(false)
+        setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600);
+    }
+
+    const handleGlazeContainerClick = (e) => {
+        console.log(e)
+        if (e.target.className === "glazes") {
+            closeSidebar()
+        }
+    }
 
     return (<>
         {/* Glazes */}
-        <section className="glazes">
+        <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="container">
                 {glazes.map(glaze => 
                     <img 
@@ -29,12 +42,9 @@ function Glazes() {
             <div className="container">
                 <button 
                     className="close-button" 
-                    aria-label="Close alert" 
+                    aria-label="Close sidebar" 
                     type="button" 
-                    onClick={() => {
-                        setShowSidebar(false)
-                        setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600);
-                    }}>
+                    onClick={closeSidebar}>
                     x
                 </button>
                 <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 

@@ -1,0 +1,46 @@
+@import 'common';
+
+//////////////////////// glazes ////////////////////////
+
+section.home {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  display: grid;
+
+  h1 {
+    font-family: Arial Rounded MT Bold;
+    margin: auto;
+    text-align: center;
+    width: 750px;
+    font-size: 130px;
+  }
+
+  img.icon {
+    position: absolute;
+    height: 27vh;
+
+    &.teapot {
+      &.filled {
+        top: 70px;
+        left: 40px;
+      }
+
+      &.outline {
+        top: 90px;
+        left: 30px;
+      }
+    }
+
+    &.vase {
+      &.filled {
+        top: 62vh;
+        right: 50px;
+      }
+
+      &.outline {
+        top: 63vh;
+        right: 40px;
+      }
+    }
+  }
+}

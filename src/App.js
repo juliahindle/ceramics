@@ -4,7 +4,8 @@ import 'styles/base.scss'
 import React, { useState } from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom';
 // Components
-import Base from 'Base';
+import Base from 'components/Base';
+import Home from 'components/home/Home';
 import About from 'components/about/About';
 import Resources from 'components/resources/Resources';
 import Glazes from 'components/glazes/Glazes'
@@ -20,7 +21,7 @@ function App() {
         <HashRouter>
             <Routes>
                 <Route path="/" element={<Base showSidebar={showSidebar}/>} >
-                    <Route path="/" element={<p>TBD landing page</p>} />
+                    <Route path="/" element={<Home/>} />
                     <Route 
                         path="/glazes" 
                         element={

@@ -55,13 +55,15 @@ header {
 
       a {
         color: inherit;
-        text-decoration: inherit;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        text-decoration-color: rgba(0, 0, 0, 0);
+        transition: text-decoration-color .5s;
 
         &:hover,
         &.active {
-          text-decoration: underline;
           cursor: pointer;
-          text-underline-offset: 8px;
+          text-decoration-color: #000;
         }
       }
     }
