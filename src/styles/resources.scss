@@ -1,1 +1,68 @@
 @import 'common';
+
+section.resources {
+  width: 100%;
+
+  .container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, calc(100% / 3));
+
+    div {
+        background-color: white;
+        height: 400px;
+        font-family: $j-sofia;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        outline: black solid;
+        transition: background-color 0.5s;
+        transition-timing-function: cubic-bezier(0, 0, .08, .97);
+
+        &.index-0:hover {
+            background-color: $j-teal;
+        }
+        &.index-1:hover {
+            background-color: $j-blue;
+        }
+        &.index-2:hover {
+            background-color: $j-pink;
+        }
+        &.index-3:hover {
+            background-color: $j-yellow;
+        }
+        &.index-4:hover {
+            background-color: $j-red;
+        }
+        &.index-5:hover {
+            background-color: $j-plum;
+        }
+        &:hover > h2 {
+            color: white !important;
+        }
+
+        h2 {
+            font-weight: 400;
+            text-align: center;
+            color: black;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            position: absolute;
+            font-size: 24px;
+            transition: color 0.5s;
+            transition-timing-function: cubic-bezier(0, 0, .08, .97);
+        }
+
+        img {
+            width: 81%;
+            height: 250px;
+            background-color: white;
+            border-radius: 30px;
+            object-fit: cover;
+            position: absolute;
+            top: 100px;
+        }
+    }
+  }
+}

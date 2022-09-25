@@ -5,10 +5,10 @@ import React, { useState } from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom';
 // Components
 import Base from 'components/Base';
-import Home from 'components/home/Home';
-import About from 'components/about/About';
-import Resources from 'components/resources/Resources';
-import Glazes from 'components/glazes/Glazes'
+import Home from 'components/pages/Home';
+import About from 'components/pages/About';
+import Resources from 'components/pages/Resources';
+import Glazes from 'components/pages/Glazes'
 // Constants
 import { BLANK_GLAZE, GlazesContext } from 'Constants';
 
