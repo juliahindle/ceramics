@@ -15,21 +15,26 @@ section.glazes {
     grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
     pointer-events: none;
 
-    img {
-      width: 190px;
-      min-height: 190px;
-      margin: 35px 15px;
-      padding: 15px 0;
-      transition: opacity .5s, border-bottom .7s;
-      transition-timing-function: cubic-bezier(0, 0, .08, .97);
-      border-bottom: 4px solid rgba(0, 0, 0, 0);
-      justify-self: center;
-      pointer-events: auto;
+    button {
+      background-color: unset;
+      border: unset;
 
-      &:hover {
-        border-bottom: 4px solid rgba(0, 0, 0, $j-light-opacity);
-        cursor: pointer;
-        opacity: 100%;
+      img {
+        width: 190px;
+        min-height: 190px;
+        margin: 35px 15px;
+        padding: 15px 0;
+        transition: opacity .5s, border-bottom .7s;
+        transition-timing-function: cubic-bezier(0, 0, .08, .97);
+        border-bottom: 4px solid rgba(0, 0, 0, 0);
+        justify-self: center;
+        pointer-events: auto;
+  
+        &:hover {
+          border-bottom: 4px solid rgba(0, 0, 0, $j-light-opacity);
+          cursor: pointer;
+          opacity: 100%;
+        }
       }
     }
   }

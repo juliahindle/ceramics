@@ -24,15 +24,20 @@ function Glazes() {
         <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="container">
                 {glazes.map(glaze => 
-                    <img 
-                        className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
-                        src={`images/glazes/2x/${glaze.id}.png`} 
-                        alt={`glaze with id: ${glaze.id}`}
-                        onClick={() => {
+                    <button onClick={() => {
                             setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
                             setShowSidebar(true)
-                        }}
-                    />
+                        }}>
+                        <img
+                            className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
+                            src={`images/glazes/2x/${glaze.id}.png`} 
+                            alt={`glaze with id: ${glaze.id}`}
+                            onClick={() => {
+                                setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
+                                setShowSidebar(true)
+                            }}
+                        />
+                    </button>
                 )}
             </div>
         </section>
@@ -40,7 +45,7 @@ function Glazes() {
         {/* Sidebar */}
         <aside className="sidebar">
             <div className="container">
-                <button 
+                <button
                     className="close-button" 
                     aria-label="Close sidebar" 
                     type="button" 
