@@ -1,3 +1,4 @@
+@import 'common';
 
 body {
   margin: 0;
@@ -42,27 +43,40 @@ header {
     ul {
       display: flex;
       justify-content: center;
+      align-items: center;
       padding: unset;
+      pointer-events: none;
+
+      &:hover > li a {
+        font-size: 23px;
+      }
     }
 
     li {
       margin: 0 4%;
-      font-family: sofia-pro, sans-serif;
+      font-family: $j-sofia;
       font-size: 25px;
       font-style: normal;
       font-weight: 400;
       list-style-type: none;
 
       a {
+        transition: text-decoration-color .5s, letter-spacing .5s, font-size .5s;
+        transition-timing-function: ease;
         color: inherit;
+        letter-spacing: 0;
         text-decoration: underline;
         text-underline-offset: 8px;
         text-decoration-color: rgba(0, 0, 0, 0);
-        transition: text-decoration-color .5s;
+        pointer-events: auto;
 
-        &:hover,
-        &.active {
+        &:hover {
+          letter-spacing: 1.5px;
+          font-size: 25px !important;
+          text-decoration-color: rgba(0, 0, 0, 0.4);
           cursor: pointer;
+        }
+        &.active {
           text-decoration-color: #000;
         }
       }

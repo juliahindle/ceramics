@@ -1,7 +1,6 @@
 import 'styles/base.scss'
 import React from 'react'
 import { Outlet, Link, NavLink } from 'react-router-dom';
-import glazes from 'data/glazes.json'
 
 function Base({showSidebar}) {
     return (<>
