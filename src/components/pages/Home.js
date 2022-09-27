@@ -1,5 +1,6 @@
 import 'styles/home.scss'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Home() {
 
@@ -15,7 +16,6 @@ function Home() {
                 src={"images/home/teapot-outline.svg"}
                 alt={"teapot icon outline"}
             />
-            <h1>Julia Hindle Ceramics</h1>
             <img 
                 className="icon filled vase"
                 src={"images/home/vase-filled.svg"}
@@ -26,6 +26,18 @@ function Home() {
                 src={"images/home/vase-outline.svg"}
                 alt={"vase icon outline"}
             />
+            <h1>Julia Hindle Ceramics</h1>
+            <ul>
+                <li>
+                    <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/resources">Resources</NavLink>
+                </li>
+                <li>
+                    <NavLink to={{pathname: "/glazes"}}>Glazes</NavLink>
+                </li>
+            </ul>
         </section>
     </>)
 }

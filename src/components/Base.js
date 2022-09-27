@@ -1,6 +1,6 @@
 import 'styles/base.scss'
 import React from 'react'
-import { Outlet, Link, NavLink } from 'react-router-dom';
+import { Outlet, Link, NavLink } from 'react-router-dom'
 
 function Base({showSidebar}) {
     return (<>

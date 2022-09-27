@@ -8,7 +8,7 @@ function Resources() {
             <div className="container">
                 {resources.map((resource, index) => 
                     <div className={resource.image ? "index-" + index%6 : ""}>
-                        <h2>{resource.title}</h2>
+                        <h2><mark>{resource.title}</mark></h2>
                         {resource.image && <img src={resource.image}/>}
                     </div>
                 )}
