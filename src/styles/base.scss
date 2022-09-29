@@ -42,8 +42,8 @@ header {
 
     ul {
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       padding: unset;
       pointer-events: none;
 
@@ -70,11 +70,12 @@ header {
           pointer-events: auto;
 
           &:hover {
+            font-size: 25px;
             letter-spacing: 1.5px;
-            font-size: 25px !important;
-            text-decoration-color: rgba(0, 0, 0, 0.4);
             cursor: pointer;
+            text-decoration-color: rgba(0, 0, 0, .4);
           }
+
           &.active {
             text-decoration-color: #000;
           }

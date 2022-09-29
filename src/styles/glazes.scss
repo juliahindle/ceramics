@@ -16,8 +16,8 @@ section.glazes {
     pointer-events: none;
 
     button {
-      background-color: unset;
       border: unset;
+      background-color: unset;
 
       img {
         width: 190px;
@@ -29,7 +29,7 @@ section.glazes {
         border-bottom: 4px solid rgba(0, 0, 0, 0);
         justify-self: center;
         pointer-events: auto;
-  
+
         &:hover {
           border-bottom: 4px solid rgba(0, 0, 0, $j-light-opacity);
           cursor: pointer;
