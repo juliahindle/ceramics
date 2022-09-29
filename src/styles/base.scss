@@ -84,3 +84,22 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  header nav ul {
+    margin-left: 45px;
+
+    &:hover > li a {
+      font-size: 20px;
+    }
+
+    li {
+      margin: 0 4%;
+      font-size: 22px;
+
+      a:hover {
+        font-size: 22px;
+      }
+    }
+  }
+}

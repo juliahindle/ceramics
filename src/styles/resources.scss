@@ -133,3 +133,27 @@ section.resources {
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  section.resources .container {
+    div.parent {
+      margin: 5% 0;
+
+      div {
+        display: block;
+
+        &.text {
+          box-sizing: border-box;
+
+          hr {
+            display: none;
+          }
+
+          p.description {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
