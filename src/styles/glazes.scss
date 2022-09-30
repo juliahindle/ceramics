@@ -137,3 +137,48 @@ main.aside-enabled {
     }
   }
 }
+
+//////////////////////// media queries ////////////////////////
+
+@media only screen and (max-width: 500px) {
+  section.glazes .container {
+    grid-template-columns: repeat(auto-fit, minmax(170px, max-content));
+
+    button img {
+      width: 150px;
+      min-height: 150px;
+      margin: 25px 5px;
+
+      &:hover {
+        border-bottom: 4px solid rgba(0, 0, 0, 0);
+      }
+    }
+  }
+
+  aside.sidebar {
+    right: -100%;
+    width: 100%;
+
+    .container button.close-button {
+      right: -12%;
+    }
+  }
+
+  main.aside-enabled {
+    section.glazes {
+      margin-right: 0;
+
+      .container img.selected {
+        border-bottom: 4px solid rgba(0, 0, 0, 0);
+      }
+    }
+
+    aside.sidebar {
+      right: 0;
+
+      button.close-button {
+        right: 88%;
+      }
+    }
+  }
+}
