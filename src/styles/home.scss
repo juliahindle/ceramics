@@ -53,7 +53,6 @@ section.home {
     font-size: 130px;
     letter-spacing: 0;
     text-align: center;
-    cursor: default;
     z-index: 1;
 
     &:hover {
@@ -77,7 +76,7 @@ section.home {
         display: block;
         width: 200px;
         padding: 5px 0;
-        transition: letter-spacing .5s;
+        transition: letter-spacing .5s, scale .5s;
         transition-timing-function: ease;
         border-radius: 30px;
         background-color: $j-yellow;
@@ -90,11 +89,13 @@ section.home {
         text-align: center;
         text-decoration: unset;
         text-underline-offset: 8px;
+        scale: 1;
 
         &:hover {
           background-color: $j-yellow-hover;
           letter-spacing: 1.5px;
-          cursor: pointer;
+          cursor: $j-pointer, pointer;
+          scale: 1.03;
         }
       }
     }

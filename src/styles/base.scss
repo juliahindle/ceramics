@@ -11,6 +11,10 @@ main {
   width: 100%;
 }
 
+* {
+  cursor: $j-default, auto;
+}
+
 //////////////////////// header ////////////////////////
 
 header {
@@ -30,7 +34,7 @@ header {
 
     img {
       width: 50px;
-      cursor: pointer;
+      cursor: $j-pointer, pointer;
       z-index: 2;
     }
   }
@@ -45,11 +49,6 @@ header {
       align-items: center;
       justify-content: center;
       padding: unset;
-      pointer-events: none;
-
-      &:hover > li a {
-        font-size: 23px;
-      }
 
       li {
         margin: 0 4%;
@@ -60,20 +59,21 @@ header {
         list-style-type: none;
 
         a {
-          transition: text-decoration-color .5s, letter-spacing .5s, font-size .5s;
+          transition: text-decoration-color .5s, letter-spacing .5s, scale .5s;
           transition-timing-function: ease;
           color: inherit;
           letter-spacing: 0;
           text-decoration: underline;
           text-underline-offset: 8px;
           text-decoration-color: rgba(0, 0, 0, 0);
-          pointer-events: auto;
+          scale: 1;
 
           &:hover {
-            font-size: 25px;
+            //font-size: 25px;
             letter-spacing: 1.5px;
-            cursor: pointer;
-            text-decoration-color: rgba(0, 0, 0, .4);
+            cursor: $j-pointer, pointer;
+            // text-decoration-color: rgba(0, 0, 0, .4);
+            scale: 1.1;
           }
 
           &.active {
