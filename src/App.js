@@ -59,6 +59,9 @@ function App() {
                     />
                     <Route path="/about" element={<InProgress />} />
                     <Route path="/resources" element={<Resources />} />
+                    <Route path="/resources/periodic-table-for-potters" element={<InProgress />} />
+                    <Route path="/resources/glaze-additive-combo-generator" element={<InProgress />} />
+                    <Route path="/resources/2019-2021-glaze-research-document" element={<InProgress />} />
                 </Route>
             </Routes>
       </HashRouter>

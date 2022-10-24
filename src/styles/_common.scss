@@ -22,20 +22,19 @@ $j-dark-opacity: .7;
 $j-default: url('../../public/cursors/default.svg');
 $j-pointer: url('../../public/cursors/pointer.svg') 25 25;
 
+//////////////////////////////////////////////////////
 
-
-
-// In Progress
+// In Progress (Temporary)
 .in-progress {
-    width: 100vw;
-    height: calc(100vh - 70px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    padding: 30px;
-    text-align: center;
-    font-family: $j-sofia;
-    box-sizing: border-box;
-    color: $j-teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  padding: 30px;
+  color: $j-teal;
+  font-family: $j-sofia;
+  font-size: 40px;
+  text-align: center;
+  box-sizing: border-box;
 }
