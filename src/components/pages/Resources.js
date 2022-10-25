@@ -1,9 +1,15 @@
 import 'styles/resources.scss'
-import React from 'react'
+import { useEffect } from 'react'
 import resources from 'data/resources.json'
+import { updatePageTitle } from 'Constants'
 import { NavLink } from 'react-router-dom'
 
 function Resources() {
+
+    useEffect(() => {
+        updatePageTitle("Resources - Julia Hindle Ceramics")
+    }, [])
+
     return (
         <section className="resources">
             <div className="container">

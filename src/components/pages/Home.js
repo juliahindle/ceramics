@@ -1,8 +1,13 @@
 import 'styles/home.scss'
-import React from 'react'
+import { updatePageTitle } from 'Constants'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 function Home() {
+
+    useEffect(() => {
+        updatePageTitle("Home - Julia Hindle Ceramics")
+    }, [])
 
     return (<>
         <section className="home">

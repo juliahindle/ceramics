@@ -1,11 +1,16 @@
 import 'styles/glazes.scss'
-import React, { useContext } from 'react'
+import { updatePageTitle } from 'Constants'
+import React, { useContext, useEffect } from 'react'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
 import { BLANK_GLAZE, GlazesContext } from 'Constants'
 
 function Glazes() {
     const {setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
+
+    useEffect(() => {
+        updatePageTitle("Glazes - Julia Hindle Ceramics")
+    }, [])
 
     const closeSidebar = () => {
         setShowSidebar(false)
