@@ -29,9 +29,11 @@ section.glazes {
         justify-self: center;
         scale: 1;
 
-        &:hover {
-          cursor: $j-pointer, pointer;
-          scale: 1.1;
+        @media (hover: hover) {
+          &:hover {
+            cursor: $j-pointer, pointer;
+            scale: 1.1;
+          }
         }
       }
     }
@@ -144,10 +146,6 @@ main.aside-enabled {
       width: 150px;
       min-height: 150px;
       margin: 25px 5px;
-
-      &:hover {
-        border-bottom: 4px solid rgba(0, 0, 0, 0);
-      }
     }
   }
 

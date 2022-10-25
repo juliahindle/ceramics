@@ -62,7 +62,6 @@ section.home {
       box-sizing: border-box;
 
       h1 {
-        width: 100vw;
         margin-top: 0;
         margin-bottom: 30px;
         transition: letter-spacing 1s;
@@ -110,11 +109,13 @@ section.home {
             text-underline-offset: 8px;
             scale: 1;
 
-            &:hover {
-              background-color: $j-yellow-hover;
-              letter-spacing: 1.5px;
-              cursor: $j-pointer, pointer;
-              scale: 1.03;
+            @media (hover: hover) {
+              &:hover {
+                background-color: $j-yellow-hover;
+                letter-spacing: 1.5px;
+                cursor: $j-pointer, pointer;
+                scale: 1.03;
+              }
             }
           }
         }
@@ -161,6 +162,7 @@ section.home {
 
 @media only screen and (max-width: 800px) {
   section.home div.content h1 {
+    width: 100vw;
     font-size: 14vw;
   }
 }

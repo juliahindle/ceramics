@@ -69,12 +69,14 @@ header {
           text-decoration-color: rgba(0, 0, 0, 0);
           scale: 1;
 
-          &:hover {
-            //font-size: 25px;
-            letter-spacing: 1.5px;
-            cursor: $j-pointer, pointer;
-            // text-decoration-color: rgba(0, 0, 0, .4);
-            scale: 1.1;
+          @media (hover: hover) {
+            &:hover {
+              //font-size: 25px;
+              letter-spacing: 1.5px;
+              cursor: $j-pointer, pointer;
+              // text-decoration-color: rgba(0, 0, 0, .4);
+              scale: 1.1;
+            }
           }
 
           &.active {
@@ -90,16 +92,20 @@ header {
   header nav ul {
     margin-left: 45px;
 
-    &:hover > li a {
-      font-size: 20px;
+    @media (hover: hover) {
+      &:hover > li a {
+        font-size: 20px;
+      }
     }
 
     li {
       margin: 0 4%;
       font-size: 22px;
 
-      a:hover {
-        font-size: 22px;
+      @media (hover: hover) {
+        a:hover {
+          font-size: 22px;
+        }
       }
     }
   }

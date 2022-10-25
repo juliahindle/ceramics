@@ -52,9 +52,11 @@ section.resources {
         box-shadow: 10px 10px rgba($j-plum, .7);
       }
 
-      &:hover {
-        cursor: $j-pointer, pointer;
-        scale: 1.02;
+      @media (hover: hover) {
+        &:hover {
+          cursor: $j-pointer, pointer;
+          scale: 1.02;
+        }
       }
 
       a {
