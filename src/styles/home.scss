@@ -71,8 +71,10 @@ section.home {
         letter-spacing: 0;
         text-align: center;
 
-        &:hover {
-          letter-spacing: 4px;
+        @media (hover: hover) {
+          &:hover {
+            letter-spacing: 4px;
+          }
         }
       }
 
@@ -158,7 +160,7 @@ section.home {
 
 @media only screen and (max-width: 800px) {
   section.home div.content h1 {
-    font-size: 15vw;
+    font-size: 14vw;
   }
 }
 
