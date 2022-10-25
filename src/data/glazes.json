@@ -1,36 +1,42 @@
 [
     {
         "id": "1-1",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.15}
         ]
     },{
         "id": "1-4-1",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1}
         ]
     },{
         "id": "1-4-2",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
         ]
     },{
         "id": "1-5",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 6}
         ]
     },{
         "id": "1-8",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 4}
         ]
     },{
         "id": "1-12",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 2.5},
@@ -39,6 +45,7 @@
         ]
     },{
         "id": "1-13",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 2},
@@ -47,6 +54,7 @@
         ]
     },{
         "id": "1-19",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
@@ -54,6 +62,7 @@
         ]
     },{
         "id": "1-20",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 5.2},
@@ -61,6 +70,7 @@
         ]
     },{
         "id": "1-21",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10.1},
@@ -69,6 +79,7 @@
         ]
     },{
         "id": "1-24",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 6},
@@ -77,12 +88,14 @@
         ]
     },{
         "id": "1-25E",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10}
         ]
     },{
         "id": "1-26",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 0.8},
@@ -91,18 +104,21 @@
         ]
     },{
         "id": "1-26-2",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
         ]
     },{
         "id": "1-27",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 20}
         ]
     },{
         "id": "1-28-1",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
@@ -110,6 +126,7 @@
         ]
     },{
         "id": "1-38",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -117,18 +134,21 @@
         ]
     },{
         "id": "1-39",
+        "clay": 181,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
         ]
     },{
         "id": "8-1",
+        "clay": 181,
         "base": "Ashley's Best",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 4}
         ]
     },{
         "id": "11-2",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
@@ -136,6 +156,7 @@
         ]
     },{
         "id": "11-4",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
@@ -143,6 +164,7 @@
         ]
     },{
         "id": "11-5",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
@@ -151,6 +173,7 @@
         ]
     },{
         "id": "11-9",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
@@ -159,6 +182,7 @@
         ]
     },{
         "id": "11-16",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 5},
@@ -167,6 +191,7 @@
         ]
     },{
         "id": "11-17",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3},
@@ -174,6 +199,7 @@
         ]
     },{
         "id": "11-18",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 2},
@@ -182,6 +208,7 @@
         ]
     },{
         "id": "11-19",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
@@ -189,6 +216,7 @@
         ]
     },{
         "id": "11-23",
+        "clay": 181,
         "base": "Chun",
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
@@ -198,267 +226,321 @@
         ]
     },{
         "id": "12-1",
+        "clay": 181,
         "base": "Lynette's Opal",
         "additives": [
         ]
     },{
         "id": "13-1",
+        "clay": 181,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-3-1",
+        "clay": 181,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-3-3",
+        "clay": 181,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-4",
+        "clay": 240,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-5",
+        "clay": 240,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-6",
+        "clay": 240,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "13-7",
+        "clay": 240,
         "base": "Heino",
         "additives": [
         ]
     },{
         "id": "15-1",
-        "base": "TODO 15",
+        "clay": 181,
+        "base": "Bright Sky Blue",
         "additives": [
         ]
     },{
         "id": "16-1",
-        "base": "TODO 16",
+        "clay": 181,
+        "base": "Arrowmont",
         "additives": [
         ]
     },{
         "id": "20-1",
-        "base": "TODO 20",
+        "clay": 181,
+        "base": "Bright Purple",
         "additives": [
         ]
     },{
         "id": "28-1",
-        "base": "TODO 28",
+        "clay": 181,
+        "base": "Burgundy",
         "additives": [
         ]
     },{
         "id": "33-1",
-        "base": "TODO 33",
+        "clay": 181,
+        "base": "Behren's",
         "additives": [
         ]
     },{
         "id": "33-2",
-        "base": "TODO 33",
+        "clay": 181,
+        "base": "Behren's",
         "additives": [
         ]
     },{
         "id": "33-3",
-        "base": "TODO 33",
+        "clay": 181,
+        "base": "Behren's",
         "additives": [
         ]
     },{
         "id": "33-4",
-        "base": "TODO 33",
+        "clay": 240,
+        "base": "Behren's",
         "additives": [
         ]
     },{
         "id": "33-5",
-        "base": "TODO 33",
+        "clay": 240,
+        "base": "Behren's",
         "additives": [
         ]
     },{
         "id": "35-0",
-        "base": "TODO 35",
+        "clay": 240,
+        "base": "Charcoal Matte Black",
         "additives": [
         ]
     },{
         "id": "35-1",
-        "base": "TODO 35",
+        "clay": 240,
+        "base": "Charcoal Matte Black",
         "additives": [
-        ]
+        ],
+        "status": "inactive"
     },{
         "id": "35-2",
-        "base": "TODO 35",
+        "clay": 240,
+        "base": "Charcoal Matte Black",
         "additives": [
         ]
     },{
         "id": "35-3",
-        "base": "TODO 35",
+        "clay": 240,
+        "base": "Charcoal Matte Black",
         "additives": [
         ]
     },{
         "id": "36-0",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-1",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-2",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-3",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-4",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-5",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-6",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-7",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "36-8",
-        "base": "TODO 36",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
         "additives": [
         ]
     },{
         "id": "37-1",
-        "base": "TODO 37",
+        "clay": 240,
+        "base": "John's Aventurine",
         "additives": [
         ]
     },{
         "id": "37-2",
-        "base": "TODO 37",
+        "clay": 240,
+        "base": "John's Aventurine",
         "additives": [
         ]
     },{
         "id": "38-0",
-        "base": "TODO 38",
+        "clay": 240,
+        "base": "Scotchie Textured",
         "additives": [
         ]
     },{
         "id": "38-1",
-        "base": "TODO 38",
+        "clay": 240,
+        "base": "Scotchie Textured",
         "additives": [
         ]
     },{
         "id": "39-0",
-        "base": "TODO 39",
+        "clay": 240,
+        "base": "Snowflake Crackle 4",
         "additives": [
         ]
     },{
         "id": "40-0",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-1",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-2",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-3",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-4",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-5",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-6",
-        "base": "TODO 40",
+        "clay": 181,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-7",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "40-8",
-        "base": "TODO 40",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
         "additives": [
         ]
     },{
         "id": "41-0",
-        "base": "TODO 41",
+        "clay": 630,
+        "base": "OldForge FirstFive Gold",
         "additives": [
         ]
     },{
         "id": "41-1",
-        "base": "TODO 41",
+        "clay": 630,
+        "base": "OldForge FirstFive Gold",
         "additives": [
         ]
     },{
         "id": "42-1",
-        "base": "TODO 42",
+        "clay": 240,
+        "base": "Pinnell’s Strontium Crater",
         "additives": [
         ]
     },{
         "id": "42-2",
-        "base": "TODO 42",
+        "clay": 240,
+        "base": "Pinnell’s Strontium Crater",
         "additives": [
         ]
     },{
         "id": "43-0",
-        "base": "TODO 43",
+        "clay": 630,
+        "base": "Gold Metallic",
         "additives": [
         ]
     },{
         "id": "43-1",
-        "base": "TODO 43",
+        "clay": 630,
+        "base": "Gold Metallic",
         "additives": [
         ]
     },{
         "id": "44-0",
-        "base": "TODO 44",
+        "clay": 240,
+        "base": "Tiger Eye",
         "additives": [
         ]
     },{
         "id": "44-1",
-        "base": "TODO 44",
+        "clay": 240,
+        "base": "Tiger Eye",
         "additives": [
         ]
     },{
         "id": "44-2",
-        "base": "TODO 44",
+        "clay": 240,
+        "base": "Tiger Eye",
         "additives": [
         ]
     }

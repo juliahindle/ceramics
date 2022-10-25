@@ -24,6 +24,7 @@ function Glazes() {
         <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="container">
                 {glazes.map(glaze => 
+                    glaze.status !== 'inactive' && 
                     <button onClick={() => {
                             setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
                             setShowSidebar(true)
@@ -61,7 +62,7 @@ function Glazes() {
                 <p>{selectedGlaze.glaze.base}</p>
 
                 <h2>Clay</h2>
-                <p>181 Stoneware</p>
+                <p>{selectedGlaze.glaze.clay} Stoneware</p>
 
                 <h2>Recipe</h2>
                 <table className="recipe">
@@ -72,9 +73,11 @@ function Glazes() {
                                 <td>{part.amount}</td>
                             </tr>
                         )}
-                        <tr className="add">
-                            <td>Add:</td>
-                        </tr>
+                        {selectedGlaze.glaze.additives.length > 0 && 
+                            <tr className="add">
+                                <td>Add:</td>
+                            </tr>
+                        }
                         {selectedGlaze.glaze.additives.map((part) =>
                             <tr>
                                 <td>{part.ingredient}</td>

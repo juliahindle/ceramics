@@ -31,89 +31,185 @@
             {"ingredient": "Zinc Oxide", "amount": 12}
         ]
     },{
-        "id": "13-0",
+        "id": "12-0",
         "name": "Lynette's Opal",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 38},
+            {"ingredient": "Silica", "amount": 25},
+            {"ingredient": "Whiting", "amount": 7},
+            {"ingredient": "EP Kaolin", "amount": 8},
+            {"ingredient": "Wollastonite", "amount": 2},
+            {"ingredient": "Talc", "amount": 5},
+            {"ingredient": "Gerstley Borate", "amount": 10},
+            {"ingredient": "Zinc Oxide", "amount": 5}
         ]
     },{
         "id": "13-0",
         "name": "Heino",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 57.5},
+            {"ingredient": "Silica", "amount": 7.1},
+            {"ingredient": "Ball Clay", "amount": 6.2},
+            {"ingredient": "Barium Carbonate", "amount": 26.5},
+            {"ingredient": "Lithium Carbonate", "amount": 2.7}
         ]
     },{
         "id": "15-0",
-        "name": "TODO 15",
+        "name": "Bright Sky Blue",
         "recipe": [
+            {"ingredient": "G-200 Feldspar", "amount": 20},
+            {"ingredient": "Silica", "amount": 18.5},
+            {"ingredient": "EP Kaolin", "amount": 20},
+            {"ingredient": "Talc", "amount": 11.5},
+            {"ingredient": "Wollastonite", "amount": 10},
+            {"ingredient": "Ferro Frit 3134", "amount": 20}
         ]
     },{
         "id": "16-0",
-        "name": "TODO 16",
+        "name": "Arrowmont",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 44.6},
+            {"ingredient": "Silica", "amount": 13.3},
+            {"ingredient": "Whiting", "amount": 11.1},
+            {"ingredient": "EP Kaolin", "amount": 13.3},
+            {"ingredient": "Gerstley Borate", "amount": 11.1},
+            {"ingredient": "Lithium Carbonate", "amount": 6.6}
         ]
     },{
         "id": "20-0",
-        "name": "TODO 20",
+        "name": "Bright Purple",
         "recipe": [
+            {"ingredient": "F4 Feldspar", "amount": 35},
+            {"ingredient": "Silica", "amount": 19},
+            {"ingredient": "Whiting", "amount": 17},
+            {"ingredient": "Ball Clay", "amount": 12},
+            {"ingredient": "Talc", "amount": 5},
+            {"ingredient": "Magnesium Carbonate", "amount": 2},
+            {"ingredient": "Gerstley Borate", "amount": 10}
         ]
     },{
         "id": "28-0",
-        "name": "TODO 28",
+        "name": "Burgundy",
         "recipe": [
+            {"ingredient": "Custer Feldspar", "amount": 31},
+            {"ingredient": "Silica", "amount": 18},
+            {"ingredient": "Whiting", "amount": 21},
+            {"ingredient": "EP Kaolin", "amount": 9},
+            {"ingredient": "Talc", "amount": 4},
+            {"ingredient": "Ferro Frit 3134", "amount": 9},
+            {"ingredient": "Gerstley Borate", "amount": 8}
         ]
     },{
         "id": "33-0",
-        "name": "TODO 33",
+        "name": "Behren's",
         "recipe": [
+            {"ingredient": "F4 Feldspar", "amount": 34.9},
+            {"ingredient": "Zinc Oxide", "amount": 25.8},
+            {"ingredient": "Silica", "amount": 22.6},
+            {"ingredient": "Whiting", "amount": 12.6},
+            {"ingredient": "EP Kaolin", "amount": 4.1}
         ]
     },{
         "id": "35-0",
-        "name": "TODO 35",
+        "name": "Charcoal Matte Black",
         "recipe": [
+            {"ingredient": "Cornwall Stone", "amount": 49.2},
+            {"ingredient": "Silica", "amount": 5},
+            {"ingredient": "Whiting", "amount": 17.9},
+            {"ingredient": "EP Kaolin", "amount": 19.9},
+            {"ingredient": "Zinc Oxide", "amount": 8}
         ]
     },{
         "id": "36-0",
-        "name": "TODO 36",
+        "name": "Magnesium Semi-Matte",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 33.9},
+            {"ingredient": "Silica", "amount": 15.9},
+            {"ingredient": "Whiting", "amount": 3.5},
+            {"ingredient": "EP Kaolin", "amount": 20.3},
+            {"ingredient": "Dolomite", "amount": 17.6},
+            {"ingredient": "Gerstley Borate", "amount": 8.8}
         ]
     },{
         "id": "37-0",
-        "name": "TODO 37",
+        "name": "John's Aventurine",
         "recipe": [
+            {"ingredient": "Ferro Frit 3110", "amount": 89},
+            {"ingredient": "Lithium Carbonate", "amount": 11}
         ]
     },{
         "id": "38-0",
-        "name": "TODO 38",
+        "name": "Scotchie Textured",
         "recipe": [
+            {"ingredient": "Bone Ash", "amount": 77.3},
+            {"ingredient": "F4 Feldspar", "amount": 8.6},
+            {"ingredient": "Cryolite", "amount": 13.7},
+            {"ingredient": "Barium Carbonate", "amount": 0.4}
         ]
     },{
         "id": "39-0",
-        "name": "TODO 39",
+        "name": "Snowflake Crackle 4",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 86.3},
+            {"ingredient": "Talc", "amount": 7.9},
+            {"ingredient": "Ferro Frit 3124", "amount": 5.8}
         ]
     },{
         "id": "40-0",
-        "name": "TODO 40",
+        "name": "Sherman's Satin Matte",
         "recipe": [
+            {"ingredient": "Dolomite", "amount": 10},
+            {"ingredient": "Talc", "amount": 15},
+            {"ingredient": "Nepheline Syenite", "amount": 35},
+            {"ingredient": "Ferro Frit 3124", "amount": 10},
+            {"ingredient": "EP Kaolin", "amount": 15},
+            {"ingredient": "Silica", "amount": 15}
         ]
     },{
         "id": "41-0",
-        "name": "TODO 41",
+        "name": "OldForge FirstFive Gold",
         "recipe": [
+            {"ingredient": "Manganese Dioxide", "amount": 37.5},
+            {"ingredient": "Silica", "amount": 22.5},
+            {"ingredient": "Nepheline Syenite", "amount": 20},
+            {"ingredient": "EP Kaolin", "amount": 10},
+            {"ingredient": "Copper Carboante", "amount": 5},
+            {"ingredient": "Whiting", "amount": 5}
         ]
     },{
         "id": "42-0",
-        "name": "TODO 42",
+        "name": "Pinnell’s Strontium Crater",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 60},
+            {"ingredient": "Strontium Carbonate", "amount": 20},
+            {"ingredient": "Ball Clay", "amount": 10},
+            {"ingredient": "Silica", "amount": 9},
+            {"ingredient": "Lithium Carbonate", "amount": 1}
         ]
     },{
         "id": "43-0",
-        "name": "TODO 43",
+        "name": "Gold Metallic",
         "recipe": [
+            {"ingredient": "Manganese Dioxide", "amount": 37},
+            {"ingredient": "Silica", "amount": 19},
+            {"ingredient": "Custer Feldspar", "amount": 17},
+            {"ingredient": "EP Kaolin", "amount": 14},
+            {"ingredient": "Black Copper Oxide", "amount": 4},
+            {"ingredient": "Red Iron Oxide", "amount": 3.5},
+            {"ingredient": "Cobalt Oxide", "amount": 2.5},
+            {"ingredient": "Talc", "amount": 2.5},
+            {"ingredient": "Titanium Dioxide", "amount": 0.5}
         ]
     },{
         "id": "44-0",
-        "name": "TODO 44",
+        "name": "Tiger Eye",
         "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 35},
+            {"ingredient": "Silica", "amount": 29},
+            {"ingredient": "Dolomite", "amount": 22.5},
+            {"ingredient": "EP Kaolin", "amount": 5.5},
+            {"ingredient": "Lithium Carbonate", "amount": 5},
+            {"ingredient": "Bone Ash", "amount": 3}
         ]
     }
 ]
