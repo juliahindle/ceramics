@@ -79,8 +79,10 @@ header {
             }
           }
 
-          &.active {
-            text-decoration-color: #000;
+          @media (hover: hover) {
+            &.active {
+              text-decoration-color: #000;
+            }
           }
         }
       }
