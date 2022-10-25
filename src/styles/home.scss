@@ -1,63 +1,63 @@
 @import 'common';
 
 section.home {
-  width: 100vw;
-  height: calc(100vh - 70px);
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100vw;
+  height: calc(100vh - 70px);
 
   div {
     flex: auto;
 
     &.image {
-      box-sizing: border-box;
-      width: 27.5%;
       position: relative;
+      width: 27.5%;
       height: 100%;
+      box-sizing: border-box;
 
       img.icon {
         position: absolute;
+        height: calc(17vh + 6vw);
         animation-duration: 3s;
         animation-iteration-count: infinite;
-        height: calc(17vh + 6vw);
-    
+
         &.teapot {
           &.filled {
-            animation-name: filled-icon;
-            left: 40px;
             top: 35px;
+            left: 40px;
+            animation-name: filled-icon;
           }
-    
+
           &.outline {
-            animation-name: outline-icon;
-            left: 30px;
             top: 45px;
+            left: 30px;
+            animation-name: outline-icon;
           }
         }
-    
+
         &.vase {
           &.filled {
-            animation-name: filled-icon;
+            right: 50px;
             bottom: 40px;
-            right: 50px;;
+            animation-name: filled-icon;
           }
-    
+
           &.outline {
-            animation-name: outline-icon;
-            bottom: 30px;
             right: 40px;
+            bottom: 30px;
+            animation-name: outline-icon;
           }
         }
       }
     }
 
     &.content {
-      width: 45%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      width: 45%;
       min-width: 740px;
       box-sizing: border-box;
 
@@ -164,8 +164,8 @@ section.home {
 
 @media only screen and (max-width: 750px) {
   section.home div.content ul {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
 
     li {
       width: 100%;
