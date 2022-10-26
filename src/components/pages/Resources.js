@@ -24,7 +24,7 @@ function Resources() {
                                 <p className="date">{resource.dateAdded}</p>
                             </div>
                             <div className="image">
-                                <img src={`images/resources/${resource.url}.png`} alt="resource"/>
+                                <img src={`images/resources/previews/${resource.url}.png`} alt="resource"/>
                             </div>
                         </NavLink>
                     </div>

@@ -71,10 +71,8 @@ header {
 
           @media (hover: hover) {
             &:hover {
-              //font-size: 25px;
               letter-spacing: 1.5px;
               cursor: $j-pointer, pointer;
-              // text-decoration-color: rgba(0, 0, 0, .4);
               scale: 1.1;
             }
           }

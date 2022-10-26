@@ -12,6 +12,8 @@ import About from 'components/pages/About'
 import Resources from 'components/pages/Resources'
 import Glazes from 'components/pages/Glazes'
 import InProgress from 'components/pages/InProgress'
+import PeriodicTableForPotters from 'components/pages/resources/PeriodicTableForPotters'
+import GlazeResearchDocument from 'components/pages/resources/GlazeResearchDocument'
 
 // Constants
 import { BLANK_GLAZE, GlazesContext } from 'Constants'
@@ -59,9 +61,8 @@ function App() {
                     />
                     <Route path="/about" element={<InProgress />} />
                     <Route path="/resources" element={<Resources />} />
-                    <Route path="/resources/periodic-table-for-potters" element={<InProgress />} />
-                    <Route path="/resources/glaze-additive-combo-generator" element={<InProgress />} />
-                    <Route path="/resources/2019-2021-glaze-research-document" element={<InProgress />} />
+                    <Route path="/resources/periodic-table-for-potters" element={<PeriodicTableForPotters />} />
+                    <Route path="/resources/2019-2021-glaze-research-document" element={<GlazeResearchDocument />} />
                 </Route>
             </Routes>
       </HashRouter>

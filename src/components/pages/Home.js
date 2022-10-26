@@ -9,7 +9,7 @@ function Home() {
         updatePageTitle("Home - Julia Hindle Ceramics")
     }, [])
 
-    return (<>
+    return (
         <section className="home">
             <div className="image teapot">
                 <img 
@@ -50,7 +50,7 @@ function Home() {
                 />
             </div>
         </section>
-    </>)
+    )
 }
 
 export default Home
