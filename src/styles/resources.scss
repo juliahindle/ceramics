@@ -123,6 +123,13 @@ section.resources {
         }
       }
     }
+
+    p.more {
+      padding: 20px 0;
+      font-family: $j-sofia;
+      font-size: 28px;
+      opacity: $j-dark-opacity;
+    }
   }
 }
 

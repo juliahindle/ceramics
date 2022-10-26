@@ -54,6 +54,17 @@
             {"ingredient": "Lithium Carbonate", "amount": 2.7}
         ]
     },{
+        "id": "14-0",
+        "name": "VC Matte Yellow",
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 44.4},
+            {"ingredient": "Silica", "amount": 15.6},
+            {"ingredient": "Whiting", "amount": 8.9},
+            {"ingredient": "EP Kaolin", "amount": 11.1},
+            {"ingredient": "Gerstley Borate", "amount": 11.1},
+            {"ingredient": "Lithium Carbonate", "amount": 8.9}
+        ]
+    },{
         "id": "15-0",
         "name": "Bright Sky Blue",
         "recipe": [
@@ -74,6 +85,26 @@
             {"ingredient": "EP Kaolin", "amount": 13.3},
             {"ingredient": "Gerstley Borate", "amount": 11.1},
             {"ingredient": "Lithium Carbonate", "amount": 6.6}
+        ]
+    },{
+        "id": "25-0",
+        "name": "June Perry Red",
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 16},
+            {"ingredient": "Silica", "amount": 32},
+            {"ingredient": "Whiting", "amount": 20},
+            {"ingredient": "EP Kaolin", "amount": 11},
+            {"ingredient": "Gerstley Borate", "amount": 21}
+        ]
+    },{
+        "id": "26-0",
+        "name": "Raspberry",
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 18},
+            {"ingredient": "Silica", "amount": 30},
+            {"ingredient": "Whiting", "amount": 20},
+            {"ingredient": "Ball Clay", "amount": 18},
+            {"ingredient": "Ferro Frit 3134", "amount": 14}
         ]
     },{
         "id": "20-0",

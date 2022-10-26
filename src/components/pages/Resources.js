@@ -29,6 +29,7 @@ function Resources() {
                         </NavLink>
                     </div>
                 )}
+                <p className="more">More coming soon!</p>
             </div>
         </section>
     )

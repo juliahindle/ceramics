@@ -94,7 +94,7 @@ section.home {
             display: block;
             width: 200px;
             padding: 5px 0;
-            transition: letter-spacing .5s, scale .5s;
+            transition: letter-spacing .5s, scale .5s, background-color .2s;
             transition-timing-function: ease;
             border-radius: 30px;
             background-color: $j-yellow;
@@ -111,7 +111,7 @@ section.home {
 
             @media (hover: hover) {
               &:hover {
-                background-color: $j-yellow-hover;
+                background-color: $j-teal;
                 letter-spacing: 1.5px;
                 cursor: $j-pointer, pointer;
                 scale: 1.03;

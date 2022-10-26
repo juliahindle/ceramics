@@ -1,10 +1,5 @@
 [
     {
-        "title": "Glaze Additive Combo Generator",
-        "description": "This tool can help you come up with new and unique colorant/opacifier combos to add to any glaze base.",
-        "dateAdded": "10/1/22",
-        "url": "glaze-additive-combo-generator"
-    },{
         "title": "Periodic Table for Potters",
         "description": "See where important elements for glazes fall on the periodic table and how we can categorize them.",
         "dateAdded": "8/22/22",
@@ -14,6 +9,12 @@
         "description": "This document showcases my favorite glazes I had developed and used while in college.",
         "dateAdded": "5/18/22",
         "url": "2019-2021-glaze-research-document"
+    },{
+        "title": "Glaze Additive Combo Generator",
+        "description": "This tool can help you come up with new and unique colorant/opacifier combos to add to any glaze base.",
+        "dateAdded": "TBD",
+        "url": "glaze-additive-combo-generator",
+        "status": "inactive"
     },{
         "title": "Base Glaze Chemistry Rundown",
         "description": "See helpful visuals and explanations of the different chemiical components in base glazes.",

@@ -35,6 +35,15 @@
             {"ingredient": "Red Iron Oxide", "amount": 4}
         ]
     },{
+        "id": "1-9",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Cobalt Oxide", "amount": 1.6},
+            {"ingredient": "Zircopax", "amount": 4.4},
+            {"ingredient": "Copper Oxide", "amount": 3.3}
+        ]
+    },{
         "id": "1-12",
         "clay": 181,
         "base": "Randy's",
@@ -78,6 +87,14 @@
             {"ingredient": "Tin Oxide", "amount": 3.7}
         ]
     },{
+        "id": "1-22",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 1},
+            {"ingredient": "Zircopax", "amount": 8}
+        ]
+    },{
         "id": "1-24",
         "clay": 181,
         "base": "Randy's",
@@ -103,6 +120,13 @@
             {"ingredient": "Copper Carbonate", "amount": 1.5}
         ]
     },{
+        "id": "1-26-1",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 0.5}
+        ]
+    },{
         "id": "1-26-2",
         "clay": 181,
         "base": "Randy's",
@@ -123,6 +147,58 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
+        ]
+    },{
+        "id": "1-28-2",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 4},
+            {"ingredient": "Cobalt Carbonate", "amount": 1}
+        ]
+    },{
+        "id": "1-29-1",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 1}
+        ]
+    },{
+        "id": "1-30-1",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Black Nickel Oxide", "amount": 1}
+        ]
+    },{
+        "id": "1-31",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 1},
+            {"ingredient": "Copper Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "1-32",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Mason Stain 6368", "amount": 2},
+            {"ingredient": "Mason Stain 6003", "amount": 2}
+        ]
+    },{
+        "id": "1-34",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Mason Stain 6650", "amount": 2}
+        ]
+    },{
+        "id": "1-35",
+        "clay": 181,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Mason Stain 6376", "amount": 2}
         ]
     },{
         "id": "1-38",
@@ -290,6 +366,14 @@
             {"ingredient": "Cobalt Carbonate", "amount": 2}
         ]
     },{
+        "id": "14-1",
+        "clay": 181,
+        "base": "VC Matte Yellow",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 4},
+            {"ingredient": "Titanium Dioxide", "amount": 8}
+        ]
+    },{
         "id": "15-1",
         "clay": 181,
         "base": "Bright Sky Blue",
@@ -312,6 +396,40 @@
         "base": "Bright Purple",
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "25-1",
+        "clay": 181,
+        "base": "June Perry Red",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 5},
+            {"ingredient": "Chrome Oxide", "amount": 0.15}
+        ]
+    },{
+        "id": "26-1",
+        "clay": 181,
+        "base": "Raspberry",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 7.5},
+            {"ingredient": "Chrome Oxide", "amount": 0.2}
+        ]
+    },{
+        "id": "26-2",
+        "clay": 181,
+        "base": "Raspberry",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 7.5},
+            {"ingredient": "Chrome Oxide", "amount": 0.2},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.25}
+        ]
+    },{
+        "id": "26-4",
+        "clay": 181,
+        "base": "Raspberry",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 7.5},
+            {"ingredient": "Chrome Oxide", "amount": 0.2},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.5}
         ]
     },{
         "id": "28-1",
@@ -578,7 +696,8 @@
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Red Iron Oxide", "amount": 4}
-        ]
+        ],
+        "status": "inactive"
     },{
         "id": "42-2",
         "clay": 240,
