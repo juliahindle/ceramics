@@ -131,14 +131,43 @@
             {"ingredient": "Gerstley Borate", "amount": 8}
         ]
     },{
+        "id": "31-0",
+        "name": "Peacock",
+        "recipe": [
+            {"ingredient": "Custer Feldspar", "amount": 38.1},
+            {"ingredient": "Silica", "amount": 19},
+            {"ingredient": "Whiting", "amount": 14.3},
+            {"ingredient": "Ball Clay", "amount": 14.3},
+            {"ingredient": "Zinc Oxide", "amount": 14.3}
+        ]
+    },{
+        "id": "32-0",
+        "name": "Emerald Green",
+        "recipe": [
+            {"ingredient": "Silica", "amount": 30},
+            {"ingredient": "EP Kaolin", "amount": 20},
+            {"ingredient": "Gerstley Borate", "amount": 50}
+        ]
+    },{
         "id": "33-0",
-        "name": "Behren's",
+        "name": "Behren's Satin Matte",
         "recipe": [
             {"ingredient": "F4 Feldspar", "amount": 34.9},
             {"ingredient": "Zinc Oxide", "amount": 25.8},
             {"ingredient": "Silica", "amount": 22.6},
             {"ingredient": "Whiting", "amount": 12.6},
             {"ingredient": "EP Kaolin", "amount": 4.1}
+        ]
+    },{
+        "id": "34-0",
+        "name": "John's Cash Blue",
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 41.1},
+            {"ingredient": "Silica", "amount": 27.7},
+            {"ingredient": "Whiting", "amount": 9.4},
+            {"ingredient": "Gerstley Borate", "amount": 17.2},
+            {"ingredient": "Lithium Carbonate", "amount": 2.9},
+            {"ingredient": "Zinc Oxide", "amount": 1.7}
         ]
     },{
         "id": "35-0",

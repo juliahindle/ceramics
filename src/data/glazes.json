@@ -223,6 +223,12 @@
             {"ingredient": "Cobalt Carbonate", "amount": 4}
         ]
     },{
+        "id": "11-0",
+        "clay": 181,
+        "base": "Chun",
+        "additives": [
+        ]
+    },{
         "id": "11-2",
         "clay": 181,
         "base": "Chun",
@@ -255,6 +261,23 @@
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "11-14",
+        "clay": 181,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Mason Stain 6003", "amount": 2},
+            {"ingredient": "Mason Stain 6368", "amount": 2}
+        ]
+    },{
+        "id": "11-15",
+        "clay": 181,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Mason Stain 6003", "amount": 2},
+            {"ingredient": "Mason Stain 6368", "amount": 2},
+            {"ingredient": "Titanium Dioxide", "amount": 5}
         ]
     },{
         "id": "11-16",
@@ -291,6 +314,23 @@
             {"ingredient": "Titanium Dioxide", "amount": 3}
         ]
     },{
+        "id": "11-20",
+        "clay": 181,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Titanium Dioxide", "amount": 5},
+            {"ingredient": "Cobalt Carbonate", "amount": 2}
+        ]
+    },{
+        "id": "11-22",
+        "clay": 181,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 2},
+            {"ingredient": "Titanium Dioxide", "amount": 4}
+        ]
+    },{
         "id": "11-23",
         "clay": 181,
         "base": "Chun",
@@ -322,6 +362,14 @@
         "base": "Heino",
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "13-3-2",
+        "clay": 181,
+        "base": "Heino",
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 3},
+            {"ingredient": "Rutile", "amount": 2}
         ]
     },{
         "id": "13-3-3",
@@ -440,16 +488,33 @@
             {"ingredient": "Chrome Oxide", "amount": 0.2}
         ]
     },{
+        "id": "31-1",
+        "clay": 181,
+        "base": "Peacock",
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 1},
+            {"ingredient": "Cobalt Carboante", "amount": 1},
+            {"ingredient": "Titanium Dioxide", "amount": 10}
+        ]
+    },{
+        "id": "32-1",
+        "clay": 181,
+        "base": "Emerald Green",
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 2},
+            {"ingredient": "Cobalt Carboante", "amount": 5}
+        ]
+    },{
         "id": "33-1",
         "clay": 181,
-        "base": "Behren's",
+        "base": "Behren's Satin Matte",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5}
         ]
     },{
         "id": "33-2",
         "clay": 181,
-        "base": "Behren's",
+        "base": "Behren's Satin Matte",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Copper Carbonate", "amount": 2}
@@ -457,7 +522,7 @@
     },{
         "id": "33-3",
         "clay": 181,
-        "base": "Behren's",
+        "base": "Behren's Satin Matte",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
@@ -465,7 +530,7 @@
     },{
         "id": "33-4",
         "clay": 240,
-        "base": "Behren's",
+        "base": "Behren's Satin Matte",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -474,10 +539,18 @@
     },{
         "id": "33-5",
         "clay": 240,
-        "base": "Behren's",
+        "base": "Behren's Satin Matte",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Mason Stain 6650", "amount": 4}
+        ]
+    },{
+        "id": "34-1",
+        "clay": 181,
+        "base": "John's Cash Blue",
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 1},
+            {"ingredient": "Rutile", "amount": 4}
         ]
     },{
         "id": "35-0",
