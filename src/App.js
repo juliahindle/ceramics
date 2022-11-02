@@ -40,7 +40,7 @@ function App() {
         })
     }
 
-    useEffect(() => { getData() }, [])
+    // useEffect(() => { getData() }, [])
 
     return (
         <HashRouter>
@@ -59,7 +59,7 @@ function App() {
                             </GlazesContext.Provider>
                         } 
                     />
-                    <Route path="/about" element={<InProgress />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/resources" element={<Resources />} />
                     <Route path="/resources/periodic-table-for-potters" element={<PeriodicTableForPotters />} />
                     <Route path="/resources/2019-2021-glaze-research-document" element={<GlazeResearchDocument />} />

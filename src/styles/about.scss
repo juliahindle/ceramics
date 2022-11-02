@@ -1,1 +1,40 @@
 @import 'common';
+
+@import 'common';
+
+section.about {
+  width: 100%;
+  font-family: $j-sofia;
+  padding: 30px;
+
+  div.content-block {
+    // background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+
+    div.text-block {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 30px;
+        line-height: 35px;
+      }
+    }
+
+    img {
+      width: 25vw;
+      height: 25vw;
+      padding-right: 30px;
+    }
+  }
+}
