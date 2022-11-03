@@ -21,7 +21,7 @@ function About() {
             </div>
             <p>With those powders alongside learning from books and online resources, I started making my own glazes.</p>
             <div className="image-block">
-                <div className="mixing"><img src="images/about/mixing.JPG"></img></div>
+                <div className="mixing"><img src="images/about/mixing.jpg"></img></div>
                 <div className="tiles1"><img src="images/about/tiles1.jpeg"></img></div>
                 <div className="tiles2"><img src="images/about/tiles2.JPG"></img></div>
             </div>

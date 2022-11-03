@@ -46,5 +46,6 @@
   "devDependencies": {
     "sass": "^1.54.9",
     "sass-lint": "^1.13.1"
-  }
+  },
+  "homepage": "https://juliahindle.github.io/ceramics/"
 }
