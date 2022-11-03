@@ -1,40 +1,114 @@
 @import 'common';
 
-@import 'common';
-
 section.about {
   width: 100%;
   font-family: $j-sofia;
   padding: 30px;
 
-  div.content-block {
-    // background-color: lightblue;
+  div.container {
     display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
 
-    div.text-block {
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 30px;
+      line-height: 35px;
+      text-align: center;
+    }
+  
+    div.image-block {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
 
-      h2 {
-        margin-bottom: 10px;
-        font-size: 35px;
-        font-weight: 500;
+      div {
+        // Block 1
+        &.me {
+          flex: 1;
+          margin-right: 30px;
+        }
+        &.me2 {
+          flex: 1;
+        }
+
+        // Block 2
+        &.buckets {
+          flex: calc(546/651);
+          margin-right: 30px;
+        }
+        &.powders {
+          flex: calc(2581/2560);
+        }
+
+        // Block 3
+        &.mixing {
+          flex: calc(828/916);
+          margin-right: 30px;
+        }
+        &.tiles1 {
+          flex: calc(4032/3024);
+          margin-right: 30px;
+        }
+        &.tiles2 {
+          flex: calc(1526/1181);
+        }
+
+        // Block 4
+        &.studio2 {
+          flex: calc(2991/3492);
+          margin-right: 30px;
+        }
+        &.powders2 {
+          flex: calc(3585/2689);
+        }
+
+        // Block 5
+        &.spreadsheet {
+          flex: calc(3024/4032);
+          margin-right: 30px;
+        }
+        &.notebook {
+          flex: calc(3024/3218);
+        }
+
+        // Block 6
+        &.code {
+          flex: calc(3024/3157);
+          margin-right: 30px;
+        }
+        &.illustrator {
+          flex: calc(3024/3575);
+        }
       }
+    }
 
-      p {
-        font-size: 20px;
-        font-weight: 300;
-        padding-bottom: 30px;
-        line-height: 35px;
+    // General iamges
+    img {
+      padding-bottom: 30px;
+      width: auto;
+      display: block;
+      max-width: 100%;
+      max-height: 500px;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  section.about div.container div.image-block {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    div {
+      &.me, &.buckets, &.mixing, &.tiles1, &.studio2, &.spreadsheet, &.code {
+        margin-right: 0;
       }
     }
 
     img {
-      width: 25vw;
-      height: 25vw;
-      padding-right: 30px;
+      max-height: unset;
     }
   }
 }
