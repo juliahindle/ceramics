@@ -112,9 +112,9 @@ section.home {
             @media (hover: hover) {
               &:hover {
                 background-color: $j-teal;
-                letter-spacing: 1.5px;
+                letter-spacing: 0.75px;
                 cursor: $j-pointer, pointer;
-                scale: 1.03;
+                scale: 1.05;
               }
             }
           }

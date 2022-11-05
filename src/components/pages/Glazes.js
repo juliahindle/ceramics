@@ -14,7 +14,7 @@ function Glazes() {
 
     const closeSidebar = () => {
         setShowSidebar(false)
-        setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600);
+        setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600)
     }
 
     const handleGlazeContainerClick = (e) => {
