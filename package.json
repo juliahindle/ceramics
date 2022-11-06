@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -b production -d build",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/ && sass-lint -c .sasslintrc.json '**/*.scss' -v -q"
