@@ -10,13 +10,13 @@
       // Modified by myself (Julia Hindle)
 
       var pathSegmentsToKeep = 0;
-      var accepted_routes
+      var accepted_routes = [null, "", "/", "/about", "/resources", "/resources/periodic-table-for-potters", "/resources/2019-2021-glaze-research-document", "/glazes"];
 
       var l = window.location;
       var base_url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
 
       // DIY hash router
-      if (l.pathname in (null, "", "/", "/about", "/resources", "/resources/periodic-table-for-potters", "/resources/2019-2021-glaze-research-document", "/glazes")) {
+      if (accepted_routes.includes(l.pathname)) {
         l.replace(
           base_url + '/?/' +
           l.pathname.slice(1).replace(/&/g, '~and~') +
