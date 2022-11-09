@@ -18,7 +18,6 @@ function Glazes() {
     }
 
     const handleGlazeContainerClick = (e) => {
-        console.log(e)
         if (e.target.className === "glazes") {
             closeSidebar()
         }

@@ -2,7 +2,7 @@ import 'styles/resources.scss'
 import { useEffect } from 'react'
 import resources from 'data/resources.json'
 import { updatePageTitle } from 'Constants'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Resources() {
 
@@ -16,7 +16,7 @@ function Resources() {
                 {resources.map((resource, index) => 
                     resource.status !== "inactive" &&
                     <div className={"parent index-" + index%5}>
-                        <NavLink to={resource.url}>
+                        <Link to={"/" + resource.url}>
                             <div className="text">
                                 <h2>{resource.title}</h2>
                                 <hr></hr>
@@ -26,7 +26,7 @@ function Resources() {
                             <div className="image">
                                 <img src={`images/resources/previews/${resource.url}.png`} alt="resource"/>
                             </div>
-                        </NavLink>
+                        </Link>
                     </div>
                 )}
                 <p className="more">More coming soon!</p>
