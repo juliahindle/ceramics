@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // Modified by myself (Julia Hindle)
+
+      var pathSegmentsToKeep = 0;
+      var accepted_routes
+
+      var l = window.location;
+      var base_url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+
+      // DIY hash router
+      if (l.pathname in (null, "", "/", "/about", "/resources", "/resources/periodic-table-for-potters", "/resources/2019-2021-glaze-research-document", "/glazes")) {
+        l.replace(
+          base_url + '/?/' +
+          l.pathname.slice(1).replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+        );
+      }
+      else {
+        l.replace(base_url)
+      }
+
+    </script>
+  </head>
+  <body>
+    404 Page not found :(
+  </body>
+</html>
