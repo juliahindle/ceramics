@@ -2,7 +2,7 @@
 import 'styles/base.scss'
 // React
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import axios from 'axios'
 import { browserName, browserVersion } from "react-device-detect"
 // Components
@@ -43,7 +43,7 @@ function App() {
     useEffect(() => { getData() }, [])
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Base showSidebar={showSidebar}/>} >
                     <Route path="/" element={<Home/>} />
@@ -65,7 +65,7 @@ function App() {
                     <Route path="/resources/2019-2021-glaze-research-document" element={<GlazeResearchDocument />} />
                 </Route>
             </Routes>
-      </BrowserRouter>
+      </HashRouter>
     ) 
 }
 
