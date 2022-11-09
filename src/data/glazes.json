@@ -202,7 +202,7 @@
         ]
     },{
         "id": "1-38",
-        "clay": 181,
+        "clay": 240,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -210,10 +210,101 @@
         ]
     },{
         "id": "1-39",
-        "clay": 181,
+        "clay": 240,
         "base": "Randy's",
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
+        ]
+    },{
+        "id": "1-40",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 7.65},
+            {"ingredient": "Chrome Oxide", "amount": 2.5}
+        ]
+    },{
+        "id": "1-41",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 2.6},
+            {"ingredient": "Copper Carbonate", "amount": 1.75}
+        ]
+    },{
+        "id": "1-42",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 2.6},
+            {"ingredient": "Copper Carbonate", "amount": 1.75},
+            {"ingredient": "Rutile", "amount": 2}
+        ]
+    },{
+        "id": "1-43",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 0.75},
+            {"ingredient": "Red Iron Oxide", "amount": 8}
+        ]
+    },{
+        "id": "1-44",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 1.75},
+            {"ingredient": "Red Iron Oxide", "amount": 8}
+        ]
+    },{
+        "id": "1-45",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 1.5},
+            {"ingredient": "Chrome Oxide", "amount": 0.4}
+        ]
+    },{
+        "id": "1-46",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Cobalt Oxide", "amount": 0.3},
+            {"ingredient": "Black Nickel Oxide", "amount": 0.5}
+        ]
+    },{
+        "id": "1-47",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Black Nickel Oxide", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 10},
+            {"ingredient": "Mason Stain 6410", "amount": 2}
+        ]
+    },{
+        "id": "1-48",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 4},
+            {"ingredient": "Titanium Dioxide", "amount": 8}
+        ]
+    },{
+        "id": "1-49",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 6},
+            {"ingredient": "Titanium Dioxide", "amount": 8}
+        ]
+    },{
+        "id": "1-50",
+        "clay": 240,
+        "base": "Randy's",
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 6},
+            {"ingredient": "Red Iron Oxide", "amount": 5},
+            {"ingredient": "Zircopax", "amount": 1}
         ]
     },{
         "id": "8-1",
@@ -341,6 +432,46 @@
             {"ingredient": "Titanium Dioxide", "amount": 3}
         ]
     },{
+        "id": "11-24",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 2.6},
+            {"ingredient": "Copper Carbonate", "amount": 1.75}
+        ]
+    },{
+        "id": "11-25",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 0.75},
+            {"ingredient": "Red Iron Oxide", "amount": 8}
+        ]
+    },{
+        "id": "11-26",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 1.75},
+            {"ingredient": "Red Iron Oxide", "amount": 8}
+        ]
+    },{
+        "id": "11-27",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Copper Oxide", "amount": 1.5},
+            {"ingredient": "Chrome Oxide", "amount": 0.4}
+        ]
+    },{
+        "id": "11-28",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Nickel Oxide", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 5}
+        ]
+    },{
         "id": "12-1",
         "clay": 181,
         "base": "Lynette's Opal",
@@ -454,6 +585,12 @@
             {"ingredient": "Chrome Oxide", "amount": 0.15}
         ]
     },{
+        "id": "26-0",
+        "clay": 181,
+        "base": "Raspberry",
+        "additives": [
+        ]
+    },{
         "id": "26-1",
         "clay": 181,
         "base": "Raspberry",
@@ -480,12 +617,54 @@
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
         ]
     },{
+        "id": "26-5",
+        "clay": 240,
+        "base": "Raspberry",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 8},
+            {"ingredient": "Chrome Oxide", "amount": 0.1}
+        ]
+    },{
+        "id": "26-6",
+        "clay": 240,
+        "base": "Raspberry",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 4},
+            {"ingredient": "Rutile", "amount": 1.5}
+        ]
+    },{
         "id": "28-1",
         "clay": 181,
         "base": "Burgundy",
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
+        ]
+    },{
+        "id": "28-2",
+        "clay": 240,
+        "base": "Burgundy",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 3.7},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.3},
+            {"ingredient": "Copper Oxide", "amount": 0.8},
+            {"ingredient": "Titanium Dioxide", "amount": 3}
+        ]
+    },{
+        "id": "28-3",
+        "clay": 240,
+        "base": "Burgundy",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 8},
+            {"ingredient": "Chrome Oxide", "amount": 0.1}
+        ]
+    },{
+        "id": "28-4",
+        "clay": 240,
+        "base": "Burgundy",
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 4},
+            {"ingredient": "Rutile", "amount": 1.5}
         ]
     },{
         "id": "31-1",
@@ -649,6 +828,30 @@
             {"ingredient": "Cobalt Carbonate", "amount": 3}
         ]
     },{
+        "id": "36-9",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
+        "additives": [
+            {"ingredient": "Nickel Oxide", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 6}
+        ]
+    },{
+        "id": "36-10",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 5},
+            {"ingredient": "Titanium Dioxide", "amount": 1}
+        ]
+    },{
+        "id": "36-11",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
+        "additives": [
+            {"ingredient": "Cobalt Oxide", "amount": 0.3},
+            {"ingredient": "Nicke Oxide", "amount": 0.5}
+        ]
+    },{
         "id": "37-1",
         "clay": 240,
         "base": "John's Aventurine",
@@ -748,6 +951,30 @@
             {"ingredient": "Cobalt Carbonate", "amount": 3}
         ]
     },{
+        "id": "40-9",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
+        "additives": [
+            {"ingredient": "Nickel Oxide", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 5}
+        ]
+    },{
+        "id": "40-10",
+        "clay": 240,
+        "base": "Sherman's Satin Matte",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 5},
+            {"ingredient": "Titanium Dioxide", "amount": 1}
+        ]
+    },{
+        "id": "40-11",
+        "clay": 240, 
+        "base": "Sherman's Satin Matte",
+        "additives": [
+            {"ingredient": "Cobalt Oxide", "amount": 0.3},
+            {"ingredient": "Nicke Oxide", "amount": 0.5}
+        ]
+    },{
         "id": "41-0",
         "clay": 630,
         "base": "OldForge FirstFive Gold",
@@ -814,6 +1041,30 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Copper Oxide", "amount": 7}
+        ]
+    },{
+        "id": "45-0",
+        "clay": 240,
+        "base": "Chun Mod",
+        "additives": [
+        ]
+    },{
+        "id": "45-1",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Red Iron Oxide", "amount": 8},
+            {"ingredient": "Titanium Dioxide", "amount": 3}
+        ]
+    },{
+        "id": "45-2",
+        "clay": 240,
+        "base": "Chun",
+        "additives": [
+            {"ingredient": "Rutile", "amount": 3.7},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.3},
+            {"ingredient": "Copper Oxide", "amount": 0.8},
+            {"ingredient": "Titanium Dioxide", "amount": 3}
         ]
     }
 ]

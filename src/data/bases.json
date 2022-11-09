@@ -271,5 +271,15 @@
             {"ingredient": "Lithium Carbonate", "amount": 5},
             {"ingredient": "Bone Ash", "amount": 3}
         ]
+    },{
+        "id": "45-0",
+        "name": "Chun Mod",
+        "recipe": [
+            {"ingredient": "F4 Feldspar", "amount": 45},
+            {"ingredient": "Silica", "amount": 19},
+            {"ingredient": "Wollastonite", "amount": 19},
+            {"ingredient": "EP Kaolin", "amount": 5},
+            {"ingredient": "Zinc Oxide", "amount": 12}
+        ]
     }
 ]
