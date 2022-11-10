@@ -849,7 +849,7 @@
         "base": "Magnesium Semi-Matte",
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
-            {"ingredient": "Nicke Oxide", "amount": 0.5}
+            {"ingredient": "Nickel Oxide", "amount": 0.5}
         ]
     },{
         "id": "37-1",
@@ -972,7 +972,7 @@
         "base": "Sherman's Satin Matte",
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
-            {"ingredient": "Nicke Oxide", "amount": 0.5}
+            {"ingredient": "Nickel Oxide", "amount": 0.5}
         ]
     },{
         "id": "41-0",
