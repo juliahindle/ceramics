@@ -51,6 +51,7 @@ function App() {
                         path="/glazes" 
                         element={
                             <GlazesContext.Provider value={{
+                                showSidebar: showSidebar, 
                                 setShowSidebar: setShowSidebar, 
                                 selectedGlaze: selectedGlaze, 
                                 setSelectedGlaze: setSelectedGlaze

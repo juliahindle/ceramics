@@ -3,14 +3,21 @@ import { updatePageTitle } from 'Constants'
 import React, { useContext, useEffect } from 'react'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext } from 'Constants'
+import { BLANK_GLAZE, GlazesContext, setScroll } from 'Constants'
+import { wait } from '@testing-library/user-event/dist/utils'
 
 function Glazes() {
-    const {setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
+    const {showSidebar, setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
 
     useEffect(() => {
         updatePageTitle("Glazes - Julia Hindle Ceramics")
     }, [])
+
+    useEffect(() => {
+        if (showSidebar) {
+            setTimeout(() =>  setScroll(), 700)
+        }
+    }, [showSidebar])
 
     const closeSidebar = () => {
         setShowSidebar(false)
@@ -29,17 +36,17 @@ function Glazes() {
             <div className="container">
                 {glazes.map(glaze => 
                     glaze.status !== 'inactive' && 
-                    <button onClick={() => {
-                            setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
-                            setShowSidebar(true)
-                        }}>
+                    <button>
                         <img
+                            id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                             className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
                             src={`images/glazes/2x/${glaze.id}.png`} 
                             alt={`glaze with id: ${glaze.id}`}
                             onClick={() => {
                                 setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
-                                setShowSidebar(true)
+                                if (!showSidebar) {
+                                    setShowSidebar(true)
+                                }
                             }}
                         />
                     </button>

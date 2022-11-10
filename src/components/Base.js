@@ -3,6 +3,7 @@ import React from 'react'
 import { Outlet, Link, NavLink } from 'react-router-dom'
 
 function Base({showSidebar}) {
+
     return (<>
             <header>
                 <Link to="/">
@@ -23,7 +24,7 @@ function Base({showSidebar}) {
                 </nav>
             </header>
 
-            <main className={showSidebar ? "aside-enabled" : undefined}>
+            <main id="main" className={showSidebar ? "aside-enabled" : undefined}>
                 <Outlet/>
             </main>
     </>)

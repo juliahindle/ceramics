@@ -10,10 +10,12 @@ main {
   top: 70px;
   width: 100%;
   overflow-x: hidden;
+  height: calc(100vh - 70px);
 }
 
 * {
   cursor: $j-default, auto;
+  font-family: $j-sofia;
 }
 
 //////////////////////// header ////////////////////////
@@ -53,7 +55,6 @@ header {
 
       li {
         margin: 0 4%;
-        font-family: $j-sofia;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;

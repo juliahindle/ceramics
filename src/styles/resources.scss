@@ -68,33 +68,26 @@ section.resources {
           display: table-cell;
           cursor: $j-pointer, pointer;
 
+          & > * {
+            cursor: $j-pointer, pointer;
+          }
+
           &.text {
             padding: 25px;
             color: #fff;
-            font-family: $j-sofia;
 
             h2 {
               margin: 0;
               margin-bottom: 10px;
               font-size: 30px;
               font-weight: 500;
-              cursor: $j-pointer, pointer;
-            }
-
-            hr {
-              width: 100%;
-              margin: 0;
-              border: 1.5px solid $j-yellow;
-              cursor: $j-pointer, pointer;
             }
 
             p {
               font-weight: 100;
-              cursor: $j-pointer, pointer;
 
               &.description {
                 font-size: 20px;
-                cursor: $j-pointer, pointer;
               }
 
               &.date {
@@ -102,7 +95,6 @@ section.resources {
                 bottom: 25px;
                 margin: 0;
                 font-size: 18px;
-                cursor: $j-pointer, pointer;
               }
             }
           }
@@ -110,14 +102,12 @@ section.resources {
           &.image {
             width: 360px;
             border-radius: 0 20px 20px 0;
-            cursor: $j-pointer, pointer;
 
             img {
               position: absolute;
               right: 0;
               height: 100%;
               border-radius: inherit;
-              cursor: $j-pointer, pointer;
             }
           }
         }
@@ -126,7 +116,6 @@ section.resources {
 
     p.more {
       padding: 20px 0;
-      font-family: $j-sofia;
       font-size: 28px;
       opacity: $j-dark-opacity;
     }

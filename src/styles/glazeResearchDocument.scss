@@ -3,7 +3,6 @@
 section.glaze-research-document {
   width: 100%;
   padding: 0 30px 30px;
-  font-family: $j-sofia;
 
   div.description {
     padding-bottom: 60px ;
@@ -13,12 +12,6 @@ section.glaze-research-document {
       margin-bottom: 10px;
       font-size: 40px;
       font-weight: 500;
-    }
-
-    hr {
-      width: 100%;
-      margin: 0;
-      border: 1.5px solid $j-yellow;
     }
 
     p {
