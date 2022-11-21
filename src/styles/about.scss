@@ -12,13 +12,13 @@ section.about {
     margin: auto;
 
     p {
+      padding-bottom: 30px;
       font-size: 20px;
       font-weight: 300;
-      padding-bottom: 30px;
       line-height: 35px;
       text-align: center;
     }
-  
+
     div.image-block {
       display: flex;
       flex-direction: row;
@@ -29,6 +29,7 @@ section.about {
           flex: 1;
           margin-right: 30px;
         }
+
         &.me2 {
           flex: 1;
         }
@@ -38,6 +39,7 @@ section.about {
           flex: calc(546/651);
           margin-right: 30px;
         }
+
         &.powders {
           flex: calc(2581/2560);
         }
@@ -47,10 +49,12 @@ section.about {
           flex: calc(828/916);
           margin-right: 30px;
         }
+
         &.tiles1 {
           flex: calc(4032/3024);
           margin-right: 30px;
         }
+
         &.tiles2 {
           flex: calc(1526/1181);
         }
@@ -60,6 +64,7 @@ section.about {
           flex: calc(2991/3492);
           margin-right: 30px;
         }
+
         &.powders2 {
           flex: calc(3585/2689);
         }
@@ -69,6 +74,7 @@ section.about {
           flex: calc(3024/4032);
           margin-right: 30px;
         }
+
         &.notebook {
           flex: calc(3024/3218);
         }
@@ -78,6 +84,7 @@ section.about {
           flex: calc(3024/3157);
           margin-right: 30px;
         }
+
         &.illustrator {
           flex: calc(3024/3575);
         }
@@ -86,11 +93,11 @@ section.about {
 
     // General iamges
     img {
-      padding-bottom: 30px;
-      width: auto;
       display: block;
+      width: auto;
       max-width: 100%;
       max-height: 500px;
+      padding-bottom: 30px;
     }
   }
 }
@@ -101,7 +108,13 @@ section.about {
     flex-wrap: wrap;
 
     div {
-      &.me, &.buckets, &.mixing, &.tiles1, &.studio2, &.spreadsheet, &.code {
+      &.me,
+      &.buckets,
+      &.mixing,
+      &.tiles1,
+      &.studio2,
+      &.spreadsheet,
+      &.code {
         margin-right: 0;
       }
     }

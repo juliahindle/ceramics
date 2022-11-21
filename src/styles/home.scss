@@ -65,9 +65,11 @@ section.home {
         margin-bottom: 30px;
         transition: letter-spacing 1s;
         transition-timing-function: ease;
-        font-family: $j-arial;
-        font-size: 120px;
+        font-family: $j-report;
+        font-size: 140px;
+        font-weight: 700;
         letter-spacing: 0;
+        line-height: 150px;
         text-align: center;
 
         @media (hover: hover) {
@@ -110,7 +112,7 @@ section.home {
             @media (hover: hover) {
               &:hover {
                 background-color: $j-teal;
-                letter-spacing: 0.75px;
+                letter-spacing: .75px;
                 cursor: $j-pointer, pointer;
                 scale: 1.05;
               }
@@ -162,6 +164,7 @@ section.home {
   section.home div.content h1 {
     width: 100vw;
     font-size: 14vw;
+    line-height: 15vw;
   }
 }
 

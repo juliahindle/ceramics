@@ -11,7 +11,6 @@ import Home from 'components/pages/Home'
 import About from 'components/pages/About'
 import Resources from 'components/pages/Resources'
 import Glazes from 'components/pages/Glazes'
-import InProgress from 'components/pages/InProgress'
 import PeriodicTableForPotters from 'components/pages/resources/PeriodicTableForPotters'
 import GlazeResearchDocument from 'components/pages/resources/GlazeResearchDocument'
 

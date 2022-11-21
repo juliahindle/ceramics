@@ -9,13 +9,13 @@ main {
   position: relative;
   top: 70px;
   width: 100%;
-  overflow-x: hidden;
   height: calc(100vh - 70px);
+  overflow-x: hidden;
 }
 
 * {
-  cursor: $j-default, auto;
   font-family: $j-sofia;
+  cursor: $j-default, auto;
 }
 
 //////////////////////// header ////////////////////////
