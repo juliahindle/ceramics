@@ -1,10 +1,11 @@
 import 'styles/about.scss'
-import { updatePageTitle } from 'Constants'
+import { updatePageTitle, resetScroll } from 'Constants'
 import { useEffect } from 'react'
 
 function About() {
     useEffect(() => {
         updatePageTitle("About - Julia Hindle Ceramics")
+        resetScroll()
     }, [])
 
     return <section className="about">

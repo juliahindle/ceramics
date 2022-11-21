@@ -92,12 +92,6 @@ header {
   header nav ul {
     margin-left: 45px;
 
-    @media (hover: hover) {
-      &:hover > li a {
-        font-size: 20px;
-      }
-    }
-
     li {
       margin: 0 4%;
       font-size: 22px;

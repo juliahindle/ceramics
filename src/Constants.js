@@ -7,7 +7,7 @@ export const BLANK_GLAZE = {glaze: {id: "", base: "", additives : []}, base: {id
 export const GlazesContext = createContext("glazes")
 
 // Methods
-export const updatePageTitle = (title)  =>{
+export const updatePageTitle = (title) => {
     document.title = title
 }
 
@@ -17,4 +17,8 @@ export const setScroll = () => {
     if (selectedGlaze.offsetTop > window.screen.height - 170 && window.screen.width > 700) {
         main.scrollTop = selectedGlaze.offsetTop - 45
     }
+}
+
+export const resetScroll = () => {
+    document.getElementById("main").scrollTop = 0
 }

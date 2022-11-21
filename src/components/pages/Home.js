@@ -1,5 +1,5 @@
 import 'styles/home.scss'
-import { updatePageTitle } from 'Constants'
+import { updatePageTitle, resetScroll } from 'Constants'
 import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -7,6 +7,7 @@ function Home() {
 
     useEffect(() => {
         updatePageTitle("Home - Julia Hindle Ceramics")
+        resetScroll()
     }, [])
 
     return (

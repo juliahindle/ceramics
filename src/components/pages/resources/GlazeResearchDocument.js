@@ -1,10 +1,11 @@
 import 'styles/glazeResearchDocument.scss'
-import { updatePageTitle } from 'Constants'
+import { updatePageTitle, resetScroll } from 'Constants'
 import { useEffect } from 'react'
 
 function GlazeResearchDocument() {
     useEffect(() => {
         updatePageTitle("2019-2021 Glaze Research Document - Julia Hindle Ceramics")
+        resetScroll()
     }, [])
 
     return (

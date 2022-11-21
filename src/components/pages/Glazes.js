@@ -1,16 +1,15 @@
 import 'styles/glazes.scss'
-import { updatePageTitle } from 'Constants'
 import React, { useContext, useEffect } from 'react'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext, setScroll } from 'Constants'
-import { wait } from '@testing-library/user-event/dist/utils'
+import { BLANK_GLAZE, GlazesContext, updatePageTitle, setScroll, resetScroll } from 'Constants'
 
 function Glazes() {
     const {showSidebar, setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
 
     useEffect(() => {
         updatePageTitle("Glazes - Julia Hindle Ceramics")
+        resetScroll()
     }, [])
 
     useEffect(() => {
