@@ -7,11 +7,11 @@ section.glazes {
   margin-right: 0;
   transition: margin-right 1s;
 
-  .container {
+  .glazes-container {
     display: grid;
     justify-content: space-evenly;
-    width: 96%;
-    padding: 2%;
+    width: 95%;
+    padding: 2.5%;
     grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
 
     button {
@@ -38,6 +38,46 @@ section.glazes {
       }
     }
   }
+
+  .text-container {
+    margin: calc(2.5% + 35px);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    button.filters {
+      cursor: $j-pointer, pointer;
+      background: rgba(#fff, .7);
+      padding: 8px 20px 8px 39px;
+      border-radius: 30px;
+      font-size: 18px;
+      border: 1.5px solid black;
+      transition: scale 0.2s, box-shadow 0.2s;
+      position: relative;
+
+      &:hover {
+        box-shadow: 0 0 5px rgba(#000, .4);
+        scale: 1.02;
+      }
+
+      span {
+        font-size: 22px;
+        position: absolute;
+        left: 20px;
+        top: 3px;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
 }
 
 //////////////////////// sidebar ////////////////////////
@@ -52,7 +92,7 @@ aside.sidebar {
   font-family: 'sofia-pro';
   overflow-y: auto;
 
-  .container {
+  .glazes-container {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -119,12 +159,12 @@ main.aside-enabled {
   section.glazes {
     margin-right: 400px;
 
-    .container img.selected {
+    .glazes-container img.selected {
       border-bottom: 4px solid #000;
       cursor: $j-pointer, pointer;
     }
 
-    .container img:hover {
+    .glazes-container img:hover {
       cursor: $j-pointer, pointer;
     }
   }
@@ -141,7 +181,7 @@ main.aside-enabled {
 //////////////////////// media queries ////////////////////////
 
 @media only screen and (max-width: 700px) {
-  section.glazes .container {
+  section.glazes .glazes-container {
     grid-template-columns: repeat(auto-fit, minmax(170px, max-content));
 
     button img {
@@ -155,7 +195,7 @@ main.aside-enabled {
     right: -100%;
     width: 100%;
 
-    .container button.close-button {
+    .glazes-container button.close-button {
       right: -10%;
     }
   }
@@ -164,7 +204,7 @@ main.aside-enabled {
     section.glazes {
       margin-right: 0;
 
-      .container img.selected {
+      .glazes-container img.selected {
         border-bottom: 4px solid rgba(0, 0, 0, 0);
       }
     }

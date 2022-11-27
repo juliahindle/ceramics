@@ -32,7 +32,14 @@ function Glazes() {
     return (<>
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
-            <div className="container">
+            <div className="text-container">
+                <button className="filters"><span>+</span> Add filter</button>
+
+                {glazes.length == 1 ? 
+                 <p>{glazes.length} glaze</p> :
+                 <p>{glazes.length} glazes</p>}
+            </div>
+            <div className="glazes-container">
                 {glazes.map(glaze => 
                     glaze.status !== 'inactive' && 
                     <button>
