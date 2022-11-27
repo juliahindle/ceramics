@@ -39,7 +39,7 @@ section.glazes {
     }
   }
 
-  .text-container {
+  div.text-container {
     margin: calc(2.5% + 35px);
     margin-top: 50px;
     margin-bottom: 10px;
@@ -49,26 +49,78 @@ section.glazes {
     justify-content: space-between;
     align-items: center;
 
-    button.filters {
-      cursor: $j-pointer, pointer;
-      background: rgba(#fff, .7);
-      padding: 8px 20px 8px 39px;
-      border-radius: 30px;
-      font-size: 18px;
-      border: 1.5px solid black;
-      transition: scale 0.2s, box-shadow 0.2s;
-      position: relative;
-
-      &:hover {
-        box-shadow: 0 0 5px rgba(#000, .4);
-        scale: 1.02;
+    div.filters {
+      & > * {
+        display: inline-block;
+        font-size: 18px;
       }
 
-      span {
-        font-size: 22px;
-        position: absolute;
-        left: 20px;
-        top: 3px;
+      button {
+        cursor: $j-pointer, pointer;
+        background: rgba(#fff, .7);
+        padding: 8px 20px 8px 39px;
+        border-radius: 30px;
+        border: 1.5px solid black;
+        transition: scale 0.2s, box-shadow 0.2s;
+        position: relative;
+        margin-right: 10px;
+
+        &:hover {
+          box-shadow: 0 0 5px rgba(#000, .4);
+          scale: 1.02;
+        }
+
+        span {
+          font-size: 22px;
+          position: absolute;
+          left: 20px;
+          top: 3px;
+        }
+      }
+
+      div {
+        margin-left: 10px;
+        background: rgba(#ddd, .8);
+        padding: 5px 15px 7px 15px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        border: 1.5px solid #ddd;
+
+        &.red {
+          background: rgba(240, 117, 117, .8);
+          border-color: rgb(240, 117, 117)
+        }
+
+        &.orange {
+          background: rgba(239, 174, 117, 0.8);
+          border-color: rgb(239, 174, 117);
+        }
+
+        &.yellow {
+          background: rgba(252, 225, 93, 0.8);
+          border-color: rgb(252, 225, 93);
+        }
+
+        &.green {
+          background: rgba(136, 212, 138, .8);
+          border-color: rgb(136, 212, 138);
+        }
+
+        &.blue {
+          background: rgba(150, 189, 244, .8);
+          border-color: rgb(150, 189, 244);
+        }
+
+        &.purple {
+          background: rgba(163, 150, 244, .8);
+          border-color: rgb(163, 150, 244);
+        }
+        
+        span {
+          padding-right: 5px;
+          opacity: $j-dark-opacity;
+        }
       }
     }
 
@@ -92,7 +144,7 @@ aside.sidebar {
   font-family: 'sofia-pro';
   overflow-y: auto;
 
-  .glazes-container {
+  .container {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -195,7 +247,7 @@ main.aside-enabled {
     right: -100%;
     width: 100%;
 
-    .glazes-container button.close-button {
+    .container button.close-button {
       right: -10%;
     }
   }
