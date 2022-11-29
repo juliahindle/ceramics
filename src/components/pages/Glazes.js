@@ -63,51 +63,24 @@ function Glazes() {
         }
     }
 
-    const resetSearchParams = (filters) => {
-
-        setSearchParams("test")
-    }
-    
-
     const getCurrentFilters = () => {
         let filterMarkup = []
 
-        let colors = filters.color
-        let bases = filters.base
-        let includedIngredients = filters.includedIngredient
-        let excludedIngredients = filters.excludedIngredient
-        
-        colors.length !== 0 && colors.forEach((filter) => {
-            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
-        })
-
-        bases.length !== 0 && bases.forEach((filter) => {
-            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
-        })
-
-        includedIngredients.length !== 0 && includedIngredients.forEach((filter) => {
-            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
-        })
-
-        excludedIngredients.forEach((filterName) => {
-            filterMarkup.push(
-            <div className={filterName.toLowerCase()} onClick={() => {
-                    // setFilters((prev) => { 
-                    //     var newFilters = Object.assign({}, prev)
-                    //     newFilters.excludedIngredients = prev.excludedIngredients.filter(filter => filter !== filterName)
-                    //     resetSearchParams(newFilters)
-                    //     return newFilters
-                    // })
-                    var newSearchQuery = new URLSearchParams();
-                    Object.keys(filters).forEach((key) => {
-                        filters[key].forEach((value) => {
-                           if (value !== filterName) newSearchQuery.append(key, value)
+        Object.keys(filters).forEach((key) => { 
+            filters[key].forEach((filterName) => {
+                filterMarkup.push(
+                    <div className={filterName.toLowerCase()} onClick={() => {
+                        var newSearchQuery = new URLSearchParams();
+                        Object.keys(filters).forEach((key) => {
+                            filters[key].forEach((value) => {
+                               if (value !== filterName) newSearchQuery.append(key, value)
+                            })
                         })
-                    })
-                    setSearchParams(newSearchQuery)
-                }}>
-                <span>x</span> <s>{filterName}</s>
-            </div>)
+                        setSearchParams(newSearchQuery)
+                    }}>
+                    <span>x</span> {key === "excludedIngredient" ? <s>{filterName}</s> : filterName}
+                </div>)
+            })
         })
 
         return filterMarkup
