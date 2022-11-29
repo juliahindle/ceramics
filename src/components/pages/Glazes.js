@@ -7,9 +7,21 @@ import { BLANK_GLAZE, GlazesContext, updatePageTitle, setScroll, resetScroll } f
 
 function Glazes() {
     const {showSidebar, setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
-    const [searchParams] = useSearchParams()
-    const [filters, setFilters] = useState({colors: "all", bases: "all"})
+    const [searchParams, setSearchParams] = useSearchParams()
+    const [filters, setFilters] = useState({
+        color: [], 
+        base: [], 
+        includedIngredient: [],
+        excludedIngredient: []
+    })
     const [filteredGlazes, setFilteredGlazes] = useState(glazes)
+    const [showAddFilter, setShowAddFilter] = useState(false)
+
+    const glazeContainsIngredients = (glaze, ingredients) => {
+        let currentBase = bases.find(base => (base.name === glaze.base))
+        return ingredients.every((desiredIngredient) => glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
+                                                        currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
+    }
 
     useEffect(() => {
         updatePageTitle("Glazes - Julia Hindle Ceramics")
@@ -17,16 +29,22 @@ function Glazes() {
         
         let queryColors = searchParams.getAll("color")
         let queryBases = searchParams.getAll("base")
+        let queryIncludedIngredients= searchParams.getAll("includedIngredient")
+        let queryExcludedIngredients = searchParams.getAll("excludedIngredient")
+
         setFilters({
-            colors: queryColors ? queryColors : "all",
-            bases: queryBases ? queryBases : "all"
+            color: queryColors,
+            base: queryBases,
+            includedIngredient: queryIncludedIngredients,
+            excludedIngredient: queryExcludedIngredients
         })
+
         setFilteredGlazes(glazes.filter(glaze => 
-            (queryBases.length == 0 || queryBases.includes(glaze.base))))
-        
-        console.log(queryColors)
-        console.log(queryColors)
-    }, [])
+            (queryBases.length === 0 || queryBases.includes(glaze.base)) &&
+            (queryColors.length === 0 || queryColors.includes(glaze.color)) &&
+            (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients)) &&
+            (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients))))
+    }, [searchParams])
 
     useEffect(() => {
         if (showSidebar) {
@@ -45,17 +63,51 @@ function Glazes() {
         }
     }
 
+    const resetSearchParams = (filters) => {
+
+        setSearchParams("test")
+    }
+    
+
     const getCurrentFilters = () => {
         let filterMarkup = []
-        let colors = filters.colors
-        let bases = filters.bases
+
+        let colors = filters.color
+        let bases = filters.base
+        let includedIngredients = filters.includedIngredient
+        let excludedIngredients = filters.excludedIngredient
         
-        colors !== "all" && colors.map((filter) => {
-            filterMarkup.push(<div className={filter}><span>x</span> {filter}</div>)
+        colors.length !== 0 && colors.forEach((filter) => {
+            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
         })
 
-        bases !== "all" && bases.map((filter) => {
-            filterMarkup.push(<div className={filter}><span>x</span> {filter}</div>)
+        bases.length !== 0 && bases.forEach((filter) => {
+            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
+        })
+
+        includedIngredients.length !== 0 && includedIngredients.forEach((filter) => {
+            filterMarkup.push(<div className={filter.toLowerCase()}><span>x</span> {filter}</div>)
+        })
+
+        excludedIngredients.forEach((filterName) => {
+            filterMarkup.push(
+            <div className={filterName.toLowerCase()} onClick={() => {
+                    // setFilters((prev) => { 
+                    //     var newFilters = Object.assign({}, prev)
+                    //     newFilters.excludedIngredients = prev.excludedIngredients.filter(filter => filter !== filterName)
+                    //     resetSearchParams(newFilters)
+                    //     return newFilters
+                    // })
+                    var newSearchQuery = new URLSearchParams();
+                    Object.keys(filters).forEach((key) => {
+                        filters[key].forEach((value) => {
+                           if (value !== filterName) newSearchQuery.append(key, value)
+                        })
+                    })
+                    setSearchParams(newSearchQuery)
+                }}>
+                <span>x</span> <s>{filterName}</s>
+            </div>)
         })
 
         return filterMarkup
@@ -65,12 +117,15 @@ function Glazes() {
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="text-container">
-                <div className="filters">
-                    <button className="filters"><span>+</span> Add filter</button>
-                    {getCurrentFilters()}
-                </div>
+                <button 
+                    className={showAddFilter ? "filters enabled" : "filters disabled"} 
+                    onClick={() => setShowAddFilter((prev) => !prev)}>
+                    <span>+</span> Add filter
+                </button>
 
-                {filteredGlazes.length == 1 ? 
+                <div className="filters">{getCurrentFilters()}</div>
+
+                {filteredGlazes.length === 1 ? 
                  <p>{filteredGlazes.length} glaze</p> :
                  <p>{filteredGlazes.length} glazes</p>}
             </div>
