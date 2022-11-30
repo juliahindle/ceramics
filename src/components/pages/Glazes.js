@@ -69,7 +69,7 @@ function Glazes() {
         Object.keys(filters).forEach((key) => { 
             filters[key].forEach((filterName) => {
                 filterMarkup.push(
-                    <div className={filterName.toLowerCase()} onClick={() => {
+                    <button className={filterName.toLowerCase()} onClick={() => {
                         var newSearchQuery = new URLSearchParams();
                         Object.keys(filters).forEach((key) => {
                             filters[key].forEach((value) => {
@@ -79,7 +79,7 @@ function Glazes() {
                         setSearchParams(newSearchQuery)
                     }}>
                     <span>x</span> {key === "excludedIngredient" ? <s>{filterName}</s> : filterName}
-                </div>)
+                </button>)
             })
         })
 
