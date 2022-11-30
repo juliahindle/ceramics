@@ -50,7 +50,6 @@ section.glazes {
     button.filters {
       font-size: 18px;
       background: rgba(#fff, .7);
-      padding: 8px 20px 8px 39px;
       border-radius: 30px;
       border: 1.5px solid black;
       transition: scale 0.2s, box-shadow 0.2s, height 1s cubic-bezier(1, 0.28, 0.23, 0.82), width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03);
@@ -59,6 +58,12 @@ section.glazes {
       width: 138px;
       min-width: 138px;
       z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      flex-direction: column;
+      align-content: center;
+      overflow: hidden;
+      padding: 0;
   
       &.disabled:hover {
         box-shadow: 0 0 5px rgba(#000, .4);
@@ -69,17 +74,19 @@ section.glazes {
         box-shadow: 0 0 5px rgba(#000, .4);
         height: 75vh;
         width: 300px;
-        // max-height: 100%;
 
-        span {
+        span.open-close {
             rotate: 45deg;
-            top: 0;
-            left: 22px;
+            top: -5px;
             font-size: 32px;
         }
       }
+
+      span.title {
+        padding: 8px 20px 8px 39px;
+      }
   
-      span {
+      span.open-close {
         font-size: 22px;
         position: absolute;
         left: 20px;
@@ -89,6 +96,11 @@ section.glazes {
         &:hover {
           color: black;
         }
+      }
+
+      form {
+        width: 100%;
+        height: 100%;
       }
     }
 
@@ -140,6 +152,16 @@ section.glazes {
         &.purple {
           background: rgba(106, 88, 222, .9);
           border-color: rgb(106, 88, 222);
+        }
+
+        &.pink {
+          background: rgba(247, 133, 133, .9);
+          border-color: rgb(247, 133, 133);
+        }
+
+        &.tanbrown {
+          background: rgba(131, 70, 41, .9);
+          border-color: rgb(131, 70, 41);
         }
 
         &:hover {

@@ -128,7 +128,7 @@
         "id": "1-26",
         "clay": 181,
         "base": "Randy's",
-        "color": "Other",
+        "color": "Pink",
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 0.8},
             {"ingredient": "Tin Oxide", "amount": 2},
@@ -1102,7 +1102,7 @@
         "id": "41-0",
         "clay": 630,
         "base": "OldForge FirstFive Gold",
-        "color": "Other",
+        "color": "Tan/Brown",
         "additives": [
         ]
     },{

@@ -4,6 +4,7 @@ import { useSearchParams } from 'react-router-dom'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
 import { BLANK_GLAZE, GlazesContext, updatePageTitle, setScroll, resetScroll } from 'Constants'
+import AddFilter from 'components/pages/glazes/AddFilter'
 
 function Glazes() {
     // Variables
@@ -61,7 +62,7 @@ function Glazes() {
     }
 
     const handleGlazeContainerClick = (e) => {
-        if (!e.target.className.startsWith("filters ")) {
+        if (showAddFilter && !e.target.className.startsWith("filter-form")) {
            setShowAddFilter(false)
         }
         if (e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName)
@@ -76,7 +77,7 @@ function Glazes() {
         Object.keys(filters).forEach((key) => { 
             filters[key].forEach((filterName) => {
                 filterMarkup.push(
-                    <button className={filterName.toLowerCase()} onClick={() => {
+                    <button className={filterName.toLowerCase().replace("/", "")} onClick={() => {
                         var newSearchQuery = new URLSearchParams();
                         Object.keys(filters).forEach((key) => {
                             filters[key].forEach((value) => {
@@ -97,11 +98,10 @@ function Glazes() {
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="text-container">
-                <button 
-                    className={showAddFilter ? "filters enabled" : "filters disabled"} 
-                    onClick={() => setShowAddFilter((prev) => !prev)}>
-                    <span>+</span> Add filter
-                </button>
+                <AddFilter
+                    showAddFilter={showAddFilter}
+                    setShowAddFilter={setShowAddFilter}
+                />
 
                 <div className="filters">{getCurrentFilters()}</div>
 
