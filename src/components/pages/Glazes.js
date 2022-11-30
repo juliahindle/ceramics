@@ -3,19 +3,14 @@ import React, { useState, useContext, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext, updatePageTitle, setScroll, resetScroll } from 'Constants'
+import { BLANK_GLAZE, GlazesContext, updatePageTitle, resetScroll } from 'Constants'
 import AddFilter from 'components/pages/glazes/AddFilter'
+import Sidebar from 'components/pages/glazes/Sidebar'
 
 function Glazes() {
     // Variables
     const {showSidebar, setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
     const [searchParams, setSearchParams] = useSearchParams()
-    const [filters, setFilters] = useState({
-        color: [], 
-        base: [], 
-        includedIngredient: [],
-        excludedIngredient: []
-    })
     const [filteredGlazes, setFilteredGlazes] = useState(glazes)
     const [showAddFilter, setShowAddFilter] = useState(false)
 
@@ -29,25 +24,12 @@ function Glazes() {
         let queryIncludedIngredients= searchParams.getAll("includedIngredient")
         let queryExcludedIngredients = searchParams.getAll("excludedIngredient")
 
-        setFilters({
-            color: queryColors,
-            base: queryBases,
-            includedIngredient: queryIncludedIngredients,
-            excludedIngredient: queryExcludedIngredients
-        })
-
         setFilteredGlazes(glazes.filter(glaze => 
             (queryBases.length === 0 || queryBases.includes(glaze.base)) &&
             (queryColors.length === 0 || queryColors.includes(glaze.color)) &&
             (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients)) &&
             (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients))))
     }, [searchParams])
-
-    useEffect(() => {
-        if (showSidebar) {
-            setTimeout(() =>  setScroll(), 700)
-        }
-    }, [showSidebar])
 
     // Methods
     const glazeContainsIngredients = (glaze, ingredients) => {
@@ -65,33 +47,10 @@ function Glazes() {
         if (showAddFilter && !e.target.className.startsWith("filter-form")) {
            setShowAddFilter(false)
         }
-        if (e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName)
+        if ((e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName))
             || e.target.className.startsWith("filters ")) {
             closeSidebar()
         }
-    }
-
-    const getCurrentFilters = () => {
-        let filterMarkup = []
-
-        Object.keys(filters).forEach((key) => { 
-            filters[key].forEach((filterName) => {
-                filterMarkup.push(
-                    <button className={filterName.toLowerCase().replace("/", "")} onClick={() => {
-                        var newSearchQuery = new URLSearchParams();
-                        Object.keys(filters).forEach((key) => {
-                            filters[key].forEach((value) => {
-                               if (value !== filterName) newSearchQuery.append(key, value)
-                            })
-                        })
-                        setSearchParams(newSearchQuery)
-                    }}>
-                    <span>x</span> {key === "excludedIngredient" ? <s>{filterName}</s> : filterName}
-                </button>)
-            })
-        })
-
-        return filterMarkup
     }
 
     return (<>
@@ -99,11 +58,11 @@ function Glazes() {
         <section className="glazes" onClick={handleGlazeContainerClick}>
             <div className="text-container">
                 <AddFilter
+                    searchParams={searchParams}
+                    setSearchParams={setSearchParams}
                     showAddFilter={showAddFilter}
                     setShowAddFilter={setShowAddFilter}
                 />
-
-                <div className="filters">{getCurrentFilters()}</div>
 
                 {filteredGlazes.length === 1 ? 
                  <p>{filteredGlazes.length} glaze</p> :
@@ -130,51 +89,9 @@ function Glazes() {
             </div>
         </section>
         
-        {/* Sidebar */}
-        <aside className="sidebar">
-            <div className="container">
-                <button
-                    className="close-button" 
-                    aria-label="Close sidebar" 
-                    type="button" 
-                    onClick={closeSidebar}>
-                    x
-                </button>
-                <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 
-
-                <h2>Recipe</h2>
-                <table className="recipe">
-                    <tbody>
-                        {selectedGlaze.base.recipe.map((part) =>
-                            <tr>
-                                <td>{part.ingredient}</td>
-                                <td>{part.amount}</td>
-                            </tr>
-                        )}
-                        {selectedGlaze.glaze.additives.length > 0 && 
-                            <tr className="add">
-                                <td>Add:</td>
-                            </tr>
-                        }
-                        {selectedGlaze.glaze.additives.map((part) =>
-                            <tr>
-                                <td>{part.ingredient}</td>
-                                <td>{part.amount}</td>
-                            </tr>
-                        )}
-                    </tbody>
-                </table>
-
-                <h2>Cone</h2>
-                <p>Cone 6</p>
-
-                <h2>Base Glaze</h2>
-                <p>{selectedGlaze.glaze.base}</p>
-
-                <h2>Clay</h2>
-                <p>{selectedGlaze.glaze.clay} Stoneware</p>
-            </div>
-        </aside>
+        <Sidebar
+            closeSidebar={closeSidebar}
+        />
     </>)
 }
 
