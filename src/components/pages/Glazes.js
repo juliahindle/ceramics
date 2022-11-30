@@ -6,6 +6,7 @@ import bases from 'data/bases.json'
 import { BLANK_GLAZE, GlazesContext, updatePageTitle, setScroll, resetScroll } from 'Constants'
 
 function Glazes() {
+    // Variables
     const {showSidebar, setShowSidebar, selectedGlaze, setSelectedGlaze} = useContext(GlazesContext)
     const [searchParams, setSearchParams] = useSearchParams()
     const [filters, setFilters] = useState({
@@ -17,12 +18,7 @@ function Glazes() {
     const [filteredGlazes, setFilteredGlazes] = useState(glazes)
     const [showAddFilter, setShowAddFilter] = useState(false)
 
-    const glazeContainsIngredients = (glaze, ingredients) => {
-        let currentBase = bases.find(base => (base.name === glaze.base))
-        return ingredients.every((desiredIngredient) => glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
-                                                        currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
-    }
-
+    // Use Effects
     useEffect(() => {
         updatePageTitle("Glazes - Julia Hindle Ceramics")
         resetScroll()
@@ -52,13 +48,24 @@ function Glazes() {
         }
     }, [showSidebar])
 
+    // Methods
+    const glazeContainsIngredients = (glaze, ingredients) => {
+        let currentBase = bases.find(base => (base.name === glaze.base))
+        return ingredients.every((desiredIngredient) => glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
+                                                        currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
+    }
+
     const closeSidebar = () => {
         setShowSidebar(false)
         setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600)
     }
 
     const handleGlazeContainerClick = (e) => {
-        if (e.target.className === "glazes") {
+        if (!e.target.className.startsWith("filters ")) {
+           setShowAddFilter(false)
+        }
+        if (e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName)
+            || e.target.className.startsWith("filters ")) {
             closeSidebar()
         }
     }
