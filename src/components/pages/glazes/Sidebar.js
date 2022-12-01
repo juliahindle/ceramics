@@ -1,6 +1,6 @@
 import 'styles/glazes.scss'
-import React, { useState, useContext, useEffect } from 'react'
-import { BLANK_GLAZE, GlazesContext, setScroll } from 'Constants'
+import React, { useContext, useEffect } from 'react'
+import { GlazesContext, setScroll } from 'Constants'
 
 function Sidebar({closeSidebar}) {
     // Variables

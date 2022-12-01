@@ -71,7 +71,12 @@ function Glazes() {
             <div className="glazes-container">
                 {filteredGlazes.map(glaze => 
                     glaze.status !== 'inactive' && 
-                    <button>
+                    <button onClick={() => {
+                        setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
+                        if (!showSidebar) {
+                            setShowSidebar(true)
+                        }
+                    }}>
                         <img
                             id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                             className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}

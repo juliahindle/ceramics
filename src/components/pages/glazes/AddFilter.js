@@ -109,9 +109,13 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
                 {colors.map((color) =>
                     getFilterOption(color, "color")
                 )}
-                <h3>Ingredient</h3>
+                <h3>Include Ingredient</h3>
                 {ingredients.map((ingredient) =>
                     getFilterOption(ingredient, "includedIngredient")
+                )}
+                <h3>Exclude Ingredient</h3>
+                {ingredients.map((ingredient) =>
+                    getFilterOption(ingredient, "excludedIngredient")
                 )}
                 <h3>Base Glaze</h3>
                 {bases.sort((a, b) => a.name.localeCompare(b.name)).map((base) =>
