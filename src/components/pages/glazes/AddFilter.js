@@ -1,6 +1,5 @@
 import 'styles/glazes.scss'
-import React, { useState, useContext, useEffect } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
 import bases from 'data/bases.json'
 import ingredients from 'data/ingredients.json'
 import colors from 'data/colors.json'
@@ -75,6 +74,24 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         setSearchParams(newSearchQuery)
     }
 
+    const getFilterOption = (value, categoryName) => {
+        return (
+            <label className="filter-form">
+                <input 
+                    className="filter-form" 
+                    type="checkbox" 
+                    checked={filters[categoryName].find(filterName => filterName === value)} 
+                    value={value}
+                    tabIndex={showAddFilter ? undefined : -1}
+                    onClick={(e) => {
+                        e.currentTarget.checked ? addFilter(value, categoryName) : removeFilter(value, categoryName)
+                    }}    
+                />
+                <span>{value}</span>
+            </label>
+        )
+    }
+
     return (<>
         {/* Add Filter button */}
         <button 
@@ -87,54 +104,18 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         >
             <span className="open-close">+</span>
             <span className="title">Add filter</span>
-
             <form className="filter-form">
                 <h3>Color</h3>
                 {colors.map((color) =>
-                    <label className="filter-form">
-                        <input 
-                            className="filter-form" 
-                            type="checkbox" 
-                            checked={filters.color.find(filterColor => filterColor === color)} 
-                            value={color}
-                            tabIndex={showAddFilter ? undefined : -1}
-                            onClick={(e) => {
-                                e.currentTarget.checked ? addFilter(color, "color") : removeFilter(color, "color")
-                            }}
-                        />
-                        <span>{color}</span>
-                    </label>
+                    getFilterOption(color, "color")
                 )}
                 <h3>Ingredient</h3>
                 {ingredients.map((ingredient) =>
-                    <label className="filter-form">
-                        <input 
-                            className="filter-form" 
-                            type="checkbox" 
-                            checked={filters.includedIngredient.find(filterIngredient => filterIngredient === ingredient)} 
-                            value={ingredient}
-                            tabIndex={showAddFilter ? undefined : -1}
-                            onClick={(e) => {
-                                e.currentTarget.checked ? addFilter(ingredient, "includedIngredient") : removeFilter(ingredient, "includedIngredient")
-                            }}/>
-                        <span>{ingredient}</span>
-                    </label>
+                    getFilterOption(ingredient, "includedIngredient")
                 )}
                 <h3>Base Glaze</h3>
                 {bases.sort((a, b) => a.name.localeCompare(b.name)).map((base) =>
-                    <label className="filter-form">
-                        <input 
-                            className="filter-form" 
-                            type="checkbox" 
-                            checked={filters.base.find(filterBase => filterBase.name === base.name)} 
-                            value={base.name}
-                            tabIndex={showAddFilter ? undefined : -1}
-                            onClick={(e) => {
-                                e.currentTarget.checked ? addFilter(base.name, "base") : removeFilter(base.name, "base")
-                            }}    
-                        />
-                        <span>{base.name}</span>
-                    </label>
+                    getFilterOption(base.name, "base")
                 )}
             </form>
         </button>
