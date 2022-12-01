@@ -2,7 +2,7 @@ import 'styles/glazes.scss'
 import React, { useState, useContext, useEffect } from 'react'
 import { BLANK_GLAZE, GlazesContext, setScroll } from 'Constants'
 
-function Sidebar(closeSidebar) {
+function Sidebar({closeSidebar}) {
     // Variables
     const {showSidebar, selectedGlaze} = useContext(GlazesContext)
 
