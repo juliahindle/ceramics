@@ -2,6 +2,7 @@
     "Ball Clay",
     "Barium Carbonate",
     "Bone Ash",
+    "Chrome Oxide",
     "Cobalt Carbonate",
     "Cobalt Oxide",
     "Copper Carboante",
@@ -21,13 +22,18 @@
     "Magnesium Carbonate",
     "Manganese Dioxide",
     "Nepheline Syenite",
+    "Nickel Carbonate",
+    "Nickel Oxide",
     "Red Iron Oxide",
     "Rutile",
     "Silica",
+    "Silicon Carbide (1000 mesh)",
     "Strontium Carbonate",
-    "Talc", 
+    "Talc",
+    "Tin Oxide",
     "Titanium Dioxide",
     "Whiting",
     "Wollastonite",
-    "Zinc Oxide"
+    "Zinc Oxide",
+    "Zircopax"
 ]

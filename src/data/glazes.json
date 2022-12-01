@@ -190,7 +190,7 @@
         "base": "Randy's",
         "color": "Tan/Brown",
         "additives": [
-            {"ingredient": "Black Nickel Oxide", "amount": 1}
+            {"ingredient": "Nickel Oxide", "amount": 1}
         ]
     },{
         "id": "1-31",
@@ -305,7 +305,7 @@
         "color": "Purple",
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
-            {"ingredient": "Black Nickel Oxide", "amount": 0.5}
+            {"ingredient": "Nickel Oxide", "amount": 0.5}
         ]
     },{
         "id": "1-47",
@@ -313,7 +313,7 @@
         "base": "Randy's",
         "color": "Yellow",
         "additives": [
-            {"ingredient": "Black Nickel Oxide", "amount": 3},
+            {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 10},
             {"ingredient": "Mason Stain 6410", "amount": 2}
         ]
