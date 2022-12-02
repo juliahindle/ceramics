@@ -35,7 +35,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         Object.keys(filters).forEach((key) => { 
             filters[key].forEach((filterName) => {
                 filterMarkup.push(
-                    <button className={filterName.toLowerCase().replace("/", "")} onClick={() => {
+                    <button className={"filter-form " + filterName.toLowerCase().replaceAll("/", "").replaceAll(" ", "")} onClick={() => {
                         var newSearchQuery = new URLSearchParams();
                         Object.keys(filters).forEach((key) => {
                             filters[key].forEach((value) => {
@@ -44,7 +44,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
                         })
                         setSearchParams(newSearchQuery)
                     }}>
-                        <span>x</span> {key === "excludedIngredient" ? <s>{filterName}</s> : filterName}
+                        <span className="filter-form">x</span> {key === "excludedIngredient" ? <s className="filter-form">{filterName}</s> : filterName}
                     </button>)
             })
         })

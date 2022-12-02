@@ -113,9 +113,38 @@ section.glazes {
         box-sizing: border-box;
         overflow-y: scroll;
 
-        h3 {
+        div.title {
+          margin-top: 20px;
           margin-bottom: 5px;
           min-width: max-content;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+
+          & > * {
+            display: inline-block;
+          }
+
+          h3 {
+            margin: 0;
+            min-width: max-content;
+          }
+
+          div.count {
+            margin-left: 10px;
+            width: 22px;
+            height: 22px;
+            background: $j-yellow;
+            text-align: center;
+            border-radius: 11px;
+            font-size: 15px;
+            margin-bottom: 2px;
+            line-height: 20px;
+
+            &.disabled {
+              display: none;
+            }
+        }
         }
 
         div.category {

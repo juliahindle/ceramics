@@ -14,12 +14,15 @@ function FilterCategory({
 
     return (<>
         {/* Title */}
-        <h3 
-            className="filter-form" 
-            onClick={() => {toggleCategory(id)}}
-        >
-            {(enabled ? "\u25BE " : "\u25B8 ") + name}
-        </h3>
+        <div className="title">
+            <h3 
+                className="filter-form" 
+                onClick={() => {toggleCategory(id)}}
+            >
+                {(enabled ? "\u25BE " : "\u25B8 ") + name}
+            </h3>
+            <div className={"count " + (checkedOptions.length ? "enabled" : "disabled")}>{checkedOptions.length}</div>
+        </div>
         
         <div
             ref={ref} 
