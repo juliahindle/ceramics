@@ -27,15 +27,17 @@ function Glazes() {
         setFilteredGlazes(glazes.filter(glaze => 
             (queryBases.length === 0 || queryBases.includes(glaze.base)) &&
             (queryColors.length === 0 || queryColors.includes(glaze.color)) &&
-            (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients)) &&
-            (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients))))
+            (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients, (list, method) => searchParams.get("includeAll") ? list.every(method) : list.some(method))) &&
+            (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients, (list, method) => list.every(method)))))
     }, [searchParams])
 
     // Methods
-    const glazeContainsIngredients = (glaze, ingredients) => {
+    const glazeContainsIngredients = (glaze, ingredients, qualifier) => {
         let currentBase = bases.find(base => (base.name === glaze.base))
-        return ingredients.every((desiredIngredient) => glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
-                                                        currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
+        
+        return qualifier(ingredients, (desiredIngredient) => 
+            glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
+            currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
     }
 
     const closeSidebar = () => {
@@ -69,9 +71,9 @@ function Glazes() {
                  <p>{filteredGlazes.length} glazes</p>}
             </div>
             <div className="glazes-container">
-                {filteredGlazes.map(glaze => 
+                {filteredGlazes.map((glaze, i) => 
                     glaze.status !== 'inactive' && 
-                    <button onClick={() => {
+                    <button key={glaze+i} onClick={() => {
                         setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
                         if (!showSidebar) {
                             setShowSidebar(true)

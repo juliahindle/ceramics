@@ -19,6 +19,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         includedIngredient: false,
         excludedIngredient: false
     })
+    const [includeAll, setIncludeAll] = useState(false)
 
     useEffect(() => {
         setFilters({
@@ -27,26 +28,33 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             includedIngredient: searchParams.getAll("includedIngredient"),
             excludedIngredient: searchParams.getAll("excludedIngredient")
         })
+        setIncludeAll(JSON.parse(searchParams.get("includeAll") || false))
     }, [searchParams])
+
+    useEffect(() => {
+        refreshSearchQuery()
+    }, [includeAll])
 
     const getCurrentFilters = () => {
         let filterMarkup = []
 
         Object.keys(filters).forEach((key) => { 
-            filters[key].forEach((filterName) => {
-                filterMarkup.push(
-                    <button className={"filter-form " + filterName.toLowerCase().replaceAll("/", "").replaceAll(" ", "")} onClick={() => {
-                        var newSearchQuery = new URLSearchParams();
-                        Object.keys(filters).forEach((key) => {
-                            filters[key].forEach((value) => {
-                                if (value !== filterName) newSearchQuery.append(key, value)
+            if (["colors", "bases", "includedIngredient", "excludedIngredient"].includes(key)) {
+                filters[key].forEach((filterName, i) => {
+                    filterMarkup.push(
+                        <button key={filterName+i} className={"filter-form " + filterName.toLowerCase().replaceAll("/", "").replaceAll(" ", "")} onClick={() => {
+                            var newSearchQuery = new URLSearchParams();
+                            Object.keys(filters).forEach((key) => {
+                                filters[key].forEach((value) => {
+                                    if (value !== filterName) newSearchQuery.append(key, value)
+                                })
                             })
-                        })
-                        setSearchParams(newSearchQuery)
-                    }}>
-                        <span className="filter-form">x</span> {key === "excludedIngredient" ? <s className="filter-form">{filterName}</s> : filterName}
-                    </button>)
-            })
+                            setSearchParams(newSearchQuery)
+                        }}>
+                            <span className="filter-form">x</span> {key === "excludedIngredient" ? <s className="filter-form">{filterName}</s> : filterName}
+                        </button>)
+                })
+            }
         })
 
         return filterMarkup
@@ -63,16 +71,18 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             }
             return newFilters
         })
-        submitFilters()
+
+        refreshSearchQuery()
     }
 
-    const submitFilters = () => {
+    const refreshSearchQuery = () => {
         var newSearchQuery = new URLSearchParams();
         Object.keys(filters).forEach((key) => {
             filters[key].forEach((value) => {
                 newSearchQuery.append(key, value)
             })
         })
+        if (includeAll) newSearchQuery.append("includeAll", true)
         setSearchParams(newSearchQuery)
     }
 
@@ -101,6 +111,8 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
                     toggleCategory: toggleCategory,
                     addFilter: (filterName, category) => editFilter(filterName, category, "ADD"),
                     removeFilter: (filterName, category) => editFilter(filterName, category, "REMOVE"),
+                    setIncludeAll: setIncludeAll,
+                    includeAll: includeAll,
                     tabbable: showAddFilter
                 }}>
                     <FilterCategory
