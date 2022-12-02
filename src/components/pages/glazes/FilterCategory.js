@@ -35,7 +35,7 @@ function FilterCategory({
                         value={option}
                         tabIndex={tabbable ? undefined : -1}
                         onClick={(e) => {
-                            e.currentTarget.checked ? addFilter(option, name) : removeFilter(option, name)
+                            e.currentTarget.checked ? addFilter(option, id) : removeFilter(option, id)
                         }}    
                     />
                     <span>{option}</span>
