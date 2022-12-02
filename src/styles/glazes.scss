@@ -53,9 +53,10 @@ section.glazes {
       background: rgba(#fff, .95);
       border-radius: 30px;
       border: 1.5px solid black;
-      transition: scale 0.2s, box-shadow 0.2s, height 1s cubic-bezier(1, 0.28, 0.23, 0.82), min-width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03), width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03);
+      transition: scale 0.2s, box-shadow 0.2s, max-height 1s cubic-bezier(1, 0.28, 0.23, 0.82), min-width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03), width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03);
       position: relative;
-      height: 44px;
+      max-height: 44px;
+      height: fit-content;
       width: 138px;
       min-width: 138px;
       z-index: 1;
@@ -66,23 +67,23 @@ section.glazes {
       overflow: hidden;
       padding: 0;
       
-      @media (hover: hover) {
-        &.disabled:hover {
-          box-shadow: 0 0 5px rgba(#000, .4);
-          scale: 1.02;
-        }
-      }
-
       &.enabled {
         box-shadow: 0 0 5px rgba(#000, .4);
-        height: 75vh;
-        max-width: 340px;
+        max-height: 75vh;
+        width: 340px;
         min-width: 340px;
 
         span.open-close {
             rotate: 45deg;
             top: -5px;
             font-size: 32px;
+        }
+      }
+
+      @media (hover: hover) {
+        &.disabled:hover {
+          box-shadow: 0 0 5px rgba(#000, .4);
+          scale: 1.02;
         }
       }
 
@@ -114,28 +115,34 @@ section.glazes {
 
         h3 {
           margin-bottom: 5px;
+          min-width: max-content;
         }
 
-        label {
-          display: block;
-          font-size: 20px;
-          padding: 5px 0;
-          min-width: max-content;
+        div.category {
+          transition: max-height 1.2s;
+          overflow-y: hidden;
 
-          @media (hover: hover) {
-            &:hover {
-              background-color: rgba($j-yellow, $j-light-opacity);
+          label {
+            display: block;
+            font-size: 20px;
+            padding: 5px 0;
+            min-width: max-content;
+  
+            @media (hover: hover) {
+              &:hover {
+                background-color: rgba($j-yellow, $j-light-opacity);
+              }
             }
-          }
-
-          input {
-            accent-color: $j-blue;
-          }
-
+  
+            input {
+              accent-color: $j-blue;
+            }
+  
             span {
               padding-left: 4px;
             }
-        }
+          }
+        } 
       }
     }
 
@@ -207,7 +214,7 @@ section.glazes {
 
         @media (hover: hover) {
           &:hover {
-            scale: 1.03;
+            scale: .96;
             &  > span {
             opacity: 100%;
             }

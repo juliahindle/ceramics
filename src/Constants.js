@@ -5,6 +5,7 @@ export const BLANK_GLAZE = {glaze: {id: "", base: "", additives : []}, base: {id
 
 // Contexts
 export const GlazesContext = createContext("glazes")
+export const FilterCategoriesContext = createContext("filters")
 
 // Methods
 export const updatePageTitle = (title) => {

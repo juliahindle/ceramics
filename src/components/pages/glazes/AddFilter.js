@@ -3,14 +3,21 @@ import React, { useState, useEffect } from 'react'
 import bases from 'data/bases.json'
 import ingredients from 'data/ingredients.json'
 import colors from 'data/colors.json'
+import FilterCategory from 'components/pages/glazes/FilterCategory'
+import {FilterCategoriesContext} from "Constants"
 
 function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilter}) {
-
     const [filters, setFilters] = useState({
         color: [], 
         base: [], 
         includedIngredient: [],
         excludedIngredient: []
+    })
+    const [toggleStates, setToggleStates] = useState({
+        color: false, 
+        base: false, 
+        includedIngredient: false,
+        excludedIngredient: false
     })
 
     useEffect(() => {
@@ -45,20 +52,15 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         return filterMarkup
     }
 
-    const addFilter = async (filterName, category) => {
+    const editFilter = async (filterName, category, action) => {
         await setFilters((prev) => {
             let newFilters = Object.assign({}, prev)
-            newFilters[category].push(filterName)
-            return newFilters
-        })
-        submitFilters()
-    }
-
-    const removeFilter = async (filterName, category) => {
-        await setFilters((prev) => {
-            let newFilters = Object.assign({}, prev)
-            let indexToRemove = newFilters[category].findIndex((filt) => filt === filterName)
-            newFilters[category].splice(indexToRemove, 1)
+            if (action === "ADD") {
+                newFilters[category].push(filterName)
+            } else {
+                let indexToRemove = newFilters[category].findIndex((filt) => filt === filterName)
+                newFilters[category].splice(indexToRemove, 1)
+            }
             return newFilters
         })
         submitFilters()
@@ -74,22 +76,12 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         setSearchParams(newSearchQuery)
     }
 
-    const getFilterOption = (value, categoryName) => {
-        return (
-            <label className="filter-form">
-                <input 
-                    className="filter-form" 
-                    type="checkbox" 
-                    checked={filters[categoryName].find(filterName => filterName === value)} 
-                    value={value}
-                    tabIndex={showAddFilter ? undefined : -1}
-                    onClick={(e) => {
-                        e.currentTarget.checked ? addFilter(value, categoryName) : removeFilter(value, categoryName)
-                    }}    
-                />
-                <span>{value}</span>
-            </label>
-        )
+    const toggleCategory = (category) => {
+        setToggleStates((prev) => {
+            let newToggleStates = Object.assign({}, prev)
+            newToggleStates[category] = !newToggleStates[category]
+            return newToggleStates
+        })
     }
 
     return (<>
@@ -105,22 +97,41 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             <span className="open-close">+</span>
             <span className="title">Add filter</span>
             <form className="filter-form">
-                <h3>Color</h3>
-                {colors.map((color) =>
-                    getFilterOption(color, "color")
-                )}
-                <h3>Include Ingredient</h3>
-                {ingredients.map((ingredient) =>
-                    getFilterOption(ingredient, "includedIngredient")
-                )}
-                <h3>Exclude Ingredient</h3>
-                {ingredients.map((ingredient) =>
-                    getFilterOption(ingredient, "excludedIngredient")
-                )}
-                <h3>Base Glaze</h3>
-                {bases.sort((a, b) => a.name.localeCompare(b.name)).map((base) =>
-                    getFilterOption(base.name, "base")
-                )}
+                <FilterCategoriesContext.Provider value={{
+                    toggleCategory: toggleCategory,
+                    addFilter: (filterName, category) => editFilter(filterName, category, "ADD"),
+                    removeFilter: (filterName, category) => editFilter(filterName, category, "REMOVE"),
+                    tabbable: showAddFilter
+                }}>
+                    <FilterCategory
+                        name="Color"
+                        id="color"
+                        options={colors}
+                        checkedOptions={filters.color}
+                        enabled={toggleStates.color}
+                    />
+                    <FilterCategory
+                        name="Include Ingredient"
+                        id="includedIngredient"
+                        options={ingredients}
+                        checkedOptions={filters.includedIngredient}
+                        enabled={toggleStates.includedIngredient}
+                    />
+                    <FilterCategory
+                        name="Exclude Ingredient"
+                        id="excludedIngredient"
+                        options={ingredients}
+                        checkedOptions={filters.excludedIngredient}
+                        enabled={toggleStates.excludedIngredient}
+                    />
+                    <FilterCategory
+                        name="Base Glaze"
+                        id="base"
+                        options={bases.sort((a, b) => a.name.localeCompare(b.name)).map(base => base.name)}
+                        checkedOptions={filters.base}
+                        enabled={toggleStates.base}
+                    />
+                </FilterCategoriesContext.Provider>
             </form>
         </button>
         {/* Applied filters */}
