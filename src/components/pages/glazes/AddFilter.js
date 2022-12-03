@@ -39,7 +39,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         let filterMarkup = []
 
         Object.keys(filters).forEach((key) => { 
-            if (["colors", "bases", "includedIngredient", "excludedIngredient"].includes(key)) {
+            if (["color", "base", "includedIngredient", "excludedIngredient"].includes(key)) {
                 filters[key].forEach((filterName, i) => {
                     filterMarkup.push(
                         <button key={filterName+i} className={"filter-form " + filterName.toLowerCase().replaceAll("/", "").replaceAll(" ", "")} onClick={() => {
