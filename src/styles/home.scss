@@ -85,15 +85,17 @@ section.home {
         justify-content: center;
         padding: unset;
         z-index: 1;
+        width: 540px;
+        flex-wrap: wrap;
+        flex-direction: row;
 
         li {
-          margin: 0 10px;
+          margin: 0 10px 20px 10px;
           list-style-type: none;
-
 
           a {
             display: block;
-            width: 200px;
+            width: 250px;
             padding: 5px 0;
             transition: letter-spacing .5s, scale .5s, background-color .2s;
             transition-timing-function: ease;

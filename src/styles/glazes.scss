@@ -296,7 +296,7 @@ aside.sidebar {
   position: fixed;
   right: -400px;
   width: 400px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - $header-height);
   transition: right 1s;
   background: $j-gray;
   font-family: 'sofia-pro';

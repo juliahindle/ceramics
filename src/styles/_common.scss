@@ -24,6 +24,9 @@ $j-dark-opacity: .7;
 $j-default: url('../../public/cursors/default.svg');
 $j-pointer: url('../../public/cursors/pointer.svg');
 
+// Sizes
+$header-height: 80px;
+
 ///////////////////////// Styles /////////////////////////////
 
 // Horizontal line
@@ -39,7 +42,7 @@ hr {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: calc(100vh - 70px);
+  height: calc(100vh - $header-height);
   padding: 30px;
   color: $j-teal;
   font-size: 40px;
