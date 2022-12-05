@@ -1,5 +1,5 @@
 import 'styles/base.scss'
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Outlet, Link, NavLink } from 'react-router-dom'
 
 function Base({showSidebar}) {
@@ -33,7 +33,7 @@ function Base({showSidebar}) {
                             <NavLink to={{pathname: "/glazes"}}>Glazes</NavLink>
                         </li>
                         <li className="page">
-                            <NavLink to={{pathname: "/in-progress"}}>Pottery</NavLink>
+                            <NavLink to={{pathname: "/pottery"}}>Pottery</NavLink>
                         </li>
                     </ul>
                 </nav>
