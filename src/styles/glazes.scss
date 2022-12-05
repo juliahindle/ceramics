@@ -4,8 +4,8 @@
 
 section.glazes {
   width: 100%;
-  margin-right: 0;
   max-width: 100vw;
+  margin-right: 0;
   transition: margin-right 1s, width 1s, max-width 1s;
 
   .glazes-container {
@@ -16,9 +16,9 @@ section.glazes {
     grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
 
     button {
+      margin: 35px 15px;
       border: unset;
       background-color: unset;
-      margin: 35px 15px;
 
       img {
         width: 190px;
@@ -41,42 +41,42 @@ section.glazes {
   }
 
   div.text-container {
-    margin: calc(2.5% + 35px);
-    margin-top: 50px;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     height: 44px;
-  
+    margin: calc(2.5% + 35px);
+    margin-top: 50px;
+    margin-bottom: 10px;
+
     button.filters {
-      font-size: 18px;
-      background: rgba(#fff, .95);
-      border-radius: 30px;
-      border: 1.5px solid black;
-      transition: scale 0.2s, box-shadow 0.2s, max-height 1s cubic-bezier(1, 0.28, 0.23, 0.82), min-width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03), width 1s cubic-bezier(0.1, 0.49, 0.31, 1.03);
-      position: relative;
-      max-height: 44px;
-      height: fit-content;
-      width: 138px;
-      min-width: 138px;
-      z-index: 1;
       display: inline-flex;
-      align-items: center;
+      position: relative;
       flex-direction: column;
       align-content: center;
-      overflow: hidden;
+      align-items: center;
+      width: 138px;
+      min-width: 138px;
+      height: fit-content;
+      max-height: 44px;
       padding: 0;
-      
+      transition: scale .2s, box-shadow .2s, max-height 1s cubic-bezier(1, .28, .23, .82), min-width 1s cubic-bezier(.1, .49, .31, 1.03), width 1s cubic-bezier(.1, .49, .31, 1.03);
+      border: 1.5px solid #000;
+      border-radius: 30px;
+      background: rgba(#fff, .95);
+      font-size: 18px;
+      overflow: hidden;
+      z-index: 1;
+
       &.enabled {
-        box-shadow: 0 0 5px rgba(#000, .4);
-        max-height: 75vh;
         width: 340px;
         min-width: 340px;
+        max-height: 75vh;
+        box-shadow: 0 0 5px rgba(#000, .4);
 
         span.open-close {
-            rotate: 45deg;
-            top: -5px;
-            font-size: 32px;
+          top: -5px;
+          font-size: 32px;
+          rotate: 45deg;
         }
       }
 
@@ -90,17 +90,17 @@ section.glazes {
       span.title {
         padding: 8px 20px 8px 39px;
       }
-  
+
       span.open-close {
-        font-size: 22px;
         position: absolute;
-        left: 20px;
         top: 3px;
+        left: 20px;
         transition: rotate .7s, top 1s, left 1s, font-size 1s;
+        font-size: 22px;
 
         @media (hover: hover) {
           &:hover {
-            color: black;
+            color: #000;
           }
         }
       }
@@ -108,43 +108,43 @@ section.glazes {
       form {
         width: 100%;
         height: 100%;
-        text-align: left;
         padding: 20px;
+        text-align: left;
         box-sizing: border-box;
         overflow-y: scroll;
 
         div.title {
-          margin-top: 20px;
-          margin-bottom: 5px;
-          min-width: max-content;
           display: flex;
           flex-direction: row;
           align-items: flex-end;
+          min-width: max-content;
+          margin-top: 20px;
+          margin-bottom: 5px;
 
           & > * {
             display: inline-block;
           }
 
           h3 {
-            margin: 0;
             min-width: max-content;
+            margin: 0;
           }
 
           div.count {
-            margin-left: 10px;
             width: 22px;
             height: 22px;
-            background: $j-yellow;
-            text-align: center;
-            border-radius: 11px;
-            font-size: 15px;
             margin-bottom: 2px;
+            margin-left: 10px;
+            border-radius: 11px;
+            background: $j-yellow;
+            font-size: 15px;
             line-height: 20px;
+            text-align: center;
 
             &.disabled {
               display: none;
             }
-        }
+          }
         }
 
         div.category {
@@ -152,52 +152,52 @@ section.glazes {
           overflow-y: hidden;
 
           div.match-scheme {
-            margin: 3px 20px 7px 20px;
-            font-size: 14px;
             width: 257px;
             min-width: 257px;
+            margin: 3px 20px 7px;
+            font-size: 14px;
 
             select {
-              margin-left: 5px;
               margin-right: 5px;
-              border-radius: 10px;
+              margin-left: 5px;
               padding: 0 3px;
+              border-radius: 10px;
             }
           }
 
           label {
             display: block;
-            font-size: 20px;
-            padding: 5px 0;
             min-width: max-content;
-  
+            padding: 5px 0;
+            font-size: 20px;
+
             @media (hover: hover) {
               &:hover {
                 background-color: rgba($j-yellow, $j-light-opacity);
               }
             }
-  
+
             input {
               accent-color: $j-blue;
             }
-  
+
             span {
               padding-left: 4px;
             }
           }
-        } 
+        }
       }
     }
 
     div.filters {
-      align-self: center;
-      font-size: 15px;
-      padding: 0 17px;
-      width: 100%;
-      overflow-x: scroll;
       display: flex;
-      mask-image: linear-gradient(to right, transparent, black 17px, black 80%, transparent 100%);
-      -webkit-mask-image: linear-gradient( to right, transparent, black 17px, black 80%, transparent 100%);
+      align-self: center;
+      width: 100%;
+      padding: 0 17px;
+      font-size: 15px;
+      overflow-x: scroll;
+      mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
 
       & > * {
         display: inline-block;
@@ -205,87 +205,88 @@ section.glazes {
       }
 
       button {
-        margin: 5px;
-        background: rgba(#222222, .8);
-        padding: 5px 15px 7px 35px;
-        border-radius: 30px;
-        font-weight: 300;
-        border: 1.5px solid #282828;
-        color: #fff;
         position: relative;
+        margin: 5px;
+        padding: 5px 15px 7px 35px;
         transition: scale .3s;
+        border: 1.5px solid #282828;
+        border-radius: 30px;
+        background: rgba(#222, .8);
+        color: #fff;
+        font-weight: 300;
 
         &.red {
+          border-color: rgb(220, 38, 38);
           background: rgba(220, 38, 38, .9);
-          border-color: rgb(220, 38, 38)
         }
 
         &.orange {
-          background: rgba(242, 124, 22, 0.9);
           border-color: rgb(242, 124, 22);
+          background: rgba(242, 124, 22, .9);
         }
 
         &.yellow {
-          background: rgba(254, 190, 0, 0.9);
           border-color: rgb(254, 190, 0);
+          background: rgba(254, 190, 0, .9);
         }
 
         &.green {
-          background: rgba(29, 141, 32, .9);
           border-color: rgb(29, 141, 32);
+          background: rgba(29, 141, 32, .9);
         }
 
         &.blue {
-          background: rgba(58, 128, 226, .9);
           border-color: rgb(58, 128, 226);
+          background: rgba(58, 128, 226, .9);
         }
 
         &.purple {
-          background: rgba(106, 88, 222, .9);
           border-color: rgb(106, 88, 222);
+          background: rgba(106, 88, 222, .9);
         }
 
         &.pink {
-          background: rgba(247, 133, 133, .9);
           border-color: rgb(247, 133, 133);
+          background: rgba(247, 133, 133, .9);
         }
 
         &.tanbrown {
-          background: rgba(131, 70, 41, .9);
           border-color: rgb(131, 70, 41);
+          background: rgba(131, 70, 41, .9);
         }
 
         @media (hover: hover) {
           &:hover {
             scale: .96;
+
             &  > span {
-            opacity: 100%;
+              opacity: 100%;
             }
           }
         }
-        
+
         span {
-          padding-right: 5px;
-          opacity: 20%;
           position: absolute;
-          left: 15px;
           top: 2px;
-          font-size: 20px;
-          font-family: report, sans-serif;
-          transition: opacity .3s, scale .3s;
+          left: 15px;
+          padding-right: 5px;
           transform: scale(1.3, 1);
+          transition: opacity .3s, scale .3s;
+          font-family: report, sans-serif;
+          font-size: 20px;
+          opacity: 20%;
         }
       }
     }
 
     p {
+      align-self: center;
+      min-width: max-content;
       margin: 0;
+      margin-left: auto;
+      padding-left: 30px;
       font-size: 20px;
       font-weight: 300;
-      align-self: center;
-      margin-left: auto;
-      min-width: max-content;
-      padding-left: 30px;
     }
   }
 }
@@ -300,8 +301,8 @@ aside.sidebar {
   transition: right 1s;
   background: $j-gray;
   font-family: 'sofia-pro';
-  overflow-y: auto;
   z-index: 2;
+  overflow-y: auto;
 
   .container {
     display: flex;
@@ -324,7 +325,7 @@ aside.sidebar {
       font-size: 35px;
       font-weight: 600;
       opacity: $j-light-opacity;
-      
+
       &:hover {
         cursor: $j-pointer, pointer;
         opacity: $j-dark-opacity;
@@ -368,8 +369,8 @@ aside.sidebar {
 
 main.aside-enabled {
   section.glazes {
-    margin-right: 400px;
     max-width: calc(100vw - 400px);
+    margin-right: 400px;
 
     .glazes-container img.selected {
       border-bottom: 4px solid #000;
@@ -406,7 +407,7 @@ main.aside-enabled {
         }
       }
     }
-    
+
     div.text-container {
       position: relative;
 
@@ -419,15 +420,15 @@ main.aside-enabled {
       div.filters {
         display: none;
       }
-      
+
       p {
-        align-self: flex-start;
         position: absolute;
         right: 0;
+        align-self: flex-start;
       }
     }
   }
-  
+
   aside.sidebar {
     right: -100%;
     width: 100%;
@@ -439,8 +440,8 @@ main.aside-enabled {
 
   main.aside-enabled {
     section.glazes {
-      margin-right: 0;
       max-width: 100vw;
+      margin-right: 0;
 
       .glazes-container img.selected {
         border-bottom: 4px solid rgba(0, 0, 0, 0);

@@ -81,16 +81,16 @@ section.home {
 
       ul {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        width: 540px;
         padding: unset;
         z-index: 1;
-        width: 540px;
-        flex-wrap: wrap;
-        flex-direction: row;
 
         li {
-          margin: 0 10px 20px 10px;
+          margin: 0 10px 20px;
           list-style-type: none;
 
           a {
