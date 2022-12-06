@@ -1,4 +1,4 @@
-import 'styles/periodicTableForPotters.scss'
+import 'styles/resources_periodicTableForPotters.scss'
 import { updatePageTitle, resetScroll } from 'Constants'
 import { useEffect } from 'react'
 

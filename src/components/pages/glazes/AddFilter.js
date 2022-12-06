@@ -1,4 +1,4 @@
-import 'styles/glazes.scss'
+import 'styles/glazes_filters.scss'
 import React, { useState, useEffect } from 'react'
 import bases from 'data/bases.json'
 import ingredients from 'data/ingredients.json'

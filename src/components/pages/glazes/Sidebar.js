@@ -1,4 +1,4 @@
-import 'styles/glazes.scss'
+import 'styles/glazes_sidebar.scss'
 import React, { useContext, useEffect } from 'react'
 import { GlazesContext, setScroll } from 'Constants'
 

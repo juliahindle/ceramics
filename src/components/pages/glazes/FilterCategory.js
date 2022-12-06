@@ -1,4 +1,4 @@
-import 'styles/glazes.scss'
+// import 'styles/glazes.scss'
 import React, { useRef, useContext } from 'react'
 import { FilterCategoriesContext } from 'Constants'
 

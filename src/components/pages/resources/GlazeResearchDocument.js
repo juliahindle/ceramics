@@ -1,4 +1,4 @@
-import 'styles/glazeResearchDocument.scss'
+import 'styles/resources_glazeResearchDocument.scss'
 import { updatePageTitle, resetScroll } from 'Constants'
 import { useEffect } from 'react'
 

@@ -1,0 +1,106 @@
+@import 'common';
+
+//////////////////////// sidebar ////////////////////////
+
+aside.sidebar {
+  position: fixed;
+  right: -400px;
+  width: 400px;
+  height: calc(100vh - $header-height);
+  transition: right 1s;
+  background: $j-gray;
+  font-family: 'sofia-pro';
+  z-index: 2;
+  overflow-y: auto;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+
+    button.close-button {
+      position: fixed;
+      top: 80px;
+      right: -45px;
+      width: 30px;
+      padding: unset;
+      transform: scale(1.3, 1);
+      transition: opacity .2s, right 1s;
+      border: 0;
+      background: unset;
+      color: #000;
+      font-family: $j-report;
+      font-size: 35px;
+      font-weight: 600;
+      opacity: $j-light-opacity;
+
+      &:hover {
+        cursor: $j-pointer, pointer;
+        opacity: $j-dark-opacity;
+      }
+    }
+
+    img {
+      align-self: center;
+      width: 200px;
+      padding-bottom: 30px;
+    }
+
+    h2 {
+      padding-bottom: 4px;
+      padding-left: 15px;
+      border-radius: 20px;
+      background: #000;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    p,
+    table {
+      margin: 0;
+      padding-bottom: 10px;
+      padding-left: 12px;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .recipe tr.add {
+      display: block;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  }
+}
+
+//////////////////////// sidebar positioning ////////////////////////
+
+main.aside-enabled aside.sidebar {
+  right: 0;
+
+  button.close-button {
+    right: 355px;
+  }
+}
+
+//////////////////////// media queries ////////////////////////
+
+@media only screen and (max-width: 700px) {
+  aside.sidebar {
+    right: -100%;
+    width: 100%;
+
+    .container button.close-button {
+      right: -10%;
+    }
+  }
+
+  main.aside-enabled  aside.sidebar {
+    right: 0;
+
+    button.close-button {
+      right: 90%;
+    }
+  }
+}

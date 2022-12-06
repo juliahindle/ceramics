@@ -48,237 +48,6 @@ section.glazes {
     margin-top: 50px;
     margin-bottom: 10px;
 
-    button.filters {
-      display: inline-flex;
-      position: relative;
-      flex-direction: column;
-      align-content: center;
-      align-items: center;
-      width: 138px;
-      min-width: 138px;
-      height: fit-content;
-      max-height: 44px;
-      padding: 0;
-      transition: scale .2s, box-shadow .2s, max-height 1s cubic-bezier(1, .28, .23, .82), min-width 1s cubic-bezier(.1, .49, .31, 1.03), width 1s cubic-bezier(.1, .49, .31, 1.03);
-      border: 1.5px solid #000;
-      border-radius: 30px;
-      background: rgba(#fff, .95);
-      font-size: 18px;
-      overflow: hidden;
-      z-index: 1;
-
-      &.enabled {
-        width: 340px;
-        min-width: 340px;
-        max-height: 75vh;
-        box-shadow: 0 0 5px rgba(#000, .4);
-
-        span.open-close {
-          top: -5px;
-          font-size: 32px;
-          rotate: 45deg;
-        }
-      }
-
-      @media (hover: hover) {
-        &.disabled:hover {
-          box-shadow: 0 0 5px rgba(#000, .4);
-          scale: 1.02;
-        }
-      }
-
-      span.title {
-        padding: 8px 20px 8px 39px;
-      }
-
-      span.open-close {
-        position: absolute;
-        top: 3px;
-        left: 20px;
-        transition: rotate .7s, top 1s, left 1s, font-size 1s;
-        font-size: 22px;
-
-        @media (hover: hover) {
-          &:hover {
-            color: #000;
-          }
-        }
-      }
-
-      form {
-        width: 100%;
-        height: 100%;
-        padding: 20px;
-        text-align: left;
-        box-sizing: border-box;
-        overflow-y: scroll;
-
-        div.title {
-          display: flex;
-          flex-direction: row;
-          align-items: flex-end;
-          min-width: max-content;
-          margin-top: 20px;
-          margin-bottom: 5px;
-
-          & > * {
-            display: inline-block;
-          }
-
-          h3 {
-            min-width: max-content;
-            margin: 0;
-          }
-
-          div.count {
-            width: 22px;
-            height: 22px;
-            margin-bottom: 2px;
-            margin-left: 10px;
-            border-radius: 11px;
-            background: $j-yellow;
-            font-size: 15px;
-            line-height: 20px;
-            text-align: center;
-
-            &.disabled {
-              display: none;
-            }
-          }
-        }
-
-        div.category {
-          transition: max-height 1.2s;
-          overflow-y: hidden;
-
-          div.match-scheme {
-            width: 257px;
-            min-width: 257px;
-            margin: 3px 20px 7px;
-            font-size: 14px;
-
-            select {
-              margin-right: 5px;
-              margin-left: 5px;
-              padding: 0 3px;
-              border-radius: 10px;
-            }
-          }
-
-          label {
-            display: block;
-            min-width: max-content;
-            padding: 5px 0;
-            font-size: 20px;
-
-            @media (hover: hover) {
-              &:hover {
-                background-color: rgba($j-yellow, $j-light-opacity);
-              }
-            }
-
-            input {
-              accent-color: $j-blue;
-            }
-
-            span {
-              padding-left: 4px;
-            }
-          }
-        }
-      }
-    }
-
-    div.filters {
-      display: flex;
-      align-self: center;
-      width: 100%;
-      padding: 0 17px;
-      font-size: 15px;
-      overflow-x: scroll;
-      mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
-      -webkit-mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
-
-      & > * {
-        display: inline-block;
-        min-width: max-content;
-      }
-
-      button {
-        position: relative;
-        margin: 5px;
-        padding: 5px 15px 7px 35px;
-        transition: scale .3s;
-        border: 1.5px solid #282828;
-        border-radius: 30px;
-        background: rgba(#222, .8);
-        color: #fff;
-        font-weight: 300;
-
-        &.red {
-          border-color: rgb(220, 38, 38);
-          background: rgba(220, 38, 38, .9);
-        }
-
-        &.orange {
-          border-color: rgb(242, 124, 22);
-          background: rgba(242, 124, 22, .9);
-        }
-
-        &.yellow {
-          border-color: rgb(254, 190, 0);
-          background: rgba(254, 190, 0, .9);
-        }
-
-        &.green {
-          border-color: rgb(29, 141, 32);
-          background: rgba(29, 141, 32, .9);
-        }
-
-        &.blue {
-          border-color: rgb(58, 128, 226);
-          background: rgba(58, 128, 226, .9);
-        }
-
-        &.purple {
-          border-color: rgb(106, 88, 222);
-          background: rgba(106, 88, 222, .9);
-        }
-
-        &.pink {
-          border-color: rgb(247, 133, 133);
-          background: rgba(247, 133, 133, .9);
-        }
-
-        &.tanbrown {
-          border-color: rgb(131, 70, 41);
-          background: rgba(131, 70, 41, .9);
-        }
-
-        @media (hover: hover) {
-          &:hover {
-            scale: .96;
-
-            &  > span {
-              opacity: 100%;
-            }
-          }
-        }
-
-        span {
-          position: absolute;
-          top: 2px;
-          left: 15px;
-          padding-right: 5px;
-          transform: scale(1.3, 1);
-          transition: opacity .3s, scale .3s;
-          font-family: report, sans-serif;
-          font-size: 20px;
-          opacity: 20%;
-        }
-      }
-    }
-
     p {
       align-self: center;
       min-width: max-content;
@@ -287,80 +56,6 @@ section.glazes {
       padding-left: 30px;
       font-size: 20px;
       font-weight: 300;
-    }
-  }
-}
-
-//////////////////////// sidebar ////////////////////////
-
-aside.sidebar {
-  position: fixed;
-  right: -400px;
-  width: 400px;
-  height: calc(100vh - $header-height);
-  transition: right 1s;
-  background: $j-gray;
-  font-family: 'sofia-pro';
-  z-index: 2;
-  overflow-y: auto;
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    box-sizing: border-box;
-
-    button.close-button {
-      position: fixed;
-      top: 80px;
-      right: -45px;
-      width: 30px;
-      padding: unset;
-      transform: scale(1.3, 1);
-      transition: opacity .2s, right 1s;
-      border: 0;
-      background: unset;
-      color: #000;
-      font-family: $j-report;
-      font-size: 35px;
-      font-weight: 600;
-      opacity: $j-light-opacity;
-
-      &:hover {
-        cursor: $j-pointer, pointer;
-        opacity: $j-dark-opacity;
-      }
-    }
-
-    img {
-      align-self: center;
-      width: 200px;
-      padding-bottom: 30px;
-    }
-
-    h2 {
-      padding-bottom: 4px;
-      padding-left: 15px;
-      border-radius: 20px;
-      background: #000;
-      color: #fff;
-      font-size: 22px;
-      font-weight: 400;
-    }
-
-    p,
-    table {
-      margin: 0;
-      padding-bottom: 10px;
-      padding-left: 12px;
-      font-size: 20px;
-      font-weight: 300;
-    }
-
-    .recipe tr.add {
-      display: block;
-      margin-top: 10px;
-      font-size: 15px;
     }
   }
 }
@@ -379,14 +74,6 @@ main.aside-enabled {
 
     .glazes-container img:hover {
       cursor: $j-pointer, pointer;
-    }
-  }
-
-  aside.sidebar {
-    right: 0;
-
-    button.close-button {
-      right: 355px;
     }
   }
 }
@@ -411,30 +98,11 @@ main.aside-enabled {
     div.text-container {
       position: relative;
 
-      button.filters.enabled {
-        width: 100%;
-        min-width: 100%;
-        max-height: 65vh !important;
-      }
-
-      div.filters {
-        display: none;
-      }
-
       p {
         position: absolute;
         right: 0;
         align-self: flex-start;
       }
-    }
-  }
-
-  aside.sidebar {
-    right: -100%;
-    width: 100%;
-
-    .container button.close-button {
-      right: -10%;
     }
   }
 
@@ -445,14 +113,6 @@ main.aside-enabled {
 
       .glazes-container img.selected {
         border-bottom: 4px solid rgba(0, 0, 0, 0);
-      }
-    }
-
-    aside.sidebar {
-      right: 0;
-
-      button.close-button {
-        right: 90%;
       }
     }
   }
