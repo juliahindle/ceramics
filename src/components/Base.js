@@ -7,7 +7,12 @@ function Base({showSidebar}) {
 
     useEffect(() => {
         const handleResize = () => {
-            let newScale = (window.innerWidth <= 660) ? window.innerWidth/660 : 1
+            let newScale
+
+            if (window.innerWidth <= 500) newScale = (window.innerWidth + 40)/660
+            else if (window.innerWidth <= 660) newScale = window.innerWidth/660
+            else newScale = 1
+
             setScale(newScale)
         }
         handleResize()

@@ -10,7 +10,7 @@ function Pottery() {
         return r.keys().map(r);
       }      
     
-    const photos = importAll(require.context('../../../public/images/pottery', false, /\.(HEIC|JPG)$/));
+    const photos = importAll(require.context('../../../public/images/pottery', false, /\.(HEIC|JPG|png)$/));
     
     useEffect(() => {
         updatePageTitle("Pottery - Julia Hindle Ceramics")
