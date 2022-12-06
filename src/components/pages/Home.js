@@ -37,7 +37,7 @@ function Home() {
                         <NavLink to={{pathname: "/glazes"}}>Glazes</NavLink>
                     </li>
                     <li>
-                        <NavLink to={{pathname: "/in-progress"}}>Pottery</NavLink>
+                        <NavLink to={{pathname: "/pottery"}}>Pottery</NavLink>
                     </li>
                 </ul>
             </div>
