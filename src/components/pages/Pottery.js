@@ -19,16 +19,13 @@ function Pottery() {
             let newNumColumns = window.innerWidth <= 1000 ? 2 : 3
             setNumColumns(newNumColumns)
         }
-        window.addEventListener("resize", handleResize);
-        // window.addEventListener("onLoad", handleResize); TODO when have wifi get name for onLoad, same w header
-        return () => window.removeEventListener("resize", handleResize);
+        handleResize()
+        window.addEventListener("resize", handleResize)
+        return () => window.removeEventListener("resize", handleResize)
     }, []);
 
     useEffect(() => {
-        let newColumns = Array(numColumns).fill(0)  //TODO don't use fill and forEach like this
-        newColumns.forEach((col, i) => {
-            newColumns[i] = []
-        })
+        let newColumns = Array.from(Array(numColumns), () => [])
         photos.forEach((photo, i) => {
             newColumns[i % numColumns].push(<img src={photo} key={photo + i} alt={"pottery photo " + (i + 1)}></img>)
         
@@ -39,7 +36,7 @@ function Pottery() {
     return (
         <section className="pottery">
             <div className="container">
-                {photoColumns.map((photos, i) => <column key={photos + i}>{photos}</column>)} {/* TODO rename column tag */}
+                {photoColumns.map((photos, i) => <div key={photos + i} className="column">{photos}</div>)}
             </div>
         </section>
     )

@@ -10,8 +10,9 @@ function Base({showSidebar}) {
             let newScale = (window.innerWidth <= 660) ? window.innerWidth/660 : 1
             setScale(newScale)
         }
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
+        handleResize()
+        window.addEventListener("resize", handleResize)
+        return () => window.removeEventListener("resize", handleResize)
     }, []);
 
     return (<>
