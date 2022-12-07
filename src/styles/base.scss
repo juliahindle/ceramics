@@ -98,19 +98,19 @@ header {
     }
 
     a.email img {
-        position: absolute;
-        width: 30px;
-        cursor: $j-pointer, pointer;
-        top: 29px;
-        right: 36px;
-        transition: scale 0.5s;
-  
-        @media (hover: hover) {
-          &:hover {
-            scale: 1.15;
-          }
+      position: absolute;
+      top: 29px;
+      right: 36px;
+      width: 30px;
+      transition: scale .5s;
+      cursor: $j-pointer, pointer;
+
+      @media (hover: hover) {
+        &:hover {
+          scale: 1.15;
         }
       }
+    }
   }
 }
 

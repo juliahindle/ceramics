@@ -4,7 +4,7 @@ function PDFButton({fileName}) {
     
     return (
         <a className="pdf-button" href={`pdfs/${fileName}`} download>
-            <img src="cursors/download.svg"></img> Download PDF
+            <img src="cursors/download.svg" alt="down arrow"></img> Download PDF
         </a>
     )
 }
