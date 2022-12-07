@@ -27,7 +27,7 @@ function GlazeResearchDocument() {
 const generateDocument = () => {
     var images = []
     for (var i=0; i<=17; i++) {
-        images.push(<img src={`images/resources/2019-2021-glaze-research-document/${i}.png`} alt={`Glaze Research Document page ${i+1}`}></img>)
+        images.push(<img src={`images/resources/2019-2021-glaze-research-document/${i}.jpg`} alt={`Glaze Research Document page ${i+1}`}></img>)
     }
     return images
 }
