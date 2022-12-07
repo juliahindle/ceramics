@@ -42,6 +42,9 @@ function Base({showSidebar}) {
                             <NavLink to={{pathname: "/pottery"}}>Pottery</NavLink>
                         </li>
                     </ul>
+                    <a className="email" href="mailto: julia.hindle+ceramics@gmail.com">
+                        <img src="cursors/mail.svg" title="e-mail me"></img>
+                    </a>
                 </nav>
             </header>
 

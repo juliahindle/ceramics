@@ -19,7 +19,7 @@ function PeriodicTableForPotters() {
                     <p>This is a simplified periodic table with only the information I felt would be helpful for potters who make their own glazes. I was inspired by Linda Bloomfield who has her own version of a potter's periodic table in her book <em>Science for Potters</em>. There are additional elements that could be included, especially in the transition metals, but I only included the ones I find myself interacting with frequently.</p>
                     <PDFButton fileName="Julia Hindle Periodic Table for Potters.pdf"/>
                 </div>
-                <img src='images/resources/periodic-table-for-potters.svg' alt='Periodic Table for Potters'/>
+                <img className="document" src='images/resources/periodic-table-for-potters.svg' alt='Periodic Table for Potters'/>
             </div>
         </section>
     )

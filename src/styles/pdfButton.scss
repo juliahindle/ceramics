@@ -4,7 +4,7 @@ a.pdf-button {
   display: inline-block;
   margin: 5px 0;
   padding: 10px 15px;
-  transition: scale .2s, background-color .2s, color .2s, border-color .2s;
+  transition: scale .2s, background-color .2s, border-color .2s;
   border: 1.5px solid #000;
   border-radius: 30px;
   background-color: #fff;
@@ -16,10 +16,13 @@ a.pdf-button {
 
   @media (hover: hover) {
     &:hover {
-      border-color: #007e73;
-      background-color: $j-teal;
-      color: #fff;
-      cursor: $j-pointer, pointer;
+      scale: 1.06;
+      background-color: $j-yellow;
+      border-color: #dfad22;
     }
+  }
+
+  img {
+    width: 14px;
   }
 }

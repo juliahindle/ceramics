@@ -96,5 +96,27 @@ header {
         }
       }
     }
+
+    a.email img {
+        position: absolute;
+        width: 30px;
+        cursor: $j-pointer, pointer;
+        top: 29px;
+        right: 36px;
+        transition: scale 0.5s;
+  
+        @media (hover: hover) {
+          &:hover {
+            scale: 1.15;
+          }
+        }
+      }
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  header nav a.email {
+    display: none;
   }
 }

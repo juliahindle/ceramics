@@ -48,7 +48,7 @@ function About() {
                 <div className="code"><img src="images/about/code.jpg" alt="code"></img></div>
                 <div className="illustrator"><img src="images/about/illustrator.jpg" alt="designs"></img></div>
             </div>
-            <p>I hope you enjoy browsing the site! If you have any questions or comments, feel free to <a href = "mailto: julia.hindle+ceramics@gmail.com">email me</a>.</p>
+            <p>I hope you enjoy browsing the site! If you have any questions or comments, feel free to <a href="mailto: julia.hindle+ceramics@gmail.com">email me</a>.</p>
         </div>
     </section>
 }
