@@ -11,9 +11,9 @@ function Pottery() {
       }      
     
     const photos = {
-        "1x": importAll(require.context('../../../public/images/pottery/1x', false, /\.(HEIC|JPG|png)$/)),
-        "2x": importAll(require.context('../../../public/images/pottery/2x', false, /\.(HEIC|JPG|png)$/)),
-        "3x": importAll(require.context('../../../public/images/pottery/3x', false, /\.(HEIC|JPG|png)$/))
+        "1x": importAll(require.context('../../../public/images/pottery/1x', false, /\.jpg$/)),
+        "2x": importAll(require.context('../../../public/images/pottery/2x', false, /\.jpg$/)),
+        "3x": importAll(require.context('../../../public/images/pottery/3x', false, /\.jpg$/))
     }
     
     useEffect(() => {
