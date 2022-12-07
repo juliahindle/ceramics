@@ -10,7 +10,11 @@ function Pottery() {
         return r.keys().map(r);
       }      
     
-    const photos = importAll(require.context('../../../public/images/pottery', false, /\.(HEIC|JPG|png)$/));
+    const photos = {
+        "1x": importAll(require.context('../../../public/images/pottery/1x', false, /\.(HEIC|JPG|png)$/)),
+        "2x": importAll(require.context('../../../public/images/pottery/2x', false, /\.(HEIC|JPG|png)$/)),
+        "3x": importAll(require.context('../../../public/images/pottery/3x', false, /\.(HEIC|JPG|png)$/))
+    }
     
     useEffect(() => {
         updatePageTitle("Pottery - Julia Hindle Ceramics")
@@ -26,10 +30,15 @@ function Pottery() {
 
     useEffect(() => {
         let newColumns = Array.from(Array(numColumns), () => [])
-        photos.forEach((photo, i) => {
-            newColumns[i % numColumns].push(<img src={photo} key={photo + i} alt={"pottery photo " + (i + 1)}></img>)
+        for (var i = 0; i < photos["1x"].length; i++) {
+            newColumns[i % numColumns].push(<img 
+                src={photos["3x"][i]} 
+                srcSet={`${photos["3x"][i]} 3x,${photos["2x"][i]} 2x,${photos["1x"][i]} 1x`} 
+                key={photos["3x"][i] + i} 
+                alt={"pottery photo " + (i + 1)}
+            ></img>)
         
-        })
+        }
         setPhotoColumns(newColumns)
     }, [numColumns])
 
