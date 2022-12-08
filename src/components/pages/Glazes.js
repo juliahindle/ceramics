@@ -16,7 +16,7 @@ function Glazes() {
 
     // Use Effects
     useEffect(() => {
-        updatePageTitle("Glazes - Julia Hindle Ceramics")
+        updatePageTitle("Glazes")
         resetScroll()
         
         let queryColors = searchParams.getAll("color")
@@ -72,7 +72,7 @@ function Glazes() {
             </div>
             <div className="glazes-container">
                 {filteredGlazes.map((glaze, i) => 
-                    glaze.status !== 'inactive' && 
+                    glaze.status !== 'inactive' && glaze.id && 
                     <button key={glaze+i} onClick={() => {
                         setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
                         if (!showSidebar) {

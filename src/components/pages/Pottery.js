@@ -8,7 +8,7 @@ function Pottery() {
     const [photoColumns, setPhotoColumns] = useState([[], [], []])
     
     useEffect(() => {
-        updatePageTitle("Pottery - Julia Hindle Ceramics")
+        updatePageTitle("Pottery")
 
         const handleResize = () => {
             let newNumColumns = window.innerWidth <= 1000 ? 2 : 3

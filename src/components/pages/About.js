@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 
 function About() {
     useEffect(() => {
-        updatePageTitle("About - Julia Hindle Ceramics")
+        updatePageTitle("About")
         resetScroll()
     }, [])
 

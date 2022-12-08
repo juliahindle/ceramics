@@ -9,7 +9,7 @@ export const FilterCategoriesContext = createContext("filters")
 
 // Methods
 export const updatePageTitle = (title) => {
-    document.title = title
+    document.title = title + " - Julia Hindle Ceramics"
 }
 
 export const setScroll = () => {

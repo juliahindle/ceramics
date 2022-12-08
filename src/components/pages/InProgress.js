@@ -3,7 +3,7 @@ import { updatePageTitle } from 'Constants'
 
 function InProgress() {
     useEffect(() => {
-        updatePageTitle("Page Not Made Yet - Julia Hindle Ceramics")
+        updatePageTitle("Page Not Made Yet")
     }, [])
 
     return (

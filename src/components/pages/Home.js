@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 function Home() {
 
     useEffect(() => {
-        updatePageTitle("Home - Julia Hindle Ceramics")
+        updatePageTitle("Home")
         resetScroll()
     }, [])
 

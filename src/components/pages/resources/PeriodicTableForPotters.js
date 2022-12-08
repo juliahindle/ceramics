@@ -6,7 +6,7 @@ import PDFButton from 'components/general/PDFButton'
 function PeriodicTableForPotters() {
     
     useEffect(() => {
-        updatePageTitle("Periodic Table for Potters - Julia Hindle Ceramics")
+        updatePageTitle("Periodic Table for Potters")
         resetScroll()
     }, [])
 
