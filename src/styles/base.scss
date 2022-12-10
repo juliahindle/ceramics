@@ -14,8 +14,9 @@ main {
 }
 
 * {
-  font-family: $j-sofia;
+  font-family: $j-neue;
   cursor: $j-default, auto;
+  letter-spacing: 0.6px;
 }
 
 //////////////////////// header ////////////////////////
@@ -61,7 +62,7 @@ header {
 
         &.page {
           transition: letter-spacing .5s, scale .5s;
-          font-size: 25px;
+          font-size: 24px;
           font-style: normal;
           font-weight: 400;
 

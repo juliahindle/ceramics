@@ -79,12 +79,12 @@ section.resources {
             h2 {
               margin: 0;
               margin-bottom: 10px;
-              font-size: 30px;
+              font-size: 28px;
               font-weight: 500;
             }
 
             p {
-              font-weight: 100;
+              font-weight: 200;
 
               &.description {
                 font-size: 20px;
@@ -94,7 +94,7 @@ section.resources {
                 position: absolute;
                 bottom: 25px;
                 margin: 0;
-                font-size: 18px;
+                font-size: 16px;
               }
             }
           }
@@ -117,7 +117,7 @@ section.resources {
 
     p.more {
       padding: 20px 0;
-      font-size: 28px;
+      font-size: 24px;
       opacity: $j-dark-opacity;
     }
   }

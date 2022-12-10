@@ -24,6 +24,7 @@ function Sidebar({closeSidebar}) {
                     x
                 </button>
                 <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 
+                {selectedGlaze.glaze.name && <p className="name">{selectedGlaze.glaze.name}</p>}
 
                 <h2>Recipe</h2>
                 <table className="recipe">
@@ -47,15 +48,15 @@ function Sidebar({closeSidebar}) {
                         )}
                     </tbody>
                 </table>
-
+                
                 <h2>Cone</h2>
-                <p>Cone 6</p>
+                <p className="info">Cone 6</p>
 
                 <h2>Base Glaze</h2>
-                <p>{selectedGlaze.glaze.base}</p>
+                <p className="info">{selectedGlaze.glaze.base}</p>
 
                 <h2>Clay</h2>
-                <p>{selectedGlaze.glaze.clay} Stoneware</p>
+                <p className="info">{selectedGlaze.glaze.clay} Stoneware</p>
             </div>
         </aside>
     )

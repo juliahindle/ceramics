@@ -1,6 +1,7 @@
 [
     {
         "id": "1-1",
+        "name": "JH Tea Green",
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
@@ -9,6 +10,7 @@
         ]
     },{
         "id": "1-4-1",
+        "name": "JH Periwinkle",
         "clay": 181,
         "base": "Randy's",
         "color": "Purple",
@@ -17,6 +19,7 @@
         ]
     },{
         "id": "1-4-2",
+        "name": "JH Indigo",
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
@@ -25,6 +28,7 @@
         ]
     },{
         "id": "1-5",
+        "name": "JH Sea Green",
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
@@ -33,6 +37,7 @@
         ]
     },{
         "id": "1-8",
+        "name": "JH Sand",
         "clay": 181,
         "base": "Randy's",
         "color": "Yellow",
@@ -51,6 +56,7 @@
         ]
     },{
         "id": "1-12",
+        "name": "JH Gunmetal Gray",
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
@@ -61,6 +67,7 @@
         ]
     },{
         "id": "1-13",
+        "name": "JH Rain Cloud",
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
@@ -71,6 +78,7 @@
         ]
     },{
         "id": "1-19",
+        "name": "JH Charcoal",
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
@@ -80,6 +88,7 @@
         ]
     },{
         "id": "1-20",
+        "name": "JH Avocado",
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
@@ -89,6 +98,7 @@
         ]
     },{
         "id": "1-21",
+        "name": "JH Chocolate",
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
@@ -108,6 +118,7 @@
         ]
     },{
         "id": "1-24",
+        "name": "JH Teal",
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
@@ -118,6 +129,7 @@
         ]
     },{
         "id": "1-25E",
+        "name": "JH Dark Sand",
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
@@ -126,6 +138,7 @@
         ]
     },{
         "id": "1-26",
+        "name": "JH Cotton Candy",
         "clay": 181,
         "base": "Randy's",
         "color": "Pink",
@@ -144,6 +157,7 @@
         ]
     },{
         "id": "1-26-2",
+        "name": "JH Pine",
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
@@ -152,6 +166,7 @@
         ]
     },{
         "id": "1-27",
+        "name": "JH Oxblood",
         "clay": 181,
         "base": "Randy's",
         "color": "Red",
@@ -362,6 +377,7 @@
         ]
     },{
         "id": "11-2",
+        "name": "Chun Seafoam",
         "clay": 181,
         "base": "Chun",
         "color": "Green",
@@ -371,6 +387,7 @@
         ]
     },{
         "id": "11-4",
+        "name": "JH Gunmetal Green",
         "clay": 181,
         "base": "Chun",
         "color": "Green",
@@ -380,6 +397,7 @@
         ]
     },{
         "id": "11-5",
+        "name": "JH Blue Shift",
         "clay": 181,
         "base": "Chun",
         "color": "Green",
@@ -419,6 +437,7 @@
         ]
     },{
         "id": "11-16",
+        "name": "JH Cornflower Blue",
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
@@ -429,6 +448,7 @@
         ]
     },{
         "id": "11-17",
+        "name": "JH Chun Cobalt Blue",
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
@@ -438,6 +458,7 @@
         ]
     },{
         "id": "11-18",
+        "name": "JH Starry Night",
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
@@ -448,6 +469,7 @@
         ]
     },{
         "id": "11-19",
+        "name": "JH Iron Shift",
         "clay": 181,
         "base": "Chun",
         "color": "Tan/Brown",
@@ -541,6 +563,7 @@
         ]
     },{
         "id": "13-1",
+        "name": "Heino Cobalt Blue",
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
@@ -550,6 +573,7 @@
         ]
     },{
         "id": "13-3-1",
+        "name": "Heino Copper Blue",
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
@@ -558,6 +582,7 @@
         ]
     },{
         "id": "13-3-2",
+        "name": "JH Bluemarine",
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
@@ -567,6 +592,7 @@
         ]
     },{
         "id": "13-3-3",
+        "name": "JH Aquamarine",
         "clay": 181,
         "base": "Heino",
         "color": "Green",
@@ -577,6 +603,7 @@
         ]
     },{
         "id": "13-4",
+        "name": "JH Fungi",
         "clay": 240,
         "base": "Heino",
         "color": "Green",
@@ -623,6 +650,7 @@
         ]
     },{
         "id": "15-1",
+        "name": "Bright Sky Blue",
         "clay": 181,
         "base": "Bright Sky Blue",
         "color": "Blue",
@@ -633,6 +661,7 @@
         ]
     },{
         "id": "16-1",
+        "name": "Arrowmont Blue-Green",
         "clay": 181,
         "base": "Arrowmont",
         "color": "Green",
@@ -642,6 +671,7 @@
         ]
     },{
         "id": "20-1",
+        "name": "Bright Purple",
         "clay": 181,
         "base": "Bright Purple",
         "color": "Purple",
@@ -650,6 +680,7 @@
         ]
     },{
         "id": "25-1",
+        "name": "June Perry Red",
         "clay": 181,
         "base": "June Perry Red",
         "color": "Red",
@@ -659,6 +690,7 @@
         ]
     },{
         "id": "26-0",
+        "name": "Raspberry Base",
         "clay": 181,
         "base": "Raspberry",
         "color": "Clear",
@@ -666,6 +698,7 @@
         ]
     },{
         "id": "26-1",
+        "name": "Raspberry Original",
         "clay": 181,
         "base": "Raspberry",
         "color": "Red",
@@ -675,6 +708,7 @@
         ]
     },{
         "id": "26-2",
+        "name": "JH Vino",
         "clay": 181,
         "base": "Raspberry",
         "color": "Purple",
@@ -685,6 +719,7 @@
         ]
     },{
         "id": "26-4",
+        "name": "JH Plum",
         "clay": 181,
         "base": "Raspberry",
         "color": "Purple",
@@ -695,6 +730,7 @@
         ]
     },{
         "id": "26-5",
+        "name": "JH Rouge",
         "clay": 240,
         "base": "Raspberry",
         "color": "Red",
@@ -770,16 +806,18 @@
         ]
     },{
         "id": "33-1",
+        "name": "Behrens Original",
         "clay": 181,
-        "base": "Behren's Satin Matte",
+        "base": "Behrens Satin Matte",
         "color": "White",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5}
         ]
     },{
         "id": "33-2",
+        "name": "JH Behrens Green",
         "clay": 181,
-        "base": "Behren's Satin Matte",
+        "base": "Behrens Satin Matte",
         "color": "Green",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
@@ -787,8 +825,9 @@
         ]
     },{
         "id": "33-3",
+        "name": "JH Behrens Blue",
         "clay": 181,
-        "base": "Behren's Satin Matte",
+        "base": "Behrens Satin Matte",
         "color": "Blue",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
@@ -797,7 +836,7 @@
     },{
         "id": "33-4",
         "clay": 240,
-        "base": "Behren's Satin Matte",
+        "base": "Behrens Satin Matte",
         "color": "Tan/Brown",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
@@ -807,7 +846,7 @@
     },{
         "id": "33-5",
         "clay": 240,
-        "base": "Behren's Satin Matte",
+        "base": "Behrens Satin Matte",
         "color": "Tan/Brown",
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
