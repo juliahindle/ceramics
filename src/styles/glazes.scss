@@ -94,7 +94,11 @@ main.aside-enabled {
         }
       }
     }
+  }
+}
 
+@media only screen and (max-width: 800px) {
+  section.glazes {
     div.text-container {
       position: relative;
 
