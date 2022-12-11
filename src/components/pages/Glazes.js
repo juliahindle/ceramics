@@ -19,6 +19,7 @@ function Glazes() {
         updatePageTitle("Glazes")
         resetScroll()
         
+        // handle query filters
         let queryColors = searchParams.getAll("color")
         let queryBases = searchParams.getAll("base")
         let queryIncludedIngredients= searchParams.getAll("includedIngredient")
@@ -29,7 +30,24 @@ function Glazes() {
             (queryColors.length === 0 || queryColors.includes(glaze.color)) &&
             (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients, (list, method) => searchParams.get("includeAll") ? list.every(method) : list.some(method))) &&
             (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients, (list, method) => list.every(method)))))
+    
+        // handle query sidebar
+        let querySidebar = searchParams.get("sidebar")
+        if (querySidebar) {
+            let sidebarGlaze = glazes.find(glaze => glaze.id === querySidebar)
+            if (sidebarGlaze) {
+                setSelectedGlaze({glaze: sidebarGlaze, base: bases.find(base => base.name === sidebarGlaze.base)})
+                setShowSidebar(true)
+            }
+        }
+        else if (showSidebar) {
+            setShowSidebar(false)
+        }
     }, [searchParams])
+
+    useEffect(() => {
+        return (() => setShowSidebar(false))
+    }, [])
 
     // Methods
     const glazeContainsIngredients = (glaze, ingredients, qualifier) => {
@@ -40,9 +58,20 @@ function Glazes() {
             currentBase.recipe.some((baseIngredient) => baseIngredient.ingredient === desiredIngredient))
     }
 
+    const openSidebar = (glaze) => {
+        setSelectedGlaze({glaze: glaze, base: bases.find(base => base.name === glaze.base)})
+        searchParams.set("sidebar", glaze.id)
+        setSearchParams(searchParams)
+        if (!showSidebar) {
+            setShowSidebar(true)
+        }
+    }
+
     const closeSidebar = () => {
         setShowSidebar(false)
         setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600)
+        searchParams.delete("sidebar")
+        setSearchParams(searchParams)
     }
 
     const handleGlazeContainerClick = (e) => {
@@ -73,23 +102,12 @@ function Glazes() {
             <div className="glazes-container">
                 {filteredGlazes.map((glaze, i) => 
                     glaze.status !== 'inactive' && glaze.id && 
-                    <button key={glaze+i} onClick={() => {
-                        setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
-                        if (!showSidebar) {
-                            setShowSidebar(true)
-                        }
-                    }}>
+                    <button key={glaze+i} onClick={() => openSidebar(glaze)}>
                         <img
                             id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                             className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
                             src={`images/glazes/2x/${glaze.id}.png`} 
                             alt={`glaze with id: ${glaze.id}`}
-                            onClick={() => {
-                                setSelectedGlaze({glaze: glaze, base: bases.find(base => (base.name === glaze.base))})
-                                if (!showSidebar) {
-                                    setShowSidebar(true)
-                                }
-                            }}
                         />
                     </button>
                 )}
