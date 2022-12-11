@@ -6,7 +6,7 @@ import PDFButton from 'components/general/PDFButton'
 function GlazeResearchDocument() {
     useEffect(() => {
         updatePageTitle("2019-2021 Glaze Research Document")
-        resetScroll()
+        return resetScroll
     }, [])
 
     return (

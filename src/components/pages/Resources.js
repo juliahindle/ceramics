@@ -1,13 +1,14 @@
 import 'styles/resources.scss'
 import { useEffect } from 'react'
 import resources from 'data/resources.json'
-import { updatePageTitle } from 'Constants'
+import { updatePageTitle, resetScroll } from 'Constants'
 import { Link } from 'react-router-dom'
 
 function Resources() {
 
     useEffect(() => {
         updatePageTitle("Resources")
+        return resetScroll
     }, [])
 
     return (

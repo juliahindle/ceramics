@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 function About() {
     useEffect(() => {
         updatePageTitle("About")
-        resetScroll()
+        return resetScroll
     }, [])
 
     return <section className="about">

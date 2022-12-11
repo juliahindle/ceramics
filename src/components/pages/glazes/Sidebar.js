@@ -8,9 +8,7 @@ function Sidebar({closeSidebar}) {
 
     // Use Effects
     useEffect(() => {
-        if (showSidebar) {
-            setTimeout(() =>  setScroll(), 700)
-        }
+        setTimeout(() =>  setScroll(), 700)
     }, [showSidebar])
 
     return (

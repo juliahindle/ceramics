@@ -1,6 +1,6 @@
 import 'styles/pottery.scss'
 import { useState, useEffect } from 'react'
-import { updatePageTitle } from 'Constants'
+import { resetScroll, updatePageTitle } from 'Constants'
 
 function Pottery() {
     const PHOTO_PATH = "images/pottery/"
@@ -16,7 +16,10 @@ function Pottery() {
         }
         handleResize()
         window.addEventListener("resize", handleResize)
-        return () => window.removeEventListener("resize", handleResize)
+        return () => {
+            window.removeEventListener("resize", handleResize)
+            resetScroll()
+        }
     }, []);
 
     useEffect(() => {

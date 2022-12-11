@@ -3,7 +3,7 @@ import React, { useState, useContext, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext, updatePageTitle, resetScroll } from 'Constants'
+import { BLANK_GLAZE, GlazesContext, updatePageTitle, resetScroll, setScroll } from 'Constants'
 import AddFilter from 'components/pages/glazes/AddFilter'
 import Sidebar from 'components/pages/glazes/Sidebar'
 
@@ -17,7 +17,6 @@ function Glazes() {
     // Use Effects
     useEffect(() => {
         updatePageTitle("Glazes")
-        resetScroll()
         
         // handle query filters
         let queryColors = searchParams.getAll("color")
@@ -40,14 +39,21 @@ function Glazes() {
                 setShowSidebar(true)
             }
         }
-        else if (showSidebar) {
+        else {
             setShowSidebar(false)
         }
     }, [searchParams])
 
     useEffect(() => {
-        return (() => setShowSidebar(false))
+        return (() => {
+            setShowSidebar(false)
+            resetScroll()
+        })
     }, [])
+
+    useEffect(() => {
+        setScroll()
+    }, [selectedGlaze])
 
     // Methods
     const glazeContainsIngredients = (glaze, ingredients, qualifier) => {
@@ -69,7 +75,6 @@ function Glazes() {
 
     const closeSidebar = () => {
         setShowSidebar(false)
-        setTimeout(() => setSelectedGlaze(BLANK_GLAZE), 600)
         searchParams.delete("sidebar")
         setSearchParams(searchParams)
     }
@@ -78,8 +83,9 @@ function Glazes() {
         if (showAddFilter && !e.target.className.startsWith("filter-form")) {
            setShowAddFilter(false)
         }
-        if ((e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName))
-            || e.target.className.startsWith("filters ")) {
+        if (showSidebar && 
+                ((e.currentTarget.className === "glazes" && !["BUTTON", "IMG"].includes(e.target.tagName))
+                  || e.target.className.startsWith("filters "))) {
             closeSidebar()
         }
     }

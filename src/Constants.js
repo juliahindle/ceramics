@@ -15,9 +15,17 @@ export const updatePageTitle = (title) => {
 export const setScroll = () => {
     const selectedGlaze = document.getElementById("selected-glaze")
     const main = document.getElementById("main")
-    if (selectedGlaze.offsetTop > window.screen.height - 170 && window.screen.width > 700) {
+    if (selectedGlaze && !isInViewport(selectedGlaze)) {
         main.scrollTop = selectedGlaze.offsetTop - 45
     }
+}
+
+const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect()
+    return (
+        rect.bottom >= 0 &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+    )
 }
 
 export const resetScroll = () => {

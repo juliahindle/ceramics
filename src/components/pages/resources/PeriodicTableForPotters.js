@@ -7,7 +7,7 @@ function PeriodicTableForPotters() {
     
     useEffect(() => {
         updatePageTitle("Periodic Table for Potters")
-        resetScroll()
+        return resetScroll
     }, [])
 
     return (

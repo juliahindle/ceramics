@@ -7,7 +7,7 @@ function Home() {
 
     useEffect(() => {
         updatePageTitle("Home")
-        resetScroll()
+        return resetScroll
     }, [])
 
     return (
