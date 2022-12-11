@@ -25,7 +25,21 @@ $j-default: url('../../public/cursors/default.svg');
 $j-pointer: url('../../public/cursors/pointer.svg');
 
 // Sizes
-$header-height: 80px;
+:root {
+  --header: #{80px};
+}
+
+@media only screen and (max-width: 700px) {
+  :root {
+    --header: #{70px};
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  :root {
+    --header: #{60px};
+  }
+}
 
 ///////////////////////// Styles /////////////////////////////
 
@@ -42,7 +56,7 @@ hr {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: calc(100vh - $header-height);
+  height: calc(100vh - var(--header));
   padding: 30px;
   color: $j-teal;
   font-size: 40px;

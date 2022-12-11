@@ -6,7 +6,7 @@ aside.sidebar {
   position: fixed;
   right: -400px;
   width: 400px;
-  height: calc(100vh - $header-height);
+  height: calc(100vh - var(--header));
   transition: right 1s;
   background: $j-gray;
   font-family: 'sofia-pro';
@@ -21,7 +21,7 @@ aside.sidebar {
 
     button.close-button {
       position: fixed;
-      top: 80px;
+      top: calc(var(--header) + 10px);
       right: -45px;
       width: 30px;
       padding: unset;

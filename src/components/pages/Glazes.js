@@ -47,6 +47,7 @@ function Glazes() {
     useEffect(() => {
         return (() => {
             setShowSidebar(false)
+            setSelectedGlaze(BLANK_GLAZE)
             resetScroll()
         })
     }, [])

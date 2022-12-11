@@ -7,9 +7,9 @@ body {
 main {
   display: flex;
   position: relative;
-  top: $header-height;
+  top: var(--header);
   width: 100%;
-  height: calc(100vh - $header-height);
+  height: calc(100vh - var(--header));
   overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ header {
   position: fixed;
   align-items: center;
   width: 100%;
-  height: $header-height;
+  height: var(--header);
   padding: 8px;
   background: #fff;
   box-shadow: 0 4px 28px 0 #00000040;
@@ -116,6 +116,8 @@ header {
 }
 
 
+//////////////////////// media queries ////////////////////////
+
 @media only screen and (max-width: 1000px) {
   header nav a.email {
     display: none;
@@ -123,39 +125,31 @@ header {
 }
 
 @media only screen and (max-width: 700px) {
-  header {
-    height: calc($header-height - 10px);
+  header nav ul {
+    justify-content: space-evenly;
 
-    nav ul {
-      justify-content: space-evenly;
+    li {
+      margin: 0;
 
-      li {
-        margin: 0;
+      &.logo a img {
+        width: 40px;
+      }
 
-        &.logo a img {
-          width: 40px;
-        }
-
-        &.page {
-          font-size: 20px;
-        }
+      &.page {
+        font-size: 20px;
       }
     }
   }
 }
 
 @media only screen and (max-width: 500px) {
-  header {
-    height: calc($header-height - 20px);
+  header nav ul li {
+    &.logo a img {
+      width: 35px;
+    }
 
-    nav ul li {
-      &.logo a img {
-        width: 35px;
-      }
-
-      &.page {
-        font-size: 16px;
-      }
+    &.page {
+      font-size: 16px;
     }
   }
 }
