@@ -71,6 +71,10 @@ aside.sidebar {
       padding-left: 12px;
       font-size: 18px;
       font-weight: 300;
+
+      a:hover {
+        cursor: $j-pointer, pointer;
+      }
     }
 
     .recipe tr.add {

@@ -2,6 +2,13 @@
     {
         "id": "1-0",
         "name": "Randy's",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 88
+            }
+        },
         "recipe": [
             {"ingredient": "Gerstley Borate", "amount": 31.7},
             {"ingredient": "Talc", "amount": 13.8},
@@ -12,6 +19,13 @@
     },{
         "id": "8-0",
         "name": "Ashley's Best",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 125
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 27.2},
             {"ingredient": "Silica", "amount": 25.3},
@@ -23,6 +37,13 @@
     },{
         "id": "11-0",
         "name": "Chun",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 108
+            }
+        },
         "recipe": [
             {"ingredient": "F4 Feldspar", "amount": 41},
             {"ingredient": "Silica", "amount": 27},
@@ -33,6 +54,13 @@
     },{
         "id": "12-0",
         "name": "Lynette's Opal",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 118
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 38},
             {"ingredient": "Silica", "amount": 25},
@@ -46,6 +74,13 @@
     },{
         "id": "13-0",
         "name": "Heino",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 120
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 57.5},
             {"ingredient": "Silica", "amount": 7.1},
@@ -56,6 +91,13 @@
     },{
         "id": "14-0",
         "name": "VC Matte Yellow",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 143
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 44.4},
             {"ingredient": "Silica", "amount": 15.6},
@@ -67,6 +109,13 @@
     },{
         "id": "15-0",
         "name": "Bright Sky Blue",
+        "source": {
+            "book": {
+                "author": "John Hesselberth & Ron Roy",
+                "title": "Mastering Cone 6 Glazes",
+                "page": 95
+            }
+        },
         "recipe": [
             {"ingredient": "G-200 Feldspar", "amount": 20},
             {"ingredient": "Silica", "amount": 18.5},
@@ -78,6 +127,13 @@
     },{
         "id": "16-0",
         "name": "Arrowmont",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 112
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 44.6},
             {"ingredient": "Silica", "amount": 13.3},
@@ -89,6 +145,13 @@
     },{
         "id": "25-0",
         "name": "June Perry Red",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 99
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 16},
             {"ingredient": "Silica", "amount": 32},
@@ -99,6 +162,13 @@
     },{
         "id": "26-0",
         "name": "Raspberry",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 99
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 18},
             {"ingredient": "Silica", "amount": 30},
@@ -109,6 +179,13 @@
     },{
         "id": "20-0",
         "name": "Bright Purple",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 125
+            }
+        },
         "recipe": [
             {"ingredient": "F4 Feldspar", "amount": 35},
             {"ingredient": "Silica", "amount": 19},
@@ -121,6 +198,13 @@
     },{
         "id": "28-0",
         "name": "Burgundy",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 99
+            }
+        },
         "recipe": [
             {"ingredient": "Custer Feldspar", "amount": 31},
             {"ingredient": "Silica", "amount": 18},
@@ -133,6 +217,13 @@
     },{
         "id": "31-0",
         "name": "Peacock",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 108
+            }
+        },
         "recipe": [
             {"ingredient": "Custer Feldspar", "amount": 38.1},
             {"ingredient": "Silica", "amount": 19},
@@ -143,6 +234,13 @@
     },{
         "id": "32-0",
         "name": "Emerald Green",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 110
+            }
+        },
         "recipe": [
             {"ingredient": "Silica", "amount": 30},
             {"ingredient": "EP Kaolin", "amount": 20},
@@ -151,6 +249,9 @@
     },{
         "id": "33-0",
         "name": "Behrens Satin Matte",
+        "source": {
+            "creator": "Richard Behrens"
+        },
         "recipe": [
             {"ingredient": "F4 Feldspar", "amount": 34.9},
             {"ingredient": "Zinc Oxide", "amount": 25.8},
@@ -161,6 +262,13 @@
     },{
         "id": "34-0",
         "name": "John's Cash Blue",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 117
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 41.1},
             {"ingredient": "Silica", "amount": 27.7},
@@ -172,6 +280,13 @@
     },{
         "id": "35-0",
         "name": "Charcoal Matte Black",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 138
+            }
+        },
         "recipe": [
             {"ingredient": "Cornwall Stone", "amount": 49.2},
             {"ingredient": "Silica", "amount": 5},
@@ -182,6 +297,13 @@
     },{
         "id": "36-0",
         "name": "Magnesium Semi-Matte",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 132
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 33.9},
             {"ingredient": "Silica", "amount": 15.9},
@@ -193,6 +315,13 @@
     },{
         "id": "37-0",
         "name": "John's Aventurine",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 149
+            }
+        },
         "recipe": [
             {"ingredient": "Ferro Frit 3110", "amount": 89},
             {"ingredient": "Lithium Carbonate", "amount": 11}
@@ -200,6 +329,13 @@
     },{
         "id": "38-0",
         "name": "Scotchie Textured",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 176
+            }
+        },
         "recipe": [
             {"ingredient": "Bone Ash", "amount": 77.3},
             {"ingredient": "F4 Feldspar", "amount": 8.6},
@@ -209,6 +345,13 @@
     },{
         "id": "39-0",
         "name": "Snowflake Crackle 4",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 74
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 86.3},
             {"ingredient": "Talc", "amount": 7.9},
@@ -217,6 +360,13 @@
     },{
         "id": "40-0",
         "name": "Sherman's Satin Matte",
+        "source": {
+            "book": {
+                "author": "Bill Jones",
+                "title": "Cone 5-6 Glazes",
+                "page": 97
+            }
+        },
         "recipe": [
             {"ingredient": "Dolomite", "amount": 10},
             {"ingredient": "Talc", "amount": 15},
@@ -228,6 +378,11 @@
     },{
         "id": "41-0",
         "name": "OldForge FirstFive Gold",
+        "source": {
+            "creator": "Joe Thompson",
+            "glazy": 145390
+            
+        },
         "recipe": [
             {"ingredient": "Manganese Dioxide", "amount": 37.5},
             {"ingredient": "Silica", "amount": 22.5},
@@ -239,6 +394,13 @@
     },{
         "id": "42-0",
         "name": "Pinnell’s Strontium Crater",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 178
+            }
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 60},
             {"ingredient": "Strontium Carbonate", "amount": 20},
@@ -249,6 +411,11 @@
     },{
         "id": "43-0",
         "name": "Gold Metallic",
+        "source": {
+            "creator": "Joe Thompson",
+            "glazy": 73611
+            
+        },
         "recipe": [
             {"ingredient": "Manganese Dioxide", "amount": 37},
             {"ingredient": "Silica", "amount": 19},
@@ -263,6 +430,11 @@
     },{
         "id": "44-0",
         "name": "Tiger Eye",
+        "source": {
+            "creator": "Sheelah Tolton",
+            "glazy": 174951
+            
+        },
         "recipe": [
             {"ingredient": "Nepheline Syenite", "amount": 35},
             {"ingredient": "Silica", "amount": 29},
@@ -274,6 +446,9 @@
     },{
         "id": "45-0",
         "name": "Chun Mod",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "recipe": [
             {"ingredient": "F4 Feldspar", "amount": 45},
             {"ingredient": "Silica", "amount": 19},

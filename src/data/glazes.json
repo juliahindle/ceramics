@@ -5,6 +5,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148348
+        },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.15}
         ]
@@ -14,6 +18,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148329
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1}
         ]
@@ -23,6 +31,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148328
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
         ]
@@ -32,6 +44,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148341
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 6}
         ]
@@ -41,6 +57,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148326
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 4}
         ]
@@ -50,6 +70,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 1.6},
             {"ingredient": "Zircopax", "amount": 4.4},
@@ -61,6 +84,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148339
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 2.5},
             {"ingredient": "Manganese Dioxide", "amount": 2.8},
@@ -72,6 +99,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148340
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 2},
             {"ingredient": "Cobalt Oxide", "amount": 0.5},
@@ -83,6 +114,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148337
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
             {"ingredient": "Chrome Oxide", "amount": 1.5}
@@ -93,6 +128,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148344
+        },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 5.2},
             {"ingredient": "Copper Oxide", "amount": 4.2}
@@ -103,6 +142,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148323
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10.1},
             {"ingredient": "Manganese Dioxide", "amount": 6.4},
@@ -114,6 +157,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Zircopax", "amount": 8}
@@ -124,6 +170,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148346
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 6},
             {"ingredient": "Titanium Dioxide", "amount": 4},
@@ -135,6 +185,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148324
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10}
         ]
@@ -144,6 +198,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148338
+        },
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 0.8},
             {"ingredient": "Tin Oxide", "amount": 2},
@@ -155,6 +213,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.5}
         ]
@@ -164,6 +225,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148347
+        },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
         ]
@@ -173,6 +238,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Red",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148322
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 20}
         ]
@@ -182,6 +251,10 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148336
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
@@ -192,6 +265,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Cobalt Carbonate", "amount": 1}
@@ -202,6 +278,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 1}
         ]
@@ -211,6 +290,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 1}
         ]
@@ -220,6 +302,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Copper Carbonate", "amount": 3}
@@ -230,6 +315,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6368", "amount": 2},
             {"ingredient": "Mason Stain 6003", "amount": 2}
@@ -240,6 +328,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 2}
         ]
@@ -249,6 +340,9 @@
         "clay": 181,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6376", "amount": 2}
         ]
@@ -258,6 +352,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
@@ -268,6 +365,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
         ]
@@ -277,6 +377,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 7.65},
             {"ingredient": "Chrome Oxide", "amount": 2.5}
@@ -287,6 +390,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75}
@@ -297,6 +403,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75},
@@ -308,6 +417,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 0.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
@@ -318,6 +430,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
@@ -328,6 +443,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.5},
             {"ingredient": "Chrome Oxide", "amount": 0.4}
@@ -338,6 +456,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
@@ -348,6 +469,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 10},
@@ -359,6 +483,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 8}
@@ -369,6 +496,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6},
             {"ingredient": "Titanium Dioxide", "amount": 8}
@@ -379,6 +509,9 @@
         "clay": 240,
         "base": "Randy's",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle & Jonny Contreras"
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 6},
             {"ingredient": "Red Iron Oxide", "amount": 5},
@@ -390,6 +523,9 @@
         "clay": 181,
         "base": "Ashley's Best",
         "color": "Purple",
+        "source": {
+            "glazy": 148292
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 4}
         ]
@@ -399,6 +535,8 @@
         "clay": 181,
         "base": "Chun",
         "color": "Clear",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -407,6 +545,9 @@
         "clay": 181,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "glazy": 148359
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
@@ -417,6 +558,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148357
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
             {"ingredient": "Chrome Oxide", "amount": 1.5}
@@ -427,6 +572,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148356
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
@@ -438,6 +587,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148358
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5},
@@ -449,6 +602,9 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6003", "amount": 2},
             {"ingredient": "Mason Stain 6368", "amount": 2}
@@ -459,6 +615,9 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6003", "amount": 2},
             {"ingredient": "Mason Stain 6368", "amount": 2},
@@ -470,6 +629,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148350
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5},
@@ -481,6 +644,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148353
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 3}
@@ -491,6 +658,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148351
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 2},
             {"ingredient": "Red Iron Oxide", "amount": 4},
@@ -502,6 +673,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148354
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
@@ -512,6 +687,9 @@
         "clay": 181,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5},
@@ -523,6 +701,9 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 2},
             {"ingredient": "Titanium Dioxide", "amount": 4}
@@ -533,6 +714,10 @@
         "clay": 181,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148355
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
@@ -545,6 +730,9 @@
         "clay": 240,
         "base": "Chun",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75}
@@ -555,6 +743,9 @@
         "clay": 240,
         "base": "Chun",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 0.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
@@ -565,6 +756,9 @@
         "clay": 240,
         "base": "Chun",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
@@ -575,6 +769,9 @@
         "clay": 240,
         "base": "Chun",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.5},
             {"ingredient": "Chrome Oxide", "amount": 0.4}
@@ -585,6 +782,9 @@
         "clay": 240,
         "base": "Chun",
         "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5}
@@ -595,6 +795,9 @@
         "clay": 181,
         "base": "Lynette's Opal",
         "color": "Pink",
+        "source": {
+            "glazy": 148298
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
@@ -605,6 +808,9 @@
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
+        "source": {
+            "glazy": 148320
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Cobalt Carbonate", "amount": 1}
@@ -615,6 +821,9 @@
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
+        "source": {
+            "glazy": 148313
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
         ]
@@ -624,6 +833,9 @@
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Rutile", "amount": 2}
@@ -634,6 +846,10 @@
         "clay": 181,
         "base": "Heino",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148312
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Cobalt Carbonate", "amount": 1},
@@ -645,6 +861,10 @@
         "clay": 240,
         "base": "Heino",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 255662
+        },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
         ]
@@ -654,6 +874,9 @@
         "clay": 240,
         "base": "Heino",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
@@ -664,6 +887,9 @@
         "clay": 240,
         "base": "Heino",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 2},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -675,6 +901,9 @@
         "clay": 240,
         "base": "Heino",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -686,6 +915,8 @@
         "clay": 181,
         "base": "VC Matte Yellow",
         "color": "Yellow",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 8}
@@ -696,6 +927,9 @@
         "clay": 181,
         "base": "Bright Sky Blue",
         "color": "Blue",
+        "source": {
+            "glazy": 148272
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 0.5},
             {"ingredient": "Rutile", "amount": 6},
@@ -707,6 +941,9 @@
         "clay": 181,
         "base": "Arrowmont",
         "color": "Green",
+        "source": {
+            "glazy": 148296
+        },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
@@ -717,6 +954,9 @@
         "clay": 181,
         "base": "Bright Purple",
         "color": "Purple",
+        "source": {
+            "glazy": 148289
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
         ]
@@ -726,6 +966,8 @@
         "clay": 181,
         "base": "June Perry Red",
         "color": "Red",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.15}
@@ -736,6 +978,8 @@
         "clay": 181,
         "base": "Raspberry",
         "color": "Clear",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -744,6 +988,8 @@
         "clay": 181,
         "base": "Raspberry",
         "color": "Red",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
@@ -754,6 +1000,9 @@
         "clay": 181,
         "base": "Raspberry",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2},
@@ -765,6 +1014,9 @@
         "clay": 181,
         "base": "Raspberry",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2},
@@ -776,6 +1028,9 @@
         "clay": 240,
         "base": "Raspberry",
         "color": "Red",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 8},
             {"ingredient": "Chrome Oxide", "amount": 0.1}
@@ -786,6 +1041,9 @@
         "clay": 240,
         "base": "Raspberry",
         "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Rutile", "amount": 1.5}
@@ -796,6 +1054,9 @@
         "clay": 181,
         "base": "Burgundy",
         "color": "Red",
+        "source": {
+            "glazy": 148301
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
@@ -806,6 +1067,9 @@
         "clay": 240,
         "base": "Burgundy",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
@@ -818,6 +1082,9 @@
         "clay": 240,
         "base": "Burgundy",
         "color": "Red",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 8},
             {"ingredient": "Chrome Oxide", "amount": 0.1}
@@ -828,6 +1095,9 @@
         "clay": 240,
         "base": "Burgundy",
         "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Rutile", "amount": 1.5}
@@ -838,6 +1108,8 @@
         "clay": 181,
         "base": "Peacock",
         "color": "Blue",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 1},
             {"ingredient": "Cobalt Carboante", "amount": 1},
@@ -849,6 +1121,8 @@
         "clay": 181,
         "base": "Emerald Green",
         "color": "Blue",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 2},
             {"ingredient": "Cobalt Carboante", "amount": 5}
@@ -859,6 +1133,9 @@
         "clay": 181,
         "base": "Behrens Satin Matte",
         "color": "White",
+        "source": {
+            "glazy": 148307
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5}
         ]
@@ -868,6 +1145,10 @@
         "clay": 181,
         "base": "Behrens Satin Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148309
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Copper Carbonate", "amount": 2}
@@ -878,6 +1159,10 @@
         "clay": 181,
         "base": "Behrens Satin Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle",
+            "glazy": 148310
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
@@ -888,6 +1173,9 @@
         "clay": 240,
         "base": "Behrens Satin Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
@@ -899,6 +1187,9 @@
         "clay": 240,
         "base": "Behrens Satin Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Mason Stain 6650", "amount": 4}
@@ -909,6 +1200,8 @@
         "clay": 181,
         "base": "John's Cash Blue",
         "color": "Blue",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Rutile", "amount": 4}
@@ -919,6 +1212,9 @@
         "clay": 240,
         "base": "Charcoal Matte Black",
         "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
         ]
     },{
@@ -927,6 +1223,8 @@
         "clay": 240,
         "base": "Charcoal Matte Black",
         "color": "Tan/Brown",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 6.7},
             {"ingredient": "Cobalt Oxide", "amount": 1.3}
@@ -937,6 +1235,9 @@
         "clay": 240,
         "base": "Charcoal Matte Black",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
@@ -947,6 +1248,8 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "White",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -955,6 +1258,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
@@ -965,6 +1271,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
         ]
@@ -974,6 +1283,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
@@ -984,6 +1296,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
         ]
@@ -993,6 +1308,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 2}
         ]
@@ -1002,6 +1320,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
@@ -1012,6 +1333,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
         ]
@@ -1021,6 +1345,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
@@ -1031,6 +1358,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 6}
@@ -1041,6 +1371,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 1}
@@ -1051,6 +1384,9 @@
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
@@ -1061,6 +1397,8 @@
         "clay": 240,
         "base": "John's Aventurine",
         "color": "Tan/Brown",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 67}
         ]
@@ -1070,6 +1408,8 @@
         "clay": 240,
         "base": "John's Aventurine",
         "color": "Tan/Brown",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 81}
         ]
@@ -1079,6 +1419,8 @@
         "clay": 240,
         "base": "Scotchie Textured",
         "color": "White",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -1087,6 +1429,9 @@
         "clay": 240,
         "base": "Scotchie Textured",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 2}
         ]
@@ -1096,6 +1441,8 @@
         "clay": 240,
         "base": "Snowflake Crackle 4",
         "color": "Clear",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -1104,6 +1451,8 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "White",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -1112,6 +1461,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
         ]
@@ -1121,6 +1473,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
@@ -1131,6 +1486,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
         ]
@@ -1140,6 +1498,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
@@ -1150,6 +1511,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 2}
         ]
@@ -1159,6 +1523,9 @@
         "clay": 181,
         "base": "Sherman's Satin Matte",
         "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
@@ -1169,6 +1536,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
         ]
@@ -1178,6 +1548,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
@@ -1188,6 +1561,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5}
@@ -1198,6 +1574,9 @@
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 1}
@@ -1208,6 +1587,9 @@
         "clay": 240, 
         "base": "Sherman's Satin Matte",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
@@ -1218,6 +1600,8 @@
         "clay": 630,
         "base": "OldForge FirstFive Gold",
         "color": "Tan/Brown",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -1226,6 +1610,9 @@
         "clay": 630,
         "base": "OldForge FirstFive Gold",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 8}
@@ -1236,6 +1623,8 @@
         "clay": 240,
         "base": "Pinnell’s Strontium Crater",
         "color": "Green",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5},
@@ -1248,6 +1637,9 @@
         "clay": 240,
         "base": "Pinnell’s Strontium Crater",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5},
@@ -1259,6 +1651,8 @@
         "clay": 630,
         "base": "Gold Metallic",
         "color": "Yellow",
+        "source": {
+        },
         "additives": [
         ]
     },{
@@ -1267,24 +1661,31 @@
         "clay": 630,
         "base": "Gold Metallic",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 4.5}
         ]
     },{
         "id": "44-0",
-        "name": "Tiger Eye (Original)",
+        "name": "Tiger Eye Base",
         "clay": 240,
         "base": "Tiger Eye",
         "color": "White",
+        "source": {
+        },
         "additives": [
         ]
     },{
         "id": "44-1",
-        "name": "JH Hazelnut Coffee",
+        "name": "Tiger Eye (Original)",
         "clay": 240,
         "base": "Tiger Eye",
         "color": "Tan/Brown",
+        "source": {
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10.15}
         ]
@@ -1294,6 +1695,9 @@
         "clay": 240,
         "base": "Tiger Eye",
         "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Copper Oxide", "amount": 7}
@@ -1304,6 +1708,9 @@
         "clay": 240,
         "base": "Chun Mod",
         "color": "Clear",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
         ]
     },{
@@ -1312,6 +1719,9 @@
         "clay": 240,
         "base": "Chun Mod",
         "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
@@ -1322,6 +1732,9 @@
         "clay": 240,
         "base": "Chun Mod",
         "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
         "additives": [
             {"ingredient": "Rutile", "amount": 3.7},
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
