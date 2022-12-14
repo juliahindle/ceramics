@@ -1,6 +1,12 @@
 @import 'common';
 
+html,
+#root {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
 }
 
@@ -9,7 +15,7 @@ main {
   position: relative;
   top: var(--header);
   width: 100%;
-  height: calc(100vh - var(--header));
+  height: calc(100% - var(--header));
   overflow-x: hidden;
 }
 

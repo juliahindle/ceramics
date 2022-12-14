@@ -56,7 +56,7 @@ hr {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: calc(100vh - var(--header));
+  height: calc(100% - var(--header));
   padding: 30px;
   color: $j-teal;
   font-size: 40px;
