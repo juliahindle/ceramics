@@ -3,9 +3,17 @@ import { useState, useEffect } from 'react'
 import { resetScroll, updatePageTitle } from 'Constants'
 
 function Pottery() {
-    const PHOTO_PATH = "images/pottery/"
     const [numColumns, setNumColumns] = useState(3)
     const [photoColumns, setPhotoColumns] = useState([[], [], []])
+    
+    const importAll = (r) => {
+        return r.keys().map(r)
+    } 
+    const photos = {
+        "1x": importAll(require.context('../../../public/images/pottery/1x', false, /\.jpg$/)),
+        "2x": importAll(require.context('../../../public/images/pottery/2x', false, /\.jpg$/)),
+        "3x": importAll(require.context('../../../public/images/pottery/3x', false, /\.jpg$/))
+    }
     
     useEffect(() => {
         updatePageTitle("Pottery")
@@ -24,12 +32,12 @@ function Pottery() {
 
     useEffect(() => {
         let newColumns = Array.from(Array(numColumns), () => [])
-        for (var i = 1; i <= 34; i++) {
-            newColumns[(i-1) % numColumns].push(<img 
-                src={`${PHOTO_PATH}3x/${i}.jpg`} 
-                srcSet={`${PHOTO_PATH}3x/${i}.jpg 3x,${PHOTO_PATH}2x/${i}.jpg 2x,${PHOTO_PATH}1x/${i}.jpg 1x`} 
-                key={i} 
-                alt={"pottery photo " + i}
+        for (var i = 0; i < photos["1x"].length; i++) {
+            newColumns[i % numColumns].push(<img 
+                src={photos["3x"][i]}
+                srcSet={`${photos["3x"][i]} 3x,${photos["2x"][i]} 2x,${photos["1x"][i]} 1x`}
+                key={photos["3x"][i] + i} 
+                alt={"pottery photo " + (i + 1)}
             ></img>)
         
         }
