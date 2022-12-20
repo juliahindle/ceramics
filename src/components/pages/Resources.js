@@ -30,7 +30,6 @@ function Resources() {
                         </Link>
                     </div>
                 )}
-                <p className="more">More coming soon!</p>
             </div>
         </section>
     )

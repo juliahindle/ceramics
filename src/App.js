@@ -12,6 +12,7 @@ import About from 'components/pages/About'
 import Resources from 'components/pages/Resources'
 import Glazes from 'components/pages/Glazes'
 import Pottery from 'components/pages/Pottery'
+import DigitizingYourGlazeNotes from 'components/pages/resources/DigitizingYourGlazeNotes'
 import PeriodicTableForPotters from 'components/pages/resources/PeriodicTableForPotters'
 import GlazeResearchDocument from 'components/pages/resources/GlazeResearchDocument'
 import InProgress from 'components/pages/InProgress'
@@ -64,6 +65,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/pottery" element={<Pottery />} />
                     <Route path="/resources" element={<Resources />} />
+                    <Route path="/digitizing-your-glaze-notes" element={<DigitizingYourGlazeNotes />} />
                     <Route path="/periodic-table-for-potters" element={<PeriodicTableForPotters />} />
                     <Route path="/2019-2021-glaze-research-document" element={<GlazeResearchDocument />} />
                     <Route path="/in-progress" element={<InProgress />} />

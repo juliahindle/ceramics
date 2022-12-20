@@ -21,8 +21,8 @@ $j-light-opacity: .4;
 $j-dark-opacity: .7;
 
 // Cursors
-$j-default: url('../../public/cursors/default.svg');
-$j-pointer: url('../../public/cursors/pointer.svg');
+$j-default: url('../../public/svgs/default.svg');
+$j-pointer: url('../../public/svgs/pointer.svg');
 
 // Sizes
 :root {
@@ -64,3 +64,53 @@ hr {
   box-sizing: border-box;
 }
 
+// Resource
+section.resource {
+  width: 100%;
+  padding: 10px 40px 40px;
+
+  div.description {
+    padding-bottom: 60px;
+    box-sizing: border-box;
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 40px;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+}
+
+// Button
+.button {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 10px 17px;
+  transition: scale .2s, background-color .2s, border-color .2s;
+  border: 1.5px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  scale: 1;
+
+  @media (hover: hover) {
+    &:hover {
+      border-color: #dfad22;
+      background-color: $j-yellow;
+      scale: 1.06;
+    }
+  }
+
+  img {
+    width: 14px;
+    margin-right: 5px;
+  }
+}

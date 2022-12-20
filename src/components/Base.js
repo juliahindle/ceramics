@@ -26,7 +26,7 @@ function Base({showSidebar}) {
                         </li>
                     </ul>
                     <a className="email" href="mailto: julia.hindle+ceramics@gmail.com">
-                        <img src="cursors/mail.svg" title="e-mail me" alt="e-mail icon"></img>
+                        <img src="svgs/mail.svg" title="e-mail me" alt="e-mail icon"></img>
                     </a>
                 </nav>
             </header>

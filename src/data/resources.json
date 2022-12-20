@@ -1,5 +1,10 @@
 [
     {
+        "title": "Digitizing Your Glaze Notes",
+        "description": "A walk-through of how I use Google Sheets to track all of my glaze work.",
+        "dateAdded": "TBD",
+        "url": "digitizing-your-glaze-notes"
+    },{
         "title": "Periodic Table for Potters",
         "description": "See where important elements for glazes fall on the periodic table and how we can categorize them.",
         "dateAdded": "8/22/22",
@@ -7,7 +12,7 @@
     },{
         "title": "2019-2021 Glaze Research Document",
         "description": "This document showcases my favorite glazes I developed and used while in college.",
-        "dateAdded": "5/18/22",
+        "dateAdded": "5/18/21",
         "url": "2019-2021-glaze-research-document"
     },{
         "title": "Glaze Additive Combo Generator",
@@ -20,12 +25,6 @@
         "description": "See helpful visuals and explanations of the different chemiical components in base glazes.",
         "dateAdded": "TBD",
         "url": "base-glaze-chemistry-rundown",
-        "status": "inactive"
-    },{
-        "title": "Organizing Glaze Notes",
-        "description": "A walk-through of how I use Google Sheets to track all of my glaze work.",
-        "dateAdded": "TBD",
-        "url": "organizing-glaze-notes",
         "status": "inactive"
     }
 ]
