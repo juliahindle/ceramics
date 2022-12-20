@@ -67,7 +67,7 @@ function DigitizingYourGlazeNotes() {
                         <li>
                             <h3>1.&nbsp;&nbsp;Glaze Log</h3>
                             <div className="section">
-                                <img src="images/resources/digitizing-your-glaze-notes/glaze-log.PNG" alt="glaze log"></img>
+                                <img src="images/resources/digitizing-your-glaze-notes/glaze-log.png" alt="glaze log"></img>
                                 <p>
                                     I use my glaze log to keep track of what glazes I mixed up, when, and anything else worth noting.
                                     I mix large batches of my base glazes up in powder form and store them dry to then use in future glaze tests, so I note on this sheet whether it was a dry or wet batch that I made. 
@@ -78,14 +78,14 @@ function DigitizingYourGlazeNotes() {
                         <li>
                             <h3>2.&nbsp;&nbsp;Firing Log</h3>
                             <div className="section">
-                                <img src="images/resources/digitizing-your-glaze-notes/firing-log.PNG" alt="firing log"></img>
+                                <img src="images/resources/digitizing-your-glaze-notes/firing-log.png" alt="firing log"></img>
                                 <p> Similar to the glaze log, I add a new row to my firing log every time I fire my kiln and note the date, cone, and generally note what kind of stuff was in the kiln and if anything notable happened.</p>
                             </div>
                         </li>
                         <li>
                             <h3>3.&nbsp;&nbsp;Firing Schedules</h3>
                             <div className="section">
-                                <img src="images/resources/digitizing-your-glaze-notes/firing-schedules.PNG" alt="firing schedules"></img>
+                                <img src="images/resources/digitizing-your-glaze-notes/firing-schedules.png" alt="firing schedules"></img>
                                 <p>
                                     When I got a manual kiln, I realized I needed a place to keep track of firing schedules I’d tried and thought it would be helpful to see it in chart form as well. 
                                     I'll note that <a href="https://glazy.org/kilnschedules" target="_blank" rel="noreferrer">Glazy</a> has a good feature for keeping track of kiln schedules as well, I just prefer to keep mine with my other notes.
@@ -96,7 +96,7 @@ function DigitizingYourGlazeNotes() {
                         <li>
                             <h3>4.&nbsp;&nbsp;Recipes</h3>
                             <div className="section">
-                                <img src="images/resources/digitizing-your-glaze-notes/recipes.PNG" alt="recipes"></img>
+                                <img src="images/resources/digitizing-your-glaze-notes/recipes.png" alt="recipes"></img>
                                 <p>
                                     Each base glaze gets its own recipe sheet.
                                     This image is an example of my sheet for a Chun base.

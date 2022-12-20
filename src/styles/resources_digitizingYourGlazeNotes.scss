@@ -51,7 +51,8 @@ section.digitizing-your-glaze-notes {
             img {
               width: 40%;
               max-width: 700px;
-              height: fit-content;
+              min-width: 40%;
+              height: auto;
               padding-right: 40px;
             }
 
