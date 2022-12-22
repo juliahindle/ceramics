@@ -115,7 +115,7 @@ function DigitizingYourGlazeNotes() {
                     </ol>
                 </div>
                 <p>
-                    If you have any follow up questions, feel free to reach out via <a className="email" href="mailto: julia.hindle+ceramics@gmail.com">E-Mail</a>.
+                    If you have any follow up questions, feel free to reach out via <a className="email" href="mailto: julia.hindle+ceramics@gmail.com">e-mail</a>.
                 </p>
             </div>
         </section>

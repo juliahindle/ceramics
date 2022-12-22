@@ -43,11 +43,24 @@ $j-pointer: url('../../public/svgs/pointer.svg');
 
 ///////////////////////// Styles /////////////////////////////
 
+// Cursor
+a {
+  cursor: $j-pointer, pointer;
+}
+
+a.button,
+button,
+label {
+  cursor: $j-default, default;
+}
+
 // Horizontal line
 hr {
   width: 100%;
+  height: 3px;
   margin: 0;
-  border: 1.5px solid $j-yellow;
+  border: unset;
+  background: $j-yellow;
 }
 
 // In Progress (Temporary)

@@ -3,6 +3,7 @@
 html,
 #root {
   height: 100%;
+  cursor: $j-default, auto;
 }
 
 body {
@@ -22,7 +23,6 @@ main {
 * {
   font-family: $j-neue;
   letter-spacing: .6px;
-  cursor: $j-default, auto;
 }
 
 //////////////////////// header ////////////////////////

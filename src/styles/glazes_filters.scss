@@ -152,7 +152,7 @@ div.filters {
   width: 100%;
   padding: 0 17px;
   font-size: 15px;
-  overflow-x: scroll;
+  overflow-x: hidden;
   mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
   -webkit-mask-image: linear-gradient(to right, transparent, #000 17px, #000 80%, transparent 100%);
 

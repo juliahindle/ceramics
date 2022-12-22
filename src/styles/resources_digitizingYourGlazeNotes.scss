@@ -50,10 +50,11 @@ section.digitizing-your-glaze-notes {
 
             img {
               width: 40%;
-              max-width: 700px;
               min-width: 40%;
+              max-width: 700px;
               height: auto;
-              padding-right: 40px;
+              margin-right: 40px;
+              box-shadow: 0 0 15px rgb(#000, 15%);
             }
 
             p {
