@@ -5,6 +5,10 @@ section.home {
   flex-direction: row;
   align-items: center;
   width: 100vw;
+  background-image: url("../../public/images/home/IMG_0850.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
   div {
     flex: auto;
