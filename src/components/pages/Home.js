@@ -12,6 +12,7 @@ function Home() {
 
     return (
         <section className="home">
+            <div className="filter"></div>
             <div className="image teapot">
                 <img 
                     className="icon filled teapot"
