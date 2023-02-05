@@ -176,6 +176,11 @@ section.home {
 
       &.content {
         width: 100%;
+
+        ul li a {
+          background-color: $j-blue;
+          color: #fff;
+        }
       }
     }
   }
@@ -201,8 +206,6 @@ section.home {
       a {
         width: 80vw;
         margin: auto;
-        background-color: $j-blue;
-        color: #fff;
       }
     }
   }
