@@ -102,7 +102,7 @@ section.home {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 540px;
+        width: 560px;
         padding: unset;
         z-index: 1;
 
@@ -116,6 +116,7 @@ section.home {
             padding: 5px 0;
             transition: letter-spacing .5s, scale .5s, background-color .2s;
             transition-timing-function: ease;
+            border: 3px solid white;
             border-radius: 30px;
             background-color: $j-yellow;
             color: inherit;
@@ -127,7 +128,7 @@ section.home {
             text-decoration: unset;
             text-underline-offset: 8px;
             scale: 1;
-            box-shadow: 0 0 20px rgba(#fff, .7);
+            box-shadow: 0 0 20px rgba(#000, .3);
 
             @media (hover: hover) {
               &:hover {
@@ -183,7 +184,7 @@ section.home {
 @media only screen and (max-width: 800px) {
   section.home div.content h1 {
     width: 100vw;
-    font-size: 14vw;
+    font-size: 16vw;
     line-height: 15vw;
   }
 }
@@ -200,6 +201,8 @@ section.home {
       a {
         width: 80vw;
         margin: auto;
+        background-color: $j-blue;
+        color: #fff;
       }
     }
   }
