@@ -19,12 +19,41 @@ section.pottery {
       flex: 1;
       flex-direction: column;
 
-      img {
+      div {
         width: 94%;
         height: auto;
         margin: 3%;
-        border-radius: 25px;
-    }
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 25px;
+          display: block;
+          transition: scale 0.4s;
+          scale: 1;
+
+          &:hover {
+            cursor: $j-pointer, pointer;
+            scale: 1.02;
+          }
+        }
+
+        p {
+          overflow: hidden;
+          transition: font-size .25s,
+                      margin .25s,
+                      opacity .5s .25s;
+          
+          &.disabled {
+            font-size: 0;
+            margin: 0;
+            opacity: 0;
+            transition: opacity .25s,
+                        font-size .5s .25s,
+                        margin .5s .25s;
+          }
+        }
+      }
     }
   }
 }
