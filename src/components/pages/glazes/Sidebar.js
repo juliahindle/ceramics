@@ -45,6 +45,10 @@ function Sidebar({closeSidebar}) {
         return markup
     }
 
+    const getPhotoPath = (id, size) => {
+        return `images/glazes/${size}/${id}.png`
+    }
+
     return (
         <aside className="sidebar">
             <div className="container">
@@ -55,7 +59,15 @@ function Sidebar({closeSidebar}) {
                     onClick={closeSidebar}>
                     x
                 </button>
-                <img src={`images/glazes/2x/${selectedGlaze.glaze.id}.png`} alt={`glaze with id: ${selectedGlaze.glaze.id}`}/> 
+                <img 
+                    src={getPhotoPath(selectedGlaze.glaze.id, "4x")}
+                    srcSet={
+                        `${getPhotoPath(selectedGlaze.glaze.id, "4x")} 4x,` + 
+                        `${getPhotoPath(selectedGlaze.glaze.id, "3x")} 3x,` + 
+                        `${getPhotoPath(selectedGlaze.glaze.id, "2x")} 2x`
+                    }
+                    alt={`glaze with id: ${selectedGlaze.glaze.id}`}
+                /> 
                 {selectedGlaze.glaze.name && <p className="name">{selectedGlaze.glaze.name}</p>}
 
                 <h2>Recipe</h2>

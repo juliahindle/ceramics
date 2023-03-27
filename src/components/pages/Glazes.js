@@ -3,7 +3,7 @@ import React, { useState, useContext, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import glazes from 'data/glazes.json'
 import bases from 'data/bases.json'
-import { BLANK_GLAZE, GlazesContext, updatePageTitle, resetScroll, setScroll } from 'Constants'
+import { BLANK_GLAZE, GlazesContext, updatePageTitle, resetScroll, setScroll, getGlazePhotoPath } from 'Constants'
 import AddFilter from 'components/pages/glazes/AddFilter'
 import Sidebar from 'components/pages/glazes/Sidebar'
 
@@ -91,6 +91,8 @@ function Glazes() {
         }
     }
 
+    
+
     return (<>
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
@@ -113,7 +115,12 @@ function Glazes() {
                         <img
                             id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                             className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
-                            src={`images/glazes/2x/${glaze.id}.png`} 
+                            src={getGlazePhotoPath(glaze.id, "4x")}
+                            srcSet={
+                                `${getGlazePhotoPath(glaze.id, "4x")} 3x,` + 
+                                `${getGlazePhotoPath(glaze.id, "3x")} 2x,` + 
+                                `${getGlazePhotoPath(glaze.id, "2x")} 1x`
+                            }
                             alt={`glaze with id: ${glaze.id}`}
                         />
                     </button>

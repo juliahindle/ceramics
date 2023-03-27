@@ -31,3 +31,11 @@ const isInViewport = (element) => {
 export const resetScroll = () => {
     document.getElementById("main").scrollTop = 0
 }
+
+export const getGlazePhotoPath = (id, size) => {
+    return `images/glazes/${size}/${id}.png`
+}
+
+export const getPotteryPhotoPath = (id, size) => {
+    return `images/pottery/${size}/${id}.jpg`
+}

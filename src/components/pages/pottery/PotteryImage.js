@@ -1,23 +1,20 @@
-import { useState, useEffect }from 'react'
-// import parse from "html-react-parser"
+import { useState }from 'react'
 import { Link } from 'react-router-dom'
 import glazes from 'data/glazes.json'
+import { getPotteryPhotoPath } from 'Constants'
 
 function PotteryImage({pot}) {
     const [descriptionToggle, setDescriptionToggle] = useState(false)
 
-    const getPhotoPath = (id, size) => {
-        return `images/pottery/${size}/${id}.jpg`
-    }
-
     return (
         <div>
             <img 
-                src={getPhotoPath(pot.id, "3x")}
+                src={getPotteryPhotoPath(pot.id, "4x")}
                 srcSet={
-                    `${getPhotoPath(pot.id, "3x")} 3x,` + 
-                    `${getPhotoPath(pot.id, "2x")} 2x,` + 
-                    `${getPhotoPath(pot.id, "1x")} 1x`
+                    `${getPotteryPhotoPath(pot.id, "4x")} 4x,` + 
+                    `${getPotteryPhotoPath(pot.id, "3x")} 3x,` + 
+                    `${getPotteryPhotoPath(pot.id, "2x")} 2x,` + 
+                    `${getPotteryPhotoPath(pot.id, "1x")} 1x`
                 }
                 alt={"pottery photo " + pot.id}
                 onClick={() => setDescriptionToggle(prev => !prev)}
