@@ -142,6 +142,10 @@ section.glazes div.text-container button.filters {
       }
     }
   }
+
+  button.done {
+    display: none;
+  }
 }
 
 //////////////////////// bubbles ////////////////////////
@@ -238,16 +242,36 @@ div.filters {
 
 //////////////////////// media queries ////////////////////////
 
+@media only screen and (max-width: 800px) {
+  section.glazes div.text-container div.filters {
+    display: none;
+  }
+}
+
+
 @media only screen and (max-width: 700px) {
-  section.glazes div.text-container {
-    button.filters.enabled {
+  section.glazes div.text-container button.filters {
+    &.enabled {
       width: 100%;
       min-width: 100%;
       max-height: 65vh !important;
+
+      button.done {
+        background-color: $j-blue;
+        color: #fff;
+      }
     }
 
-    div.filters {
-      display: none;
+    button.done {
+      display: inline-block;
+      width: 100%;
+      height: 40px;
+      min-height: 40px;
+      border: none;
+      background-color: $j-gray;
+      color: $j-gray;
+      cursor: $j-pointer, pointer;
+      transition: background-color 1.5s ease, color 1.5s ease;
     }
   }
 }

@@ -145,6 +145,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
                     />
                 </FilterCategoriesContext.Provider>
             </form>
+            <button className="done">Done</button>
         </button>
         {/* Applied filters */}
         <div className="filters">{getCurrentFilters()}</div>
