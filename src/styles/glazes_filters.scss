@@ -20,6 +20,7 @@ section.glazes div.text-container button.filters {
   font-size: 18px;
   overflow: hidden;
   z-index: 1;
+  color: #000;
 
   &.enabled {
     width: 340px;
@@ -272,6 +273,7 @@ div.filters {
       color: $j-gray;
       cursor: $j-pointer, pointer;
       transition: background-color 1.5s ease, color 1.5s ease;
+      font-size: 16px;
     }
   }
 }
