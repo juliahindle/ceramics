@@ -7,6 +7,7 @@ $j-pink: #e18dac;
 $j-yellow: #f9cc50;
 $j-red: #d33f49;
 $j-plum: #a4026f;
+$j-purple: #523b7f;
 $j-gray: #f3f3f3;
 
 $j-pink-darker: #e086a7;
@@ -104,7 +105,7 @@ section.resource {
   display: inline-block;
   margin: 5px 0;
   padding: 10px 17px;
-  transition: scale .2s, background-color .2s, border-color .2s;
+  transition: scale .2s, background-color .2s, border-color .2s, box-shadow .2s;
   border: 1.5px solid #000;
   border-radius: 30px;
   background-color: #fff;
@@ -113,6 +114,7 @@ section.resource {
   text-align: center;
   text-decoration: none;
   scale: 1;
+  box-shadow: 0 0 0 #000;
 
   @media (hover: hover) {
     &:hover {
