@@ -82,6 +82,11 @@ hr {
 section.resource {
   width: 100%;
   padding: 10px 40px 40px;
+  
+  @media only screen and (max-width: 600px) {
+    padding: 10px 30px 30px;
+  }
+  
 
   div.description {
     padding-bottom: 60px;

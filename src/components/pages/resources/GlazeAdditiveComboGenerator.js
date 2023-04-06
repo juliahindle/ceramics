@@ -150,26 +150,28 @@ function GlazeAdditiveComboGenerator() {
                 <div className="column result">
                     <h2>2. See your results:</h2>
                     <div className="container">
-                        {results.map((recipe, rIndex) => <>
-                            <h3>Combo #{rIndex+1}</h3>
-                            <table key={rIndex+recipe}>
-                                <thead>
-                                    <th className="material">Material Name</th>
-                                    <th className="maximum">Amount</th>
-                                </thead>
-                                <tbody>
-                                    {
-                                        recipe.map((material, mIndex) => {
-                                            return(
-                                            <tr key={mIndex+material}>
-                                                <td className="material">{material.name}</td>
-                                                <td className="maximum">{material.amount}</td>
-                                            </tr>)
-                                        })
-                                    }
-                                </tbody>
-                            </table>
-                        </>)}
+                            {results.map((recipe, rIndex) => <>
+                                <fieldset>
+                                    <legend>Combo #{rIndex+1}</legend>
+                                    <table>
+                                        <thead>
+                                            <th className="material">Material Name</th>
+                                            <th className="maximum">Amount</th>
+                                        </thead>
+                                        <tbody>
+                                            {
+                                                recipe.map((material, mIndex) => {
+                                                    return(
+                                                    <tr key={mIndex+material}>
+                                                        <td className="material"><span title={material.name}>{material.name}</span></td>
+                                                        <td className="maximum">{material.amount}</td>
+                                                    </tr>)
+                                                })
+                                            }
+                                        </tbody>
+                                    </table>
+                                </fieldset>
+                            </>)}
                     </div>
                 </div>
             </div>
