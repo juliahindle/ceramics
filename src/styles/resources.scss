@@ -12,70 +12,66 @@ section.resources {
     div.parent {
       box-sizing: border-box;
       width: calc(100% / 3);
-      display: flex;
+      padding: 25px;
 
-      div.content {
-        display: table;
-        position: relative;
-        transition: scale .5s;
-        border-width: 3px;
-        border-style: solid;
-        border-radius: 23px;
-        box-shadow: 0 0 15px rgb(#000, 15%);
-        margin: 25px;
-        height: -webkit-fill-available;
-        box-sizing: border-box;
+      a {
+        text-decoration: none;
 
-        &.index-0 {
-          border-color: $j-teal;
-          background-color: $j-teal;
-          box-shadow: 10px 10px rgba($j-teal, .7);
-        }
-
-        &.index-1 {
-          border-color: $j-blue;
-          background-color: $j-blue;
-          box-shadow: 10px 10px rgba($j-blue, .7);
-        }
-
-        &.index-2 {
-          border-color: $j-purple;
-          background-color: $j-purple;
-          box-shadow: 10px 10px rgba($j-purple, .7);
-        }
-
-        &.index-3 {
-          border-color: $j-plum;
-          background-color: $j-plum;
-          box-shadow: 10px 10px rgba($j-plum, .7);
-        }
-
-        &.index-4 {
-          border-color: $j-red;
-          background-color: $j-red;
-          box-shadow: 10px 10px rgba($j-red, .7);
-        }
-        
-        &.index-5 {
-          border-color: $j-pink-darker;
-          background-color: $j-pink-darker;
-          box-shadow: 10px 10px rgba($j-pink-darker, .7);
-        }
-
-        @media (hover: hover) {
-          &:hover {
-            cursor: $j-pointer, pointer;
-            scale: 1.02;
-          }
-        }
-
-        a {
-          width: 100%;
-          text-decoration: none;
+        div.content {
+          position: relative;
+          transition: scale 0.5s;
+          border-width: 3px;
+          border-style: solid;
+          border-radius: 23px;
+          box-sizing: border-box;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          text-decoration: none;
           height: 100%;
+
+          &.index-0 {
+            border-color: $j-teal;
+            background-color: $j-teal;
+            box-shadow: 10px 10px rgba($j-teal, .7);
+          }
+
+          &.index-1 {
+            border-color: $j-blue;
+            background-color: $j-blue;
+            box-shadow: 10px 10px rgba($j-blue, .7);
+          }
+
+          &.index-2 {
+            border-color: $j-purple;
+            background-color: $j-purple;
+            box-shadow: 10px 10px rgba($j-purple, .7);
+          }
+
+          &.index-3 {
+            border-color: $j-plum;
+            background-color: $j-plum;
+            box-shadow: 10px 10px rgba($j-plum, .7);
+          }
+
+          &.index-4 {
+            border-color: $j-red;
+            background-color: $j-red;
+            box-shadow: 10px 10px rgba($j-red, .7);
+          }
+          
+          &.index-5 {
+            border-color: $j-pink-darker;
+            background-color: $j-pink-darker;
+            box-shadow: 10px 10px rgba($j-pink-darker, .7);
+          }
+
+          @media (hover: hover) {
+            &:hover {
+              cursor: $j-pointer, pointer;
+              scale: 1.02;
+            }
+          }
 
           div {
             cursor: $j-pointer, pointer;
@@ -89,7 +85,7 @@ section.resources {
               margin: 25px;
               color: #fff;
               box-sizing: border-box;
-              height: -webkit-fill-available;
+              height: 100%;
               position: relative;
 
               h2 {
@@ -151,23 +147,18 @@ section.resources {
     padding: 3%;
 
     div.parent  {
-      div.content {
-        margin: 20px 15px;
-      
+      a div.content div.text {
+        hr {
+          display: none;
+        }
 
-        a div.text {
-          hr {
-            display: none;
-          }
-
-          p {
+        p {
           &.description {
             display: none;
           }
 
-            &.date {
-              position: unset;
-            }
+          &.date {
+            position: unset;
           }
         }
       }

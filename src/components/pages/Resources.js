@@ -17,8 +17,8 @@ function Resources() {
                 {resources.map((resource, index) => 
                     resource.status !== "inactive" &&
                     <div className='parent'>
-                        <div className={"content index-" + index%6}>
-                            <Link to={"/" + resource.url}>
+                        <Link to={"/" + resource.url}>
+                            <div className={"content index-" + index%6}>
                                 <div className="text">
                                     <h2>{resource.title}</h2>
                                     <hr></hr>
@@ -28,8 +28,8 @@ function Resources() {
                                 <div className="image">
                                     <img src={`images/resources/previews/${resource.url}.png`} alt="resource"/>
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                     </div>
                 )}
             </div>
