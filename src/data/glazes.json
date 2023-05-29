@@ -426,7 +426,7 @@
         ]
     },{
         "id": "1-44",
-        "name": "JH Embers",
+        "name": "JH Silt",
         "clay": 240,
         "base": "Randy's",
         "color": "Tan/Brown",
@@ -516,6 +516,71 @@
             {"ingredient": "Copper Carbonate", "amount": 6},
             {"ingredient": "Red Iron Oxide", "amount": 5},
             {"ingredient": "Zircopax", "amount": 1}
+        ]
+    },{
+        "id": "1-51",
+        "name": "JH Persea",
+        "clay": 240,
+        "base": "Randy's",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
+        "id": "1-52",
+        "name": "JH Sidewalk",
+        "clay": 240,
+        "base": "Randy's",
+        "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Rutile", "amount": 4},
+            {"ingredient": "Titanium Dioxide", "amount": 8},
+            {"ingredient": "Red Iron Oxide", "amount": 7}
+        ]
+    },{
+        "id": "1-53",
+        "name": "JH Gold Rush",
+        "clay": 240,
+        "base": "Randy's",
+        "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Titanium Dioxide", "amount": 6},
+            {"ingredient": "Red Iron Oxide", "amount": 10}
+        ]
+    },{
+        "id": "1-54",
+        "name": "JH Iowa",
+        "clay": 240,
+        "base": "Randy's",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Titanium Dioxide", "amount": 3},
+            {"ingredient": "Red Iron Oxide", "amount": 8}
+        ]
+    },{
+        "id": "1-55",
+        "name": "JH Debris",
+        "clay": 240,
+        "base": "Randy's",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Ilmenite", "amount": 2.5}
         ]
     },{
         "id": "8-1",
@@ -790,6 +855,47 @@
             {"ingredient": "Titanium Dioxide", "amount": 5}
         ]
     },{
+        "id": "11-29",
+        "name": "JH Mesopelagic",
+        "clay": 240,
+        "base": "Chun",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 5},
+            {"ingredient": "Cobalt Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "11-30",
+        "name": "JH Doreen",
+        "clay": 240,
+        "base": "Chun",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Rutile", "amount": 1.5},
+            {"ingredient": "Cobalt Carbonate", "amount": 2},
+            {"ingredient": "Titanium Dioxide", "amount": 4}
+        ]
+    },{
+        "id": "11-31",
+        "name": "JH Seamist",
+        "clay": 240,
+        "base": "Chun",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
         "id": "12-1",
         "name": "Lynette's Opal (Original)",
         "clay": 181,
@@ -1049,6 +1155,19 @@
             {"ingredient": "Rutile", "amount": 1.5}
         ]
     },{
+        "id": "26-7",
+        "name": "JH Atlas",
+        "clay": 240,
+        "base": "Raspberry",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
         "id": "28-1",
         "name": "Burgundy (Original)",
         "clay": 181,
@@ -1103,6 +1222,35 @@
             {"ingredient": "Rutile", "amount": 1.5}
         ]
     },{
+        "id": "28-5",
+        "name": "JH Patrick",
+        "clay": 240,
+        "base": "Burgundy",
+        "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Rutile", "amount": 4},
+            {"ingredient": "Titanium Dioxide", "amount": 8},
+            {"ingredient": "Tin Oxide", "amount": 4},
+            {"ingredient": "Chrome Oxide", "amount": 0.05}
+        ]
+    },{
+        "id": "28-6",
+        "name": "JH Flush",
+        "clay": 240,
+        "base": "Burgundy",
+        "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Rutile", "amount": 3},
+            {"ingredient": "Titanium Dioxide", "amount": 8},
+            {"ingredient": "Tin Oxide", "amount": 4}
+        ]
+    },{
         "id": "31-1",
         "name": "Peacock (Original)",
         "clay": 181,
@@ -1112,7 +1260,7 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 1},
-            {"ingredient": "Cobalt Carboante", "amount": 1},
+            {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Titanium Dioxide", "amount": 10}
         ]
     },{
@@ -1125,7 +1273,7 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 2},
-            {"ingredient": "Cobalt Carboante", "amount": 5}
+            {"ingredient": "Cobalt Carbonate", "amount": 5}
         ]
     },{
         "id": "33-1",
@@ -1392,6 +1540,19 @@
             {"ingredient": "Nickel Oxide", "amount": 0.5}
         ]
     },{
+        "id": "36-12",
+        "name": "JH Serpent",
+        "clay": 240,
+        "base": "Magnesium Semi-Matte",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
         "id": "37-1",
         "name": "John's Aventurine (Original)",
         "clay": 240,
@@ -1595,6 +1756,19 @@
             {"ingredient": "Nickel Oxide", "amount": 0.5}
         ]
     },{
+        "id": "40-12",
+        "name": "JH Sepia Bloom",
+        "clay": 240, 
+        "base": "Sherman's Satin Matte",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
         "id": "41-0",
         "name": "OldForge FirstFive Gold (Original)",
         "clay": 630,
@@ -1703,6 +1877,32 @@
             {"ingredient": "Copper Oxide", "amount": 7}
         ]
     },{
+        "id": "44-3",
+        "name": "JH Hearth",
+        "clay": 240,
+        "base": "Tiger Eye",
+        "color": "Red",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Tin Oxide", "amount": 4},
+            {"ingredient": "Red Iron Oxide", "amount": 10.15}
+        ]
+    },{
+        "id": "44-4",
+        "name": "JH Ember",
+        "clay": 240,
+        "base": "Tiger Eye",
+        "color": "Orange",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Titanium Dioxide", "amount": 4},
+            {"ingredient": "Red Iron Oxide", "amount": 10.15}
+        ]
+    },{
         "id": "45-0",
         "name": "JH Chun Mod Base",
         "clay": 240,
@@ -1740,6 +1940,18 @@
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
             {"ingredient": "Copper Oxide", "amount": 0.8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
+        ]
+    },{
+        "id": "45-3",
+        "name": "JH Quartz",
+        "clay": 240,
+        "base": "Chun Mod",
+        "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Titanium Dioxide", "amount": 5}
         ]
     }
 ]

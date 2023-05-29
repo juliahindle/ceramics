@@ -1,0 +1,65 @@
+[
+    {
+        "name": "The Complete Guide to Mid-Range Glazes",
+        "authors": ["John Britt"],
+        "level": "Beginner",
+        "importance": "5"
+    },
+    {
+        "name": "Amazing Glaze",
+        "authors": ["Gabriel Kline"],
+        "level": "Beginner",
+        "importance": "1"
+    },
+    {
+        "name": "Cone 5-6 Glazes",
+        "authors": ["Bill Jones"],
+        "level": "Intermediate",
+        "importance": "3"
+    },
+    {
+        "name": "The Potter's Palette",
+        "authors": ["Christine Constant", "Steve Ogden"],
+        "level": "Intermediate",
+        "importance": "2"
+    },
+    {
+        "name": "Colour in Glazes",
+        "authors": ["Linda Bloomfield"],
+        "level": "Intermediate",
+        "importance": "3"
+    },
+    {
+        "name": "Revealing Glazes: Using the Grid Method",
+        "authors": ["Ian Currie"],
+        "level": "Advanced",
+        "importance": "4"
+    },
+    {
+        "name": "Science for Potters",
+        "authors": ["Linda Bloomfield"],
+        "level": "Advanced",
+        "importance": "4"
+    },
+    {
+        "name": "Mastering Cone 6 Glazes",
+        "authors": ["John Hesselberth", "Ron Roy"],
+        "level": "Advanced",
+        "importance": "5"
+    },
+
+    
+
+    {
+        "name": "The Ceramic Spectrum",
+        "authors": ["Robin Hopper"],
+        "level": "Advanced?",
+        "importance": "4"
+    },
+    {
+        "name": "The Glaze Book",
+        "authors": ["Stephen Murfitt"],
+        "level": "Intermediate?",
+        "importance": "3"
+    }
+]

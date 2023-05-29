@@ -103,14 +103,11 @@ function Glazes() {
                     showAddFilter={showAddFilter}
                     setShowAddFilter={setShowAddFilter}
                 />
-
-                {filteredGlazes.length === 1 ? 
-                 <p>{filteredGlazes.length} glaze</p> :
-                 <p>{filteredGlazes.length} glazes</p>}
+                <p>{filteredGlazes.filter(glaze => glaze.status !== "inactive").length}{filteredGlazes.length === 1 ? " glaze" : " glazes"}</p>
             </div>
             <div className="glazes-container">
                 {filteredGlazes.map((glaze, i) => 
-                    glaze.status !== 'inactive' && glaze.id && 
+                    glaze.status !== "inactive" && glaze.id &&
                     <button key={glaze+i} onClick={() => openSidebar(glaze)}>
                         <img
                             id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
