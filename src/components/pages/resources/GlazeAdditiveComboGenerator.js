@@ -1,6 +1,8 @@
 import "styles/resources_glazeAdditiveComboGenerator.scss"
 import { updatePageTitle, resetScroll } from "Constants"
 import { useState, useEffect } from "react"
+import Story from "components/pages/resources/glazeAdditiveComboGenerator/Story";
+import Material from "components/pages/resources/glazeAdditiveComboGenerator/Material";
 
 function GlazeAdditiveComboGenerator() {
     const NUM_TO_GENERATE = 10;
@@ -12,6 +14,7 @@ function GlazeAdditiveComboGenerator() {
         {name: "Copper Carbonate", max: "8.5"}
     ])
     const [results, setResults] = useState([])
+    const [storyOpen, setStoryOpen] = useState(false)
 
     useEffect(() => {
         updatePageTitle("Glaze Additive Combo Generator")
@@ -63,28 +66,21 @@ function GlazeAdditiveComboGenerator() {
         return recipe.some(material => material.name === name)
     }
 
-    const setMaterialName = (e, index) => {
-        setMaterials((prev) => {
-            let newMaterials = Object.assign([], prev)
-            newMaterials[index].name = e.target.value
-            return newMaterials
-        })
-    }
-
-    const setMaterialMaximum = (e, index) => {
-        setMaterials((prev) => {
-            let newMaterials = Object.assign([], prev)
-            newMaterials[index].max = e.target.value
-            return newMaterials
-        })
-    }
-
     const inputsAreInvalid = () => {
         return materials.some(material => isNaN(material.max))
     }
 
     const getNonEmptyMaterials = () => {
         return materials.filter(material => material.name && material.max)
+    }
+
+    const setMaterialText = (inputType, text, index) => {
+        setMaterials((prev) => {
+            let newMaterials = Object.assign([], prev)
+            if (inputType === "MAX") newMaterials[index].max = text
+            if (inputType === "NAME") newMaterials[index].name = text
+            return newMaterials
+        })
     }
 
     return (
@@ -95,7 +91,12 @@ function GlazeAdditiveComboGenerator() {
                 <p>
                     Enter the names and maximum amount you’d want to add of each glaze additive. 
                     Then press calculate to have the generator come up with new and unique colorant/opacifier combos to try adding to a glaze base.
+                    I've found this to be a fantastic source of inspiration and hope others may have the same success!
                 </p>
+                <a className="button" onClick={() => setStoryOpen((prev) => !prev)}>
+                    The Story
+                </a>
+                <Story storyOpen={storyOpen}/>
             </div>
             <div className="content">
                 <div className="column entry">
@@ -109,30 +110,15 @@ function GlazeAdditiveComboGenerator() {
                             </thead>
                             <tbody>
                                 {
-                                    materials.map((material, index) => {
-                                        return(
-                                        <tr>
-                                            <td>
-                                                <button className="minus" onClick={() => removeMaterial(index)}>-</button>
-                                            </td>
-                                            <td className="material">
-                                                <div className="input-container">
-                                                    <input value={material.name} 
-                                                        onChange={e => setMaterialName(e, index)}
-                                                    />
-                                                </div>
-                                            </td>
-                                            <td className={isNaN(material.max) ? "maximum invalid" : "maximum"}>
-                                                <div className="input-container">
-                                                    <input 
-                                                        value={material.max} 
-                                                        onChange={e => setMaterialMaximum(e, index)}
-                                                    />
-                                                </div>
-                                                <p>* must be a number</p>
-                                            </td>
-                                        </tr>)
-                                    })
+                                    materials.map((material, index) => 
+                                        <Material
+                                            key={index}
+                                            material={material}
+                                            setMaterialName={(text) => setMaterialText("NAME", text, index)}
+                                            setMaterialMaximum={(text) => setMaterialText("MAX", text, index)}
+                                            removeSelf={() => removeMaterial(index)}
+                                        />
+                                    )
                                 }
                                 <tr>
                                     <td>
@@ -151,7 +137,7 @@ function GlazeAdditiveComboGenerator() {
                     <h2>2. See your results:</h2>
                     <div className="container">
                             {results.map((recipe, rIndex) => <>
-                                <fieldset>
+                                <fieldset key={rIndex+recipe}>
                                     <legend>Combo #{rIndex+1}</legend>
                                     <table>
                                         <thead>

@@ -1,0 +1,68 @@
+@import 'common';
+
+section.resource.glaze-additive-combo-generator div.content div.column.entry table tbody tr td {
+    div.input-container {
+        padding: 10px;
+        box-sizing: border-box;
+
+        input {
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        }
+    }
+    
+    p {
+        display: none;
+    }
+
+    &.invalid {
+        input {
+        border: 2px solid $j-red;
+        }
+
+        p {
+        display: block;
+        font-size: 10px;
+        color: $j-red;
+        margin: 0;
+        margin-left: 10px;
+        padding: 0;
+    }
+    }
+
+    button.plus, button.minus {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    border-radius: 12.5px;
+    font-size: 20px;
+    box-shadow: 0 0 0 #000;
+    scale: 1;
+    opacity: .7;
+    color: #fff;
+    transition: box-shadow .3s, scale .3s, opacity .3s;
+
+    &:hover {
+        box-shadow: 0 0 3px #000;
+        scale: 1.06;
+        opacity: 1;
+    }
+    }
+
+    button.minus {
+    background-color: $j-red;
+    border: 1px solid #ad3139;
+    }
+
+    button.plus {
+    background-color: $j-teal;
+    border: 1px solid #03786a;
+    }
+}

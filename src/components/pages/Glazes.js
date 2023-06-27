@@ -91,8 +91,6 @@ function Glazes() {
         }
     }
 
-    
-
     return (<>
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
