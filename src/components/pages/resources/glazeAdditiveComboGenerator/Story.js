@@ -7,7 +7,7 @@ function Story({storyOpen}) {
     return (
         <div className={storyOpen ? "story enabled" : "story disabled"}>
             <p>
-                This tool started as a quick computer program I wrote for myself in <a href="python.com">Python</a>. Here are my original two code files if you're interested:
+                This tool started as a quick computer program I wrote for myself in <a href="https://www.python.org/" target="_blank">Python</a>. Here are my original two code files if you're interested:
             </p>
             <div className="program">
                 <div className="file">
@@ -20,9 +20,8 @@ function Story({storyOpen}) {
                 </div>
             </div>
             <p>
-                The way I and many other potters create many glazes is by tweaking the colorants and opacifiers added to a base glaze that we already like.
-                I realized that most testing seemed to be done either by intuition of what additives would give a desired look, or with progression tests of one or more additives where increments of the ingredients are added for each test tile.
-                Even with progression tests, a potter is making some intuitive choice of which ingredient(s) to test.
+                The way I and many other potters like to create glazes is by tweaking the colorants and opacifiers added to a base glaze that we already like.
+                The additive choices are generally either by intuition or with progression tests of one or more additives.
             </p>
             <p>
                 I thought in the spirit of true experimentation it would be fun to write a tool that could come up with completely random additive combos for my glaze tests, and to my delight these tests have been some of my favorite glazes I've created.
@@ -46,8 +45,11 @@ function Story({storyOpen}) {
         )}
             </div>
             <p>
-                In general, any of my glazes where multiple additives have decimals on them were likely generated from my tool.
-                I've created the majority of my glazes without this tool, but whenever I'm looking for fresh inspiration, I'll run this tool, create some test tiles, and if anything is interesting I'll mix up a larger batch and/or continue to play around with the additives from that starting point.
+                In general, any of my glazes where multiple additives have decimals on them were likely generated from my tool, like this:
+            </p>
+            <img src="images/resources/glaze-additive-combo-generator/sidebar.png"></img>
+            <p>
+                I've created the majority of my glazes without this tool, but whenever I'm looking for fresh inspiration I'll run this tool, create some test tiles, and if anything is interesting I'll mix up a larger batch and/or continue to play around with the additives from that starting point.
             </p>
             <p>
                 To choose the maximum amounts I'd want of a given ingredient, I looked in my books, online resources, and personal glaze tests for guidance. 

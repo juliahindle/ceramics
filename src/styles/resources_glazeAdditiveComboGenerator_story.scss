@@ -25,6 +25,11 @@ section.resource.glaze-additive-combo-generator {
             padding-right: 30px;
           }
 
+          p.file-name {
+            border-bottom: 3px solid $j-yellow;
+            width: fit-content;
+          }
+
           p.code-block {
             font-size: 14px;
             max-height: 400px;

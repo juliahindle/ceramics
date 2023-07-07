@@ -62,17 +62,9 @@ function GlazeAdditiveComboGenerator() {
         setResults(recipes)
     }
 
-    const materialIsUsed = (recipe, name) => {
-        return recipe.some(material => material.name === name)
-    }
-
-    const inputsAreInvalid = () => {
-        return materials.some(material => isNaN(material.max))
-    }
-
-    const getNonEmptyMaterials = () => {
-        return materials.filter(material => material.name && material.max)
-    }
+    const materialIsUsed = (recipe, name) => recipe.some(material => material.name === name)
+    const inputsAreInvalid = () => materials.some(material => isNaN(material.max))
+    const getNonEmptyMaterials = () =>  materials.filter(material => material.name && material.max)
 
     const setMaterialText = (inputType, text, index) => {
         setMaterials((prev) => {
@@ -136,28 +128,28 @@ function GlazeAdditiveComboGenerator() {
                 <div className="column result">
                     <h2>2. See your results:</h2>
                     <div className="container">
-                            {results.map((recipe, rIndex) => <>
-                                <fieldset key={rIndex+recipe}>
-                                    <legend>Combo #{rIndex+1}</legend>
-                                    <table>
-                                        <thead>
-                                            <th className="material">Material Name</th>
-                                            <th className="maximum">Amount</th>
-                                        </thead>
-                                        <tbody>
-                                            {
-                                                recipe.map((material, mIndex) => {
-                                                    return(
-                                                    <tr key={mIndex+material}>
-                                                        <td className="material"><span title={material.name}>{material.name}</span></td>
-                                                        <td className="maximum">{material.amount}</td>
-                                                    </tr>)
-                                                })
-                                            }
-                                        </tbody>
-                                    </table>
-                                </fieldset>
-                            </>)}
+                        {results.map((recipe, rIndex) => <>
+                            <fieldset key={rIndex+recipe}>
+                                <legend>Combo #{rIndex+1}</legend>
+                                <table>
+                                    <thead>
+                                        <th className="material">Material Name</th>
+                                        <th className="maximum">Amount</th>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            recipe.map((material, mIndex) => {
+                                                return(
+                                                <tr key={mIndex+material}>
+                                                    <td className="material"><span title={material.name}>{material.name}</span></td>
+                                                    <td className="maximum">{material.amount}</td>
+                                                </tr>)
+                                            })
+                                        }
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                        </>)}
                     </div>
                 </div>
             </div>
