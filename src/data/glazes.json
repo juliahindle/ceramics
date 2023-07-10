@@ -402,7 +402,7 @@
         "name": "JH Dewdrop",
         "clay": 240,
         "base": "Randy's",
-        "color": "Green",
+        "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
         },
@@ -1016,6 +1016,31 @@
             {"ingredient": "Cobalt Carbonate", "amount": 2}
         ]
     },{
+        "id": "13-8",
+        "name": "TBD",
+        "clay": 240,
+        "base": "Heino",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Manganese Dioxide", "amount": 4}
+        ],
+        "status": "inactive"
+    },{
+        "id": "13-9",
+        "name": "JH Pumice",
+        "clay": 240,
+        "base": "Heino",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 2}
+        ]
+    },{
         "id": "14-1",
         "name": "VC Matte Yellow (Original)",
         "clay": 181,
@@ -1046,7 +1071,7 @@
         "name": "Arrowmont Blue-Green (Original)",
         "clay": 181,
         "base": "Arrowmont",
-        "color": "Green",
+        "color": "Blue",
         "source": {
             "glazy": 148296
         },
@@ -1734,7 +1759,7 @@
         "name": "JH Cake Batter",
         "clay": 240,
         "base": "Sherman's Satin Matte",
-        "color": "White",
+        "color": "Tan/Brown",
         "source": {
             "creator": "Julia Hindle"
         },
@@ -1952,6 +1977,397 @@
         },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 5}
+        ]
+    },{
+        "id": "46-0",
+        "name": "JH Chunny Base",
+        "clay": 240,
+        "base": "JH Chunny",
+        "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+        ]
+    },{
+        "id": "46-1",
+        "name": "JH Sapphire",
+        "clay": 240,
+        "base": "JH Chunny",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 3}
+        ]
+    },{
+        "id": "46-2",
+        "name": "JH Shy Guy",
+        "clay": 240,
+        "base": "JH Chunny",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5},
+            {"ingredient": "Titanium Dioxide", "amount": 5}
+        ]
+    },{
+        "id": "47-0",
+        "name": "JH Barium/Zinc 1 Base",
+        "clay": 240,
+        "base": "JH Barium/Zinc 1",
+        "color": "White",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+        ]
+    },{
+        "id": "47-1",
+        "name": "JH Aloe",
+        "clay": 240,
+        "base": "JH Barium/Zinc 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5}
+        ]
+    },{
+        "id": "47-2",
+        "name": "JH Pitiful",
+        "clay": 240,
+        "base": "JH Barium/Zinc 1",
+        "color": "Gray/Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 1}
+        ]
+    },{
+        "id": "47-3",
+        "name": "JH Lascaux",
+        "clay": 240,
+        "base": "JH Barium/Zinc 1",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Manganese Dioxide", "amount": 4}
+        ]
+    },{
+        "id": "47-4",
+        "name": "JH River Rock",
+        "clay": 240,
+        "base": "JH Barium/Zinc 1",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 2}
+        ]
+    },{
+        "id": "48-0",
+        "name": "JH High Alkaline 1 Base",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Clear",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+        ]
+    },{
+        "id": "48-1",
+        "name": "JH Seascape",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5}
+        ]
+    },{
+        "id": "48-2",
+        "name": "JH Fairy Moss",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 1}
+        ]
+    },{
+        "id": "48-3",
+        "name": "JH Fumes",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Manganese Dioxide", "amount": 4}
+        ],
+        "status": "inactive"
+    },{
+        "id": "48-4",
+        "name": "JH Wax",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Orange",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 2}
+        ]
+    },{
+        "id": "48-5",
+        "name": "JH Woodland",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 0.5},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.5}
+        ]
+    },{
+        "id": "48-6",
+        "name": "JH Everglades",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 0.5},
+            {"ingredient": "Cobalt Carbonate", "amount": 0.5},
+            {"ingredient": "Titanium Dioxide", "amount": 2}
+        ]
+    },{
+        "id": "48-7",
+        "name": "JH Tinkerbell",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 0.5}
+        ]
+    },{
+        "id": "48-8",
+        "name": "JH Unakite",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 0.5},
+            {"ingredient": "Tin Oxide", "amount": 4}
+        ]
+    },{
+        "id": "48-9",
+        "name": "JH Athens",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 0.5}
+        ]
+    },{
+        "id": "48-10",
+        "name": "JH Pacific",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 2}
+        ]
+    },{
+        "id": "48-11",
+        "name": "JH Honeycomb",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Red Iron Oxide", "amount": 6}
+        ]
+    },{
+        "id": "48-12",
+        "name": "JH Corrosion",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Tan/Brown",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Red Iron Oxide", "amount": 5},
+            {"ingredient": "Titanium Dioxide", "amount": 5}
+        ]
+    },{
+        "id": "48-13",
+        "name": "JH Kettlecorn",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Orange",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 3},
+            {"ingredient": "Rutile", "amount": 2}
+        ]
+    },{
+        "id": "48-14",
+        "name": "JH Moss Agate",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 6},
+            {"ingredient": "Nickel Carbonate", "amount": 2}
+        ]
+    },{
+        "id": "48-15",
+        "name": "JH Antique Blue",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 2},
+            {"ingredient": "Rutile", "amount": 5}
+        ]
+    },{
+        "id": "48-16",
+        "name": "JH Bubblegum",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Pink",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Erbium Oxide", "amount": 10}
+        ]
+    },{
+        "id": "48-17",
+        "name": "JH Lucky Charm",
+        "clay": 240,
+        "base": "JH High Alkaline 1",
+        "color": "Purple",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Neodymium Oxide", "amount": 10}
+        ]
+    },{
+        "id": "49-1",
+        "name": "Alberta Matte Black (Original)",
+        "clay": 240,
+        "base": "Alberta Matte Black",
+        "color": "Gray/Black",
+        "source": {
+            "glazy": 137219
+        },
+        "additives": [
+            {"ingredient": "Cobalt Carbonate", "amount": 5.5},
+            {"ingredient": "Red Iron Oxide", "amount": 0.75}
+        ]
+    },{
+        "id": "50-0",
+        "name": "JH High Alkaline 2 Base",
+        "clay": 240,
+        "base": "JH High Alkaline 2",
+        "color": "Clear",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+        ]
+    },{
+        "id": "50-1",
+        "name": "JH Cassis",
+        "clay": 240,
+        "base": "JH High Alkaline 2",
+        "color": "Blue",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Copper Carbonate", "amount": 5}
+        ]
+    },{
+        "id": "50-2",
+        "name": "JH Hedge",
+        "clay": 240,
+        "base": "JH High Alkaline 2",
+        "color": "Green",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Chrome Oxide", "amount": 1}
+        ]
+    },{
+        "id": "50-3",
+        "name": "JH Green Tea",
+        "clay": 240,
+        "base": "JH High Alkaline 2",
+        "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Red Iron Oxide", "amount": 6}
+        ]
+    },{
+        "id": "50-4",
+        "name": "JH Sap",
+        "clay": 240,
+        "base": "JH High Alkaline 2",
+        "color": "Yellow",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "additives": [
+            {"ingredient": "Nickel Carbonate", "amount": 2}
         ]
     }
 ]

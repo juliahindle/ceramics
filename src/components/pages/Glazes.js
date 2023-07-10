@@ -58,7 +58,7 @@ function Glazes() {
 
     // Methods
     const glazeContainsIngredients = (glaze, ingredients, qualifier) => {
-        let currentBase = bases.find(base => (base.name === glaze.base))
+        let currentBase = bases.find(base => base.id === glaze.id.split("-")[0])
         
         return qualifier(ingredients, (desiredIngredient) => 
             glaze.additives.some((glazeIngredient) => glazeIngredient.ingredient === desiredIngredient) || 
@@ -66,7 +66,7 @@ function Glazes() {
     }
 
     const openSidebar = (glaze) => {
-        setSelectedGlaze({glaze: glaze, base: bases.find(base => base.name === glaze.base)})
+        setSelectedGlaze({glaze: glaze, base: bases.find(base => base.id === glaze.id.split("-")[0])})
         searchParams.set("sidebar", glaze.id)
         setSearchParams(searchParams)
         if (!showSidebar) {

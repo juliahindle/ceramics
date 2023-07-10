@@ -1,6 +1,6 @@
 [
     {
-        "id": "1-0",
+        "id": "1",
         "name": "Randy's",
         "source": {
             "book": {
@@ -17,7 +17,7 @@
             {"ingredient": "Silica", "amount": 29.7}
         ]
     },{
-        "id": "8-0",
+        "id": "8",
         "name": "Ashley's Best",
         "source": {
             "book": {
@@ -35,7 +35,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 6.6}
         ]
     },{
-        "id": "11-0",
+        "id": "11",
         "name": "Chun",
         "source": {
             "book": {
@@ -52,7 +52,7 @@
             {"ingredient": "Zinc Oxide", "amount": 12}
         ]
     },{
-        "id": "12-0",
+        "id": "12",
         "name": "Lynette's Opal",
         "source": {
             "book": {
@@ -72,7 +72,7 @@
             {"ingredient": "Zinc Oxide", "amount": 5}
         ]
     },{
-        "id": "13-0",
+        "id": "13",
         "name": "Heino",
         "source": {
             "book": {
@@ -89,7 +89,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 2.7}
         ]
     },{
-        "id": "14-0",
+        "id": "14",
         "name": "VC Matte Yellow",
         "source": {
             "book": {
@@ -107,7 +107,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 8.9}
         ]
     },{
-        "id": "15-0",
+        "id": "15",
         "name": "Bright Sky Blue",
         "source": {
             "book": {
@@ -125,7 +125,7 @@
             {"ingredient": "Ferro Frit 3134", "amount": 20}
         ]
     },{
-        "id": "16-0",
+        "id": "16",
         "name": "Arrowmont",
         "source": {
             "book": {
@@ -143,41 +143,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 6.6}
         ]
     },{
-        "id": "25-0",
-        "name": "June Perry Red",
-        "source": {
-            "book": {
-                "author": "John Britt",
-                "title": "The Complete Guide To Mid-Range Glazes",
-                "page": 99
-            }
-        },
-        "recipe": [
-            {"ingredient": "Nepheline Syenite", "amount": 16},
-            {"ingredient": "Silica", "amount": 32},
-            {"ingredient": "Whiting", "amount": 20},
-            {"ingredient": "EP Kaolin", "amount": 11},
-            {"ingredient": "Gerstley Borate", "amount": 21}
-        ]
-    },{
-        "id": "26-0",
-        "name": "Raspberry",
-        "source": {
-            "book": {
-                "author": "John Britt",
-                "title": "The Complete Guide To Mid-Range Glazes",
-                "page": 99
-            }
-        },
-        "recipe": [
-            {"ingredient": "Nepheline Syenite", "amount": 18},
-            {"ingredient": "Silica", "amount": 30},
-            {"ingredient": "Whiting", "amount": 20},
-            {"ingredient": "Ball Clay", "amount": 18},
-            {"ingredient": "Ferro Frit 3134", "amount": 14}
-        ]
-    },{
-        "id": "20-0",
+        "id": "20",
         "name": "Bright Purple",
         "source": {
             "book": {
@@ -196,7 +162,41 @@
             {"ingredient": "Gerstley Borate", "amount": 10}
         ]
     },{
-        "id": "28-0",
+        "id": "25",
+        "name": "June Perry Red",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 99
+            }
+        },
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 16},
+            {"ingredient": "Silica", "amount": 32},
+            {"ingredient": "Whiting", "amount": 20},
+            {"ingredient": "EP Kaolin", "amount": 11},
+            {"ingredient": "Gerstley Borate", "amount": 21}
+        ]
+    },{
+        "id": "26",
+        "name": "Raspberry",
+        "source": {
+            "book": {
+                "author": "John Britt",
+                "title": "The Complete Guide To Mid-Range Glazes",
+                "page": 99
+            }
+        },
+        "recipe": [
+            {"ingredient": "Nepheline Syenite", "amount": 18},
+            {"ingredient": "Silica", "amount": 30},
+            {"ingredient": "Whiting", "amount": 20},
+            {"ingredient": "Ball Clay", "amount": 18},
+            {"ingredient": "Ferro Frit 3134", "amount": 14}
+        ]
+    },{
+        "id": "28",
         "name": "Burgundy",
         "source": {
             "book": {
@@ -215,7 +215,7 @@
             {"ingredient": "Gerstley Borate", "amount": 8}
         ]
     },{
-        "id": "31-0",
+        "id": "31",
         "name": "Peacock",
         "source": {
             "book": {
@@ -232,7 +232,7 @@
             {"ingredient": "Zinc Oxide", "amount": 14.3}
         ]
     },{
-        "id": "32-0",
+        "id": "32",
         "name": "Emerald Green",
         "source": {
             "book": {
@@ -247,7 +247,7 @@
             {"ingredient": "Gerstley Borate", "amount": 50}
         ]
     },{
-        "id": "33-0",
+        "id": "33",
         "name": "Behrens Satin Matte",
         "source": {
             "creator": "Richard Behrens"
@@ -260,7 +260,7 @@
             {"ingredient": "EP Kaolin", "amount": 4.1}
         ]
     },{
-        "id": "34-0",
+        "id": "34",
         "name": "John's Cash Blue",
         "source": {
             "book": {
@@ -278,7 +278,7 @@
             {"ingredient": "Zinc Oxide", "amount": 1.7}
         ]
     },{
-        "id": "35-0",
+        "id": "35",
         "name": "Charcoal Matte Black",
         "source": {
             "book": {
@@ -295,7 +295,7 @@
             {"ingredient": "Zinc Oxide", "amount": 8}
         ]
     },{
-        "id": "36-0",
+        "id": "36",
         "name": "Magnesium Semi-Matte",
         "source": {
             "book": {
@@ -313,7 +313,7 @@
             {"ingredient": "Gerstley Borate", "amount": 8.8}
         ]
     },{
-        "id": "37-0",
+        "id": "37",
         "name": "John's Aventurine",
         "source": {
             "book": {
@@ -327,7 +327,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 11}
         ]
     },{
-        "id": "38-0",
+        "id": "38",
         "name": "Scotchie Textured",
         "source": {
             "book": {
@@ -343,7 +343,7 @@
             {"ingredient": "Barium Carbonate", "amount": 0.4}
         ]
     },{
-        "id": "39-0",
+        "id": "39",
         "name": "Snowflake Crackle 4",
         "source": {
             "book": {
@@ -358,7 +358,7 @@
             {"ingredient": "Ferro Frit 3124", "amount": 5.8}
         ]
     },{
-        "id": "40-0",
+        "id": "40",
         "name": "Sherman's Satin Matte",
         "source": {
             "book": {
@@ -376,7 +376,7 @@
             {"ingredient": "Silica", "amount": 15}
         ]
     },{
-        "id": "41-0",
+        "id": "41",
         "name": "OldForge FirstFive Gold",
         "source": {
             "creator": "Joe Thompson",
@@ -392,7 +392,7 @@
             {"ingredient": "Whiting", "amount": 5}
         ]
     },{
-        "id": "42-0",
+        "id": "42",
         "name": "Pinnell’s Strontium Crater",
         "source": {
             "book": {
@@ -409,7 +409,7 @@
             {"ingredient": "Lithium Carbonate", "amount": 1}
         ]
     },{
-        "id": "43-0",
+        "id": "43",
         "name": "Gold Metallic",
         "source": {
             "creator": "Joe Thompson",
@@ -428,7 +428,7 @@
             {"ingredient": "Titanium Dioxide", "amount": 0.5}
         ]
     },{
-        "id": "44-0",
+        "id": "44",
         "name": "Tiger Eye",
         "source": {
             "creator": "Sheelah Tolton",
@@ -444,7 +444,7 @@
             {"ingredient": "Bone Ash", "amount": 3}
         ]
     },{
-        "id": "45-0",
+        "id": "45",
         "name": "Chun Mod",
         "source": {
             "creator": "Julia Hindle"
@@ -455,6 +455,71 @@
             {"ingredient": "Wollastonite", "amount": 19},
             {"ingredient": "EP Kaolin", "amount": 5},
             {"ingredient": "Zinc Oxide", "amount": 12}
+        ]
+    },{
+        "id": "46",
+        "name": "JH Chunny",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "recipe": [
+            {"ingredient": "F4 Feldspar", "amount": 30},
+            {"ingredient": "Silica", "amount": 27},
+            {"ingredient": "Gerstley Borate", "amount": 16.5},
+            {"ingredient": "Talc", "amount": 8},
+            {"ingredient": "Whiting", "amount": 7.5},
+            {"ingredient": "Zinc Oxide", "amount": 6},
+            {"ingredient": "EP Kaolin", "amount": 5}
+        ]
+    },{
+        "id": "47",
+        "name": "JH Barium/Zinc 1",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "recipe": [
+            {"ingredient": "Silica", "amount": 35},
+            {"ingredient": "Barium Carbonate", "amount": 25},
+            {"ingredient": "Zinc Oxide", "amount": 15},
+            {"ingredient": "Nepheline Syenite", "amount": 15},
+            {"ingredient": "EP Kaolin", "amount": 10}
+        ]
+    },{
+        "id": "48",
+        "name": "JH High Alkaline 1",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "recipe": [
+            {"ingredient": "G-200 Feldspar", "amount": 38},
+            {"ingredient": "Silica", "amount": 30},
+            {"ingredient": "Lithium Carbonate", "amount": 12},
+            {"ingredient": "Whiting", "amount": 10},
+            {"ingredient": "EP Kaolin", "amount": 10}
+        ]
+    },{
+        "id": "49",
+        "name": "Alberta Matte Black",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "recipe": [
+            {"ingredient": "Alberta Slip", "amount": 80},
+            {"ingredient": "Nepheline Syenite", "amount": 12},
+            {"ingredient": "Whiting", "amount": 8}
+        ]
+    },{
+        "id": "50",
+        "name": "JH High Alkaline 2",
+        "source": {
+            "creator": "Julia Hindle"
+        },
+        "recipe": [
+            {"ingredient": "Frit 3110", "amount": 40},
+            {"ingredient": "Silica", "amount": 30},
+            {"ingredient": "Lithium Carbonate", "amount": 5},
+            {"ingredient": "Whiting", "amount": 10},
+            {"ingredient": "EP Kaolin", "amount": 15}
         ]
     }
 ]
