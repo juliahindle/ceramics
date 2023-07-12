@@ -11,7 +11,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.15}
-        ]
+        ],
+        "date": "2019-12-07"
     },{
         "id": "1-4-1",
         "name": "JH Periwinkle",
@@ -24,7 +25,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1}
-        ]
+        ],
+        "date": "2019-12-16"
     },{
         "id": "1-4-2",
         "name": "JH Indigo",
@@ -37,7 +39,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2019-12-16"
     },{
         "id": "1-5",
         "name": "JH Sea Green",
@@ -50,7 +53,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 6}
-        ]
+        ],
+        "date": "2019-12-16"
     },{
         "id": "1-8",
         "name": "JH Sand",
@@ -63,7 +67,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 4}
-        ]
+        ],
+        "date": "2019-12-16"
     },{
         "id": "1-9",
         "name": "JH Nightfall",
@@ -77,7 +82,8 @@
             {"ingredient": "Cobalt Oxide", "amount": 1.6},
             {"ingredient": "Zircopax", "amount": 4.4},
             {"ingredient": "Copper Oxide", "amount": 3.3}
-        ]
+        ],
+        "date": "2020-02-10"
     },{
         "id": "1-12",
         "name": "JH Gunmetal Gray",
@@ -92,7 +98,8 @@
             {"ingredient": "Copper Carbonate", "amount": 2.5},
             {"ingredient": "Manganese Dioxide", "amount": 2.8},
             {"ingredient": "Chrome Oxide", "amount": 1.3}
-        ]
+        ],
+        "date": "2020-02-10"
     },{
         "id": "1-13",
         "name": "JH Rain Cloud",
@@ -107,7 +114,8 @@
             {"ingredient": "Red Iron Oxide", "amount": 2},
             {"ingredient": "Cobalt Oxide", "amount": 0.5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2020-02-10"
     },{
         "id": "1-19",
         "name": "JH Charcoal",
@@ -121,7 +129,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
             {"ingredient": "Chrome Oxide", "amount": 1.5}
-        ]
+        ],
+        "date": "2020-07-13"
     },{
         "id": "1-20",
         "name": "JH Avocado",
@@ -135,7 +144,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 5.2},
             {"ingredient": "Copper Oxide", "amount": 4.2}
-        ]
+        ],
+        "date": "2020-07-13"
     },{
         "id": "1-21",
         "name": "JH Chocolate",
@@ -150,7 +160,8 @@
             {"ingredient": "Red Iron Oxide", "amount": 10.1},
             {"ingredient": "Manganese Dioxide", "amount": 6.4},
             {"ingredient": "Tin Oxide", "amount": 3.7}
-        ]
+        ],
+        "date": "2020-07-13"
     },{
         "id": "1-22",
         "name": "JH Jacaranda",
@@ -163,7 +174,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Zircopax", "amount": 8}
-        ]
+        ],
+        "date": "2020-10-02"
     },{
         "id": "1-24",
         "name": "JH Teal",
@@ -178,7 +190,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 6},
             {"ingredient": "Titanium Dioxide", "amount": 4},
             {"ingredient": "Chrome Oxide", "amount": 1.3}
-        ]
+        ],
+        "date": "2020-10-02"
     },{
         "id": "1-25E",
         "name": "JH Dark Sand",
@@ -191,7 +204,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-26",
         "name": "JH Cotton Candy",
@@ -206,7 +220,8 @@
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 0.8},
             {"ingredient": "Tin Oxide", "amount": 2},
             {"ingredient": "Copper Carbonate", "amount": 1.5}
-        ]
+        ],
+        "date": "2020-10-02"
     },{
         "id": "1-26-1",
         "name": "JH Algae",
@@ -218,7 +233,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.5}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-26-2",
         "name": "JH Pine",
@@ -231,7 +247,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-27",
         "name": "JH Oxblood",
@@ -244,7 +261,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 20}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-28-1",
         "name": "JH Powder Blue",
@@ -258,7 +276,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
-        ]
+        ],
+        "date": "2019-12-16"
     },{
         "id": "1-28-2",
         "name": "JH Evening Snowfall",
@@ -271,7 +290,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Cobalt Carbonate", "amount": 1}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-29-1",
         "name": "JH Nougat",
@@ -283,7 +303,8 @@
         },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 1}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-30-1",
         "name": "JH Mushroom",
@@ -295,7 +316,8 @@
         },
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 1}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "1-31",
         "name": "JH Dusk",
@@ -308,7 +330,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Copper Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2021-03-04"
     },{
         "id": "1-32",
         "name": "JH Frost",
@@ -321,7 +344,8 @@
         "additives": [
             {"ingredient": "Mason Stain 6368", "amount": 2},
             {"ingredient": "Mason Stain 6003", "amount": 2}
-        ]
+        ],
+        "date": "2021-03-04"
     },{
         "id": "1-34",
         "name": "JH Soil",
@@ -333,7 +357,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 2}
-        ]
+        ],
+        "date": "2021-03-04"
     },{
         "id": "1-35",
         "name": "JH Windchill",
@@ -345,7 +370,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6376", "amount": 2}
-        ]
+        ],
+        "date": "2021-03-04"
     },{
         "id": "1-38",
         "name": "JH Forest Moss",
@@ -358,7 +384,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "1-39",
         "name": "JH Ancient Tortoise",
@@ -370,7 +397,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "1-40",
         "name": "JH Geode",
@@ -383,7 +411,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 7.65},
             {"ingredient": "Chrome Oxide", "amount": 2.5}
-        ]
+        ],
+        "date": "2022-10-30"
     },{
         "id": "1-41",
         "name": "JH Lake Louise",
@@ -396,7 +425,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75}
-        ]
+        ],
+        "date": "2022-10-30"
     },{
         "id": "1-42",
         "name": "JH Dewdrop",
@@ -410,7 +440,8 @@
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75},
             {"ingredient": "Rutile", "amount": 2}
-        ]
+        ],
+        "date": "2022-10-30"
     },{
         "id": "1-43",
         "name": "JH Sediment",
@@ -423,7 +454,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 0.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-30"
     },{
         "id": "1-44",
         "name": "JH Silt",
@@ -436,7 +468,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-45",
         "name": "JH Jacuzzi",
@@ -449,7 +482,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.5},
             {"ingredient": "Chrome Oxide", "amount": 0.4}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-46",
         "name": "JH Amethyst",
@@ -462,7 +496,8 @@
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-47",
         "name": "JH Cornbread",
@@ -476,7 +511,8 @@
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 10},
             {"ingredient": "Mason Stain 6410", "amount": 2}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-48",
         "name": "JH Beurre",
@@ -489,7 +525,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-49",
         "name": "JH Popcorn",
@@ -502,7 +539,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 6},
             {"ingredient": "Titanium Dioxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "1-50",
         "name": "JH Ginseng",
@@ -516,7 +554,8 @@
             {"ingredient": "Copper Carbonate", "amount": 6},
             {"ingredient": "Red Iron Oxide", "amount": 5},
             {"ingredient": "Zircopax", "amount": 1}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "1-51",
         "name": "JH Persea",
@@ -529,7 +568,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "1-52",
         "name": "JH Sidewalk",
@@ -543,7 +583,8 @@
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 8},
             {"ingredient": "Red Iron Oxide", "amount": 7}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "1-53",
         "name": "JH Gold Rush",
@@ -556,7 +597,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Red Iron Oxide", "amount": 10}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "1-54",
         "name": "JH Iowa",
@@ -569,7 +611,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "1-55",
         "name": "JH Debris",
@@ -581,10 +624,11 @@
         },
         "additives": [
             {"ingredient": "Ilmenite", "amount": 2.5}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "8-1",
-        "name": "Ashley's Best (Original)",
+        "name": "Ashley's Best",
         "clay": 181,
         "base": "Ashley's Best",
         "color": "Purple",
@@ -593,7 +637,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 4}
-        ]
+        ],
+        "date": "2019-11-25"
     },{
         "id": "11-0",
         "name": "Chun Base",
@@ -603,10 +648,11 @@
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "11-2",
-        "name": "Chun Seafoam (Original)",
+        "name": "Chun Seafoam",
         "clay": 181,
         "base": "Chun",
         "color": "Green",
@@ -616,7 +662,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2019-11-15"
     },{
         "id": "11-4",
         "name": "JH Gunmetal Green",
@@ -630,7 +677,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 4.6},
             {"ingredient": "Chrome Oxide", "amount": 1.5}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "11-5",
         "name": "JH Blue Shift",
@@ -645,7 +693,8 @@
             {"ingredient": "Rutile", "amount": 3.7},
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
             {"ingredient": "Copper Oxide", "amount": 0.8}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "11-9",
         "name": "JH Metallic Teal",
@@ -660,7 +709,8 @@
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "11-14",
         "name": "JH Moonrise",
@@ -673,7 +723,8 @@
         "additives": [
             {"ingredient": "Mason Stain 6003", "amount": 2},
             {"ingredient": "Mason Stain 6368", "amount": 2}
-        ]
+        ],
+        "date": "2021-03-07"
     },{
         "id": "11-15",
         "name": "JH Celestial",
@@ -687,7 +738,8 @@
             {"ingredient": "Mason Stain 6003", "amount": 2},
             {"ingredient": "Mason Stain 6368", "amount": 2},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2021-03-07"
     },{
         "id": "11-16",
         "name": "JH Cornflower Blue",
@@ -702,7 +754,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 4}
-        ]
+        ],
+        "date": "2021-03-07"
     },{
         "id": "11-17",
         "name": "JH Chun Cobalt Blue",
@@ -716,7 +769,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2021-03-18"
     },{
         "id": "11-18",
         "name": "JH Starry Night",
@@ -731,7 +785,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 2},
             {"ingredient": "Red Iron Oxide", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2021-03-18"
     },{
         "id": "11-19",
         "name": "JH Iron Shift",
@@ -745,7 +800,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2021-03-18"
     },{
         "id": "11-20",
         "name": "JH Oilslick",
@@ -759,7 +815,8 @@
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2021-04-07"
     },{
         "id": "11-22",
         "name": "JH Blue Danube",
@@ -772,7 +829,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 2},
             {"ingredient": "Titanium Dioxide", "amount": 4}
-        ]
+        ],
+        "date": "2021-04-07"
     },{
         "id": "11-23",
         "name": "JH Sky Blue",
@@ -788,7 +846,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
             {"ingredient": "Copper Oxide", "amount": 0.8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2021-04-07"
     },{
         "id": "11-24",
         "name": "JH Bora Bora",
@@ -801,7 +860,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 2.6},
             {"ingredient": "Copper Carbonate", "amount": 1.75}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "11-25",
         "name": "JH Molasses",
@@ -814,7 +874,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 0.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "11-26",
         "name": "JH Cola",
@@ -827,7 +888,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.75},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "11-27",
         "name": "JH Jadeite",
@@ -840,7 +902,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 1.5},
             {"ingredient": "Chrome Oxide", "amount": 0.4}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "11-28",
         "name": "JH Lemon Bar",
@@ -853,7 +916,8 @@
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2022-10-31"
     },{
         "id": "11-29",
         "name": "JH Mesopelagic",
@@ -867,7 +931,8 @@
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2023-03-06"
     },{
         "id": "11-30",
         "name": "JH Doreen",
@@ -881,7 +946,8 @@
             {"ingredient": "Rutile", "amount": 1.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2},
             {"ingredient": "Titanium Dioxide", "amount": 4}
-        ]
+        ],
+        "date": "2023-03-06"
     },{
         "id": "11-31",
         "name": "JH Seamist",
@@ -894,10 +960,11 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "12-1",
-        "name": "Lynette's Opal (Original)",
+        "name": "Lynette's Opal",
         "clay": 181,
         "base": "Lynette's Opal",
         "color": "Pink",
@@ -907,10 +974,11 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2020-10-02"
     },{
         "id": "13-1",
-        "name": "Heino Cobalt Blue (Original)",
+        "name": "Heino Cobalt Blue",
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
@@ -920,10 +988,11 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Cobalt Carbonate", "amount": 1}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "13-3-1",
-        "name": "Heino Copper Blue (Original)",
+        "name": "Heino Copper Blue",
         "clay": 181,
         "base": "Heino",
         "color": "Blue",
@@ -932,7 +1001,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "13-3-2",
         "name": "JH Bluemarine",
@@ -945,7 +1015,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Rutile", "amount": 2}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "13-3-3",
         "name": "JH Aquamarine",
@@ -960,7 +1031,8 @@
             {"ingredient": "Copper Carbonate", "amount": 3},
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Rutile", "amount": 3}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "13-4",
         "name": "JH Fungi",
@@ -973,7 +1045,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "13-5",
         "name": "JH Midnight",
@@ -986,7 +1059,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "13-6",
         "name": "JH Midnight Deluxe",
@@ -1000,7 +1074,8 @@
             {"ingredient": "Titanium Dioxide", "amount": 2},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "13-7",
         "name": "JH Deep Galaxy",
@@ -1014,7 +1089,8 @@
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-28"
     },{
         "id": "13-8",
         "name": "TBD",
@@ -1027,6 +1103,7 @@
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 4}
         ],
+        "date": "2023-07-02",
         "status": "inactive"
     },{
         "id": "13-9",
@@ -1039,10 +1116,11 @@
         },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "14-1",
-        "name": "VC Matte Yellow (Original)",
+        "name": "VC Matte Yellow",
         "clay": 181,
         "base": "VC Matte Yellow",
         "color": "Yellow",
@@ -1051,10 +1129,11 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 4},
             {"ingredient": "Titanium Dioxide", "amount": 8}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "15-1",
-        "name": "Bright Sky Blue (Original)",
+        "name": "Bright Sky Blue",
         "clay": 181,
         "base": "Bright Sky Blue",
         "color": "Blue",
@@ -1065,10 +1144,11 @@
             {"ingredient": "Red Iron Oxide", "amount": 0.5},
             {"ingredient": "Rutile", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 1}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "16-1",
-        "name": "Arrowmont Blue-Green (Original)",
+        "name": "Arrowmont Blue-Green",
         "clay": 181,
         "base": "Arrowmont",
         "color": "Blue",
@@ -1078,10 +1158,11 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2020-10-01"
     },{
         "id": "20-1",
-        "name": "Bright Purple (Original)",
+        "name": "Bright Purple",
         "clay": 181,
         "base": "Bright Purple",
         "color": "Purple",
@@ -1090,10 +1171,11 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2019-11-15"
     },{
         "id": "25-1",
-        "name": "June Perry Red (Original)",
+        "name": "June Perry Red",
         "clay": 181,
         "base": "June Perry Red",
         "color": "Red",
@@ -1102,7 +1184,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.15}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "26-0",
         "name": "Raspberry Base",
@@ -1112,10 +1195,11 @@
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "26-1",
-        "name": "Raspberry (Original)",
+        "name": "Raspberry",
         "clay": 181,
         "base": "Raspberry",
         "color": "Red",
@@ -1124,7 +1208,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "26-2",
         "name": "JH Vino",
@@ -1138,7 +1223,8 @@
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2},
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "26-4",
         "name": "JH Plum & Plumber",
@@ -1152,7 +1238,8 @@
             {"ingredient": "Tin Oxide", "amount": 7.5},
             {"ingredient": "Chrome Oxide", "amount": 0.2},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
-        ]
+        ],
+        "date": "2020-11-20"
     },{
         "id": "26-5",
         "name": "JH Canneberge",
@@ -1165,7 +1252,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 8},
             {"ingredient": "Chrome Oxide", "amount": 0.1}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "26-6",
         "name": "JH Piglet",
@@ -1178,7 +1266,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Rutile", "amount": 1.5}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "26-7",
         "name": "JH Atlas",
@@ -1191,10 +1280,11 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "28-1",
-        "name": "Burgundy (Original)",
+        "name": "Burgundy",
         "clay": 181,
         "base": "Burgundy",
         "color": "Red",
@@ -1204,7 +1294,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "28-2",
         "name": "JH Frostbitten",
@@ -1219,7 +1310,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
             {"ingredient": "Copper Oxide", "amount": 0.8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "28-3",
         "name": "JH Borscht",
@@ -1232,7 +1324,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 8},
             {"ingredient": "Chrome Oxide", "amount": 0.1}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "28-4",
         "name": "JH Cat Nose",
@@ -1245,7 +1338,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Rutile", "amount": 1.5}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "28-5",
         "name": "JH Patrick",
@@ -1260,7 +1354,8 @@
             {"ingredient": "Titanium Dioxide", "amount": 8},
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Chrome Oxide", "amount": 0.05}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "28-6",
         "name": "JH Flush",
@@ -1274,10 +1369,11 @@
             {"ingredient": "Rutile", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 8},
             {"ingredient": "Tin Oxide", "amount": 4}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "31-1",
-        "name": "Peacock (Original)",
+        "name": "Peacock",
         "clay": 181,
         "base": "Peacock",
         "color": "Blue",
@@ -1287,10 +1383,11 @@
             {"ingredient": "Copper Carbonate", "amount": 1},
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Titanium Dioxide", "amount": 10}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "32-1",
-        "name": "Emerald Green (Original)",
+        "name": "Emerald Green",
         "clay": 181,
         "base": "Emerald Green",
         "color": "Blue",
@@ -1299,10 +1396,11 @@
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 2},
             {"ingredient": "Cobalt Carbonate", "amount": 5}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "33-1",
-        "name": "Behrens Satin Matte (Original)",
+        "name": "Behrens Satin Matte",
         "clay": 181,
         "base": "Behrens Satin Matte",
         "color": "White",
@@ -1311,7 +1409,8 @@
         },
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "33-2",
         "name": "JH Behrens Green",
@@ -1325,7 +1424,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Copper Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "33-3",
         "name": "JH Behrens Blue",
@@ -1339,7 +1439,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
-        ]
+        ],
+        "date": "2020-11-02"
     },{
         "id": "33-4",
         "name": "JH Mulch",
@@ -1353,7 +1454,8 @@
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "33-5",
         "name": "JH Chestnut",
@@ -1366,10 +1468,11 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 6.5},
             {"ingredient": "Mason Stain 6650", "amount": 4}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "34-1",
-        "name": "John's Cash Blue (Original)",
+        "name": "John's Cash Blue",
         "clay": 181,
         "base": "John's Cash Blue",
         "color": "Blue",
@@ -1378,7 +1481,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 1},
             {"ingredient": "Rutile", "amount": 4}
-        ]
+        ],
+        "date": "2020-10-18"
     },{
         "id": "35-0",
         "name": "Charcoal Matte Black Base",
@@ -1389,10 +1493,11 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "35-2",
-        "name": "Charcoal Matte Black (Original)",
+        "name": "Charcoal Matte Black",
         "clay": 240,
         "base": "Charcoal Matte Black",
         "color": "Tan/Brown",
@@ -1401,7 +1506,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 6.7},
             {"ingredient": "Cobalt Oxide", "amount": 1.3}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "35-3",
         "name": "JH Sunny Terrazzo",
@@ -1414,17 +1520,19 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "36-0",
-        "name": "Magnesium Semi-Matte (Original)",
+        "name": "Magnesium Semi-Matte",
         "clay": 240,
         "base": "Magnesium Semi-Matte",
         "color": "White",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-1",
         "name": "JH Loam",
@@ -1437,7 +1545,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-2",
         "name": "JH Blizzard",
@@ -1449,7 +1558,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-3",
         "name": "JH Gulf Stream",
@@ -1462,7 +1572,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-4",
         "name": "JH Swamp Hero",
@@ -1474,7 +1585,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-5",
         "name": "JH Sandstorm",
@@ -1486,7 +1598,8 @@
         },
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-6",
         "name": "JH Strawberry Cream",
@@ -1499,7 +1612,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-7",
         "name": "JH Boston",
@@ -1511,7 +1625,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "36-8",
         "name": "JH Fjord",
@@ -1524,7 +1639,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "36-9",
         "name": "JH Dandelion",
@@ -1537,7 +1653,8 @@
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 6}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "36-10",
         "name": "JH Swan",
@@ -1550,7 +1667,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 1}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "36-11",
         "name": "JH Wisteria",
@@ -1563,7 +1681,8 @@
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "36-12",
         "name": "JH Serpent",
@@ -1576,10 +1695,11 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "37-1",
-        "name": "John's Aventurine (Original)",
+        "name": "John's Aventurine",
         "clay": 240,
         "base": "John's Aventurine",
         "color": "Tan/Brown",
@@ -1587,10 +1707,11 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 67}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "37-2",
-        "name": "John's Aventurine 81 (Original)",
+        "name": "John's Aventurine 81",
         "clay": 240,
         "base": "John's Aventurine",
         "color": "Tan/Brown",
@@ -1598,17 +1719,19 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 81}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "38-0",
-        "name": "Scotchie Textured (Original)",
+        "name": "Scotchie Textured",
         "clay": 240,
         "base": "Scotchie Textured",
         "color": "White",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "38-1",
         "name": "JH Crumbled Shamrock",
@@ -1620,27 +1743,30 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 2}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "39-0",
-        "name": "Snowflake Crackle 4 (Original)",
-        "clay": 240,
+        "name": "Snowflake Crackle 4",
+        "clay": 630,
         "base": "Snowflake Crackle 4",
         "color": "Clear",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-0",
-        "name": "Sherman's Satin Matte (Original)",
+        "name": "Sherman's Satin Matte",
         "clay": 240,
         "base": "Sherman's Satin Matte",
         "color": "White",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-1",
         "name": "JH Swamp Monster",
@@ -1652,7 +1778,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-2",
         "name": "JH Slate",
@@ -1665,7 +1792,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 7.5},
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-3",
         "name": "JH Cloudless",
@@ -1677,7 +1805,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-4",
         "name": "JH Weathered Mint",
@@ -1690,7 +1819,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.25},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-5",
         "name": "JH Cinnaspeck",
@@ -1702,7 +1832,8 @@
         },
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-6",
         "name": "JH Rose Quartz",
@@ -1715,7 +1846,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 5},
             {"ingredient": "Chrome Oxide", "amount": 0.2}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-7",
         "name": "JH Hot Cocoa",
@@ -1727,7 +1859,8 @@
         },
         "additives": [
             {"ingredient": "Mason Stain 6650", "amount": 4}
-        ]
+        ],
+        "date": "2022-01-30"
     },{
         "id": "40-8",
         "name": "JH Labradorite",
@@ -1740,7 +1873,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 6},
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "40-9",
         "name": "JH Fresh Spring",
@@ -1753,7 +1887,8 @@
         "additives": [
             {"ingredient": "Nickel Oxide", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "40-10",
         "name": "JH Cake Batter",
@@ -1766,7 +1901,8 @@
         "additives": [
             {"ingredient": "Rutile", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 1}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "40-11",
         "name": "JH Stone Blue",
@@ -1779,7 +1915,8 @@
         "additives": [
             {"ingredient": "Cobalt Oxide", "amount": 0.3},
             {"ingredient": "Nickel Oxide", "amount": 0.5}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "40-12",
         "name": "JH Sepia Bloom",
@@ -1792,17 +1929,19 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-02-25"
     },{
         "id": "41-0",
-        "name": "OldForge FirstFive Gold (Original)",
+        "name": "OldForge FirstFive Gold",
         "clay": 630,
         "base": "OldForge FirstFive Gold",
         "color": "Tan/Brown",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "41-1",
         "name": "JH Cyberspace",
@@ -1815,10 +1954,11 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 8}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "42-1",
-        "name": "Pinnell’s Strontium Crater (Original)",
+        "name": "Pinnell’s Strontium Crater",
         "clay": 240,
         "base": "Pinnell’s Strontium Crater",
         "color": "Green",
@@ -1829,6 +1969,7 @@
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Red Iron Oxide", "amount": 4}
         ],
+        "date": "2022-08-28",
         "status": "inactive"
     },{
         "id": "42-2",
@@ -1843,17 +1984,19 @@
             {"ingredient": "Silicon Carbide (1000 mesh)", "amount": 3},
             {"ingredient": "Titanium Dioxide", "amount": 5},
             {"ingredient": "Manganese Dioxide", "amount": 4}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "43-0",
-        "name": "Gold Metallic (Original)",
+        "name": "Gold Metallic",
         "clay": 630,
         "base": "Gold Metallic",
         "color": "Yellow",
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "43-1",
         "name": "JH Hematite",
@@ -1866,7 +2009,8 @@
         "additives": [
             {"ingredient": "Copper Oxide", "amount": 3},
             {"ingredient": "Red Iron Oxide", "amount": 4.5}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "44-0",
         "name": "Tiger Eye Base",
@@ -1876,10 +2020,11 @@
         "source": {
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "44-1",
-        "name": "Tiger Eye (Original)",
+        "name": "Tiger Eye",
         "clay": 240,
         "base": "Tiger Eye",
         "color": "Tan/Brown",
@@ -1887,7 +2032,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 10.15}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "44-2",
         "name": "JH Galvanized",
@@ -1900,7 +2046,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Copper Oxide", "amount": 7}
-        ]
+        ],
+        "date": "2022-08-28"
     },{
         "id": "44-3",
         "name": "JH Hearth",
@@ -1913,7 +2060,8 @@
         "additives": [
             {"ingredient": "Tin Oxide", "amount": 4},
             {"ingredient": "Red Iron Oxide", "amount": 10.15}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "44-4",
         "name": "JH Ember",
@@ -1926,7 +2074,8 @@
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 4},
             {"ingredient": "Red Iron Oxide", "amount": 10.15}
-        ]
+        ],
+        "date": "2023-04-18"
     },{
         "id": "45-0",
         "name": "JH Chun Mod Base",
@@ -1937,7 +2086,8 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "45-1",
         "name": "JH Iron Shift Mod",
@@ -1950,7 +2100,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "45-2",
         "name": "JH Sky Blue Mod",
@@ -1965,7 +2116,8 @@
             {"ingredient": "Cobalt Carbonate", "amount": 0.3},
             {"ingredient": "Copper Oxide", "amount": 0.8},
             {"ingredient": "Titanium Dioxide", "amount": 3}
-        ]
+        ],
+        "date": "2022-11-01"
     },{
         "id": "45-3",
         "name": "JH Quartz",
@@ -1977,7 +2129,8 @@
         },
         "additives": [
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2023-03-20"
     },{
         "id": "46-0",
         "name": "JH Chunny Base",
@@ -1988,7 +2141,8 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "46-1",
         "name": "JH Sapphire",
@@ -2000,7 +2154,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 3}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "46-2",
         "name": "JH Shy Guy",
@@ -2013,7 +2168,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "47-0",
         "name": "JH Barium/Zinc 1 Base",
@@ -2024,7 +2180,8 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "47-1",
         "name": "JH Aloe",
@@ -2036,7 +2193,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "47-2",
         "name": "JH Pitiful",
@@ -2048,7 +2206,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "47-3",
         "name": "JH Lascaux",
@@ -2060,7 +2219,8 @@
         },
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 4}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "47-4",
         "name": "JH River Rock",
@@ -2072,7 +2232,8 @@
         },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "48-0",
         "name": "JH High Alkaline 1 Base",
@@ -2083,7 +2244,8 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "48-1",
         "name": "JH Seascape",
@@ -2095,7 +2257,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "48-2",
         "name": "JH Fairy Moss",
@@ -2107,7 +2270,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "48-3",
         "name": "JH Fumes",
@@ -2120,6 +2284,7 @@
         "additives": [
             {"ingredient": "Manganese Dioxide", "amount": 4}
         ],
+        "date": "2023-07-02",
         "status": "inactive"
     },{
         "id": "48-4",
@@ -2132,7 +2297,8 @@
         },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "48-5",
         "name": "JH Woodland",
@@ -2145,7 +2311,8 @@
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.5},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-6",
         "name": "JH Everglades",
@@ -2159,7 +2326,8 @@
             {"ingredient": "Chrome Oxide", "amount": 0.5},
             {"ingredient": "Cobalt Carbonate", "amount": 0.5},
             {"ingredient": "Titanium Dioxide", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-7",
         "name": "JH Tinkerbell",
@@ -2171,7 +2339,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-8",
         "name": "JH Unakite",
@@ -2184,7 +2353,8 @@
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 0.5},
             {"ingredient": "Tin Oxide", "amount": 4}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-9",
         "name": "JH Athens",
@@ -2196,7 +2366,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 0.5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-10",
         "name": "JH Pacific",
@@ -2208,7 +2379,8 @@
         },
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-11",
         "name": "JH Honeycomb",
@@ -2220,7 +2392,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 6}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-12",
         "name": "JH Corrosion",
@@ -2233,7 +2406,8 @@
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 5},
             {"ingredient": "Titanium Dioxide", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-13",
         "name": "JH Kettlecorn",
@@ -2246,7 +2420,8 @@
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 3},
             {"ingredient": "Rutile", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-14",
         "name": "JH Moss Agate",
@@ -2259,7 +2434,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 6},
             {"ingredient": "Nickel Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-15",
         "name": "JH Antique Blue",
@@ -2272,7 +2448,8 @@
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 2},
             {"ingredient": "Rutile", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-16",
         "name": "JH Bubblegum",
@@ -2284,7 +2461,8 @@
         },
         "additives": [
             {"ingredient": "Erbium Oxide", "amount": 10}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "48-17",
         "name": "JH Lucky Charm",
@@ -2296,10 +2474,11 @@
         },
         "additives": [
             {"ingredient": "Neodymium Oxide", "amount": 10}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "49-1",
-        "name": "Alberta Matte Black (Original)",
+        "name": "Alberta Matte Black",
         "clay": 240,
         "base": "Alberta Matte Black",
         "color": "Gray/Black",
@@ -2309,7 +2488,8 @@
         "additives": [
             {"ingredient": "Cobalt Carbonate", "amount": 5.5},
             {"ingredient": "Red Iron Oxide", "amount": 0.75}
-        ]
+        ],
+        "date": "2023-07-02"
     },{
         "id": "50-0",
         "name": "JH High Alkaline 2 Base",
@@ -2320,7 +2500,8 @@
             "creator": "Julia Hindle"
         },
         "additives": [
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "50-1",
         "name": "JH Cassis",
@@ -2332,7 +2513,8 @@
         },
         "additives": [
             {"ingredient": "Copper Carbonate", "amount": 5}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "50-2",
         "name": "JH Hedge",
@@ -2344,7 +2526,8 @@
         },
         "additives": [
             {"ingredient": "Chrome Oxide", "amount": 1}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "50-3",
         "name": "JH Green Tea",
@@ -2356,7 +2539,8 @@
         },
         "additives": [
             {"ingredient": "Red Iron Oxide", "amount": 6}
-        ]
+        ],
+        "date": "2023-07-04"
     },{
         "id": "50-4",
         "name": "JH Sap",
@@ -2368,6 +2552,7 @@
         },
         "additives": [
             {"ingredient": "Nickel Carbonate", "amount": 2}
-        ]
+        ],
+        "date": "2023-07-04"
     }
 ]

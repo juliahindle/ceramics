@@ -91,6 +91,10 @@ function Glazes() {
         }
     }
 
+    const sorting = (a, b) => {
+        return b.date.localeCompare(a.date)
+    }
+
     return (<>
         {/* Glazes */}
         <section className="glazes" onClick={handleGlazeContainerClick}>
@@ -104,21 +108,23 @@ function Glazes() {
                 <p>{filteredGlazes.filter(glaze => glaze.status !== "inactive").length}{filteredGlazes.length === 1 ? " glaze" : " glazes"}</p>
             </div>
             <div className="glazes-container">
-                {filteredGlazes.map((glaze, i) => 
-                    glaze.status !== "inactive" && glaze.id &&
-                    <button key={glaze+i} onClick={() => openSidebar(glaze)}>
-                        <img
-                            id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
-                            className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
-                            src={getGlazePhotoPath(glaze.id, "4x")}
-                            srcSet={
-                                `${getGlazePhotoPath(glaze.id, "4x")} 3x,` + 
-                                `${getGlazePhotoPath(glaze.id, "3x")} 2x,` + 
-                                `${getGlazePhotoPath(glaze.id, "2x")} 1x`
-                            }
-                            alt={`glaze with id: ${glaze.id}`}
-                        />
-                    </button>
+                {filteredGlazes
+                    //.sort(sorting)
+                    .map((glaze, i) => 
+                        glaze.status !== "inactive" && glaze.id &&
+                        <button key={glaze+i} onClick={() => openSidebar(glaze)}>
+                            <img
+                                id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
+                                className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
+                                src={getGlazePhotoPath(glaze.id, "4x")}
+                                srcSet={
+                                    `${getGlazePhotoPath(glaze.id, "4x")} 3x,` + 
+                                    `${getGlazePhotoPath(glaze.id, "3x")} 2x,` + 
+                                    `${getGlazePhotoPath(glaze.id, "2x")} 1x`
+                                }
+                                alt={`glaze with id: ${glaze.id}`}
+                            />
+                        </button>
                 )}
             </div>
         </section>
