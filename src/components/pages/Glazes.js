@@ -117,6 +117,9 @@ function Glazes() {
         let cap = ""
         if (caption === "Name") cap = glaze.name
         else if (caption === "Date") cap = glaze.date
+        else if (caption === "Cone") cap = "Cone 6"
+        else if (caption === "Base Glaze") cap = glaze.base
+        else if (caption === "Clay") cap = glaze.clay + " Stoneware"
 
         return <p style={{"margin-top": 0}}>{cap}</p>
     }

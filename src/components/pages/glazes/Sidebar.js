@@ -104,6 +104,9 @@ function Sidebar({closeSidebar}) {
 
                 <h2>Clay</h2>
                 <p className="info">{selectedGlaze.glaze.clay} Stoneware</p>
+
+                <h2>Date</h2>
+                <p className="info">{selectedGlaze.glaze.date}</p>
             </div>
         </aside>
     )

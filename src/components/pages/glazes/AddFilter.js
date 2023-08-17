@@ -121,6 +121,9 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
                                 <option className="filter-form" value={true}>None</option>
                                 <option className="filter-form" value={false}>Name</option>
                                 <option className="filter-form" value={false}>Date</option>
+                                <option className="filter-form" value={false}>Cone</option>
+                                <option className="filter-form" value={false}>Base Glaze</option>
+                                <option className="filter-form" value={false}>Clay</option>
                             </select> 
                         </fieldset>
                     </div>
