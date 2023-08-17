@@ -9,7 +9,7 @@ aside.sidebar {
   height: calc(100% - var(--header));
   transition: right 1s;
   background: $j-gray;
-  font-family: 'sofia-pro';
+  font-family: $j-report;
   z-index: 2;
   overflow-y: auto;
 
@@ -30,7 +30,6 @@ aside.sidebar {
       border: 0;
       background: unset;
       color: #000;
-      font-family: $j-report;
       font-size: 35px;
       font-weight: 600;
       opacity: $j-light-opacity;

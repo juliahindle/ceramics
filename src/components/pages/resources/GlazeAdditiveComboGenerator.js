@@ -1,6 +1,7 @@
 import "styles/resources_glazeAdditiveComboGenerator.scss"
 import { updatePageTitle, resetScroll } from "Constants"
 import { useState, useEffect } from "react"
+import { useSearchParams } from 'react-router-dom'
 import Story from "components/pages/resources/glazeAdditiveComboGenerator/Story";
 import Material from "components/pages/resources/glazeAdditiveComboGenerator/Material";
 
@@ -15,11 +16,37 @@ function GlazeAdditiveComboGenerator() {
     ])
     const [results, setResults] = useState([])
     const [storyOpen, setStoryOpen] = useState(false)
+    const [searchParams, setSearchParams] = useSearchParams()
 
     useEffect(() => {
         updatePageTitle("Glaze Additive Combo Generator")
         return resetScroll
     }, [])
+
+    useEffect(() => {
+        // set materials from URL
+        let queryNames = searchParams.getAll("name")
+        let queryMaxes = searchParams.getAll("max")
+        if (queryNames.length >= 1 && queryMaxes.length >= 1 && queryNames.length === queryMaxes.length) {
+            let newMaterials = []
+            queryNames.forEach((name, i) => newMaterials.push({name: name, max: queryMaxes[i]}))
+            setMaterials(newMaterials)
+        }
+
+        // set results from URL
+        let newResults = []
+        for (let i=0; i < 10; i++) {
+            let queryRecipeNames = searchParams.getAll(`recipe${i}Name`)
+            let queryRecipeAmounts = searchParams.getAll(`recipe${i}Amount`)
+
+            if (queryRecipeNames.length >= 1 && queryRecipeAmounts.length >= 1 && queryRecipeNames.length === queryRecipeAmounts.length) {
+                let recipe = []
+                queryRecipeNames.forEach((name, i) => recipe.push({name: name, amount: queryRecipeAmounts[i]}))
+                newResults.push(recipe)
+            }
+        }
+        setResults(newResults)
+    }, [searchParams])
 
     const addMaterial = () => {
         setMaterials((old) => old.concat([{name: "", max: ""}]))
@@ -34,11 +61,13 @@ function GlazeAdditiveComboGenerator() {
     }
 
     const calculateCombos = () => {
+        // Confirm good inputs
         if (inputsAreInvalid()) { 
             alert("Please fix invalid input data. See the red input boxes.")
             return
         }
 
+        // Calcuate combos
         let recipes = []
         let inputMaterials = getNonEmptyMaterials()
 
@@ -60,6 +89,21 @@ function GlazeAdditiveComboGenerator() {
             recipes.push(recipe)
         }
         setResults(recipes)
+
+        // Set URL query params
+        var newSearchQuery = new URLSearchParams();
+        materials.forEach(material => {
+            newSearchQuery.append("name", material.name)
+            newSearchQuery.append("max", material.max)
+        })
+        recipes.forEach((recipe, i) => {
+            recipe.forEach(material => {
+                newSearchQuery.append(`recipe${i}Name`, material.name)
+                newSearchQuery.append(`recipe${i}Amount`, material.amount)
+            })
+        })
+
+        setSearchParams(newSearchQuery)
     }
 
     const materialIsUsed = (recipe, name) => recipe.some(material => material.name === name)

@@ -2080,7 +2080,7 @@
         "id": "45-0",
         "name": "JH Chun Mod Base",
         "clay": 240,
-        "base": "Chun Mod",
+        "base": "JH Chun Mod",
         "color": "Clear",
         "source": {
             "creator": "Julia Hindle"
@@ -2092,7 +2092,7 @@
         "id": "45-1",
         "name": "JH Iron Shift Mod",
         "clay": 240,
-        "base": "Chun Mod",
+        "base": "JH Chun Mod",
         "color": "Tan/Brown",
         "source": {
             "creator": "Julia Hindle"
@@ -2106,7 +2106,7 @@
         "id": "45-2",
         "name": "JH Sky Blue Mod",
         "clay": 240,
-        "base": "Chun Mod",
+        "base": "JH Chun Mod",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2122,7 +2122,7 @@
         "id": "45-3",
         "name": "JH Quartz",
         "clay": 240,
-        "base": "Chun Mod",
+        "base": "JH Chun Mod",
         "color": "White",
         "source": {
             "creator": "Julia Hindle"
