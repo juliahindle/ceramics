@@ -14,13 +14,12 @@ function FilterCategory({
 
     return (<>
         {/* Title */}
-        <div className="filter-form title" onClick={() => {toggleCategory(id)}}>
-            <h3 
-                className="filter-form" 
-            >
-                {(enabled ? "\u25BE " : "\u25B8 ") + name}
-            </h3>
+        <div className={"filter-form title " + (enabled ? "expanded" : "collapsed")} onClick={() => {toggleCategory(id)}}>
+            <h3 className="filter-form">{name}</h3>
             <div className={"filter-form count " + (checkedOptions.length ? "enabled" : "disabled")}>{checkedOptions.length}</div>
+            <img className={enabled ? "arrow expanded" : "arrow collapsed"} src="svgs/collapsed.svg"></img>
+            {/* {(enabled ? "\u25BE " : "\u25B8 ") + name} */}
+            
         </div>
         
         <div

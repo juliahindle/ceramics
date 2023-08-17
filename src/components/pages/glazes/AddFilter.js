@@ -11,7 +11,7 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         color: [], 
         base: [], 
         includedIngredient: [],
-        excludedIngredient: []
+        excludedIngredient: [],
     })
     const [toggleStates, setToggleStates] = useState({
         color: false, 
@@ -20,6 +20,8 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
         excludedIngredient: false
     })
     const [includeAll, setIncludeAll] = useState(false)
+    const [caption, setCaption] = useState("None")
+    const [sort, setSort] = useState("Default")
 
     useEffect(() => {
         setFilters({
@@ -29,11 +31,13 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             excludedIngredient: searchParams.getAll("excludedIngredient")
         })
         setIncludeAll(JSON.parse(searchParams.get("includeAll") || false))
+        setSort(searchParams.get("sort"))
+        setCaption(searchParams.get("caption"))
     }, [searchParams])
 
     useEffect(() => {
         refreshSearchQuery()
-    }, [includeAll])
+    }, [includeAll, sort, caption])
 
     const getCurrentFilters = () => {
         let filterMarkup = []
@@ -83,6 +87,8 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             })
         })
         if (includeAll) newSearchQuery.append("includeAll", true)
+        if (sort && sort !== "Default") newSearchQuery.append("sort", sort)
+        if (caption  && caption !== "None") newSearchQuery.append("caption", caption)
         setSearchParams(newSearchQuery)
     }
 
@@ -107,6 +113,30 @@ function AddFilter({searchParams, setSearchParams, showAddFilter, setShowAddFilt
             <span className="open-close">+</span>
             <span className="title">Add filter</span>
             <form className="filter-form">
+                <div className="filter-form selection-container">
+                    <div className="filter-form selection">
+                        <fieldset className="filter-form">
+                            <legend className="filter-form">Caption</legend>
+                            <select className="filter-form" onChange={ (e) => setCaption(e.currentTarget.selectedOptions[0].innerText)}>
+                                <option className="filter-form" value={true}>None</option>
+                                <option className="filter-form" value={false}>Name</option>
+                                <option className="filter-form" value={false}>Date</option>
+                            </select> 
+                        </fieldset>
+                    </div>
+                    <div className="filter-form selection">
+                        <fieldset className="filter-form">
+                            <legend className="filter-form">Sort</legend>
+                            <select className="filter-form" onChange={ (e) => setSort(e.currentTarget.selectedOptions[0].innerText)}>
+                                <option className="filter-form" value={true}>Default</option>
+                                <option className="filter-form" value={false}>Date (New to Old)</option>
+                                <option className="filter-form" value={false}>Date (Old to New)</option>
+                                <option className="filter-form" value={false}>Name (A to Z)</option>
+                                <option className="filter-form" value={false}>Name (Z to A)</option>
+                            </select> 
+                        </fieldset>
+                    </div>
+                </div>
                 <FilterCategoriesContext.Provider value={{
                     toggleCategory: toggleCategory,
                     addFilter: (filterName, category) => editFilter(filterName, category, "ADD"),

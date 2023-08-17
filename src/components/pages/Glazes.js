@@ -13,9 +13,11 @@ function Glazes() {
     const [searchParams, setSearchParams] = useSearchParams()
     const [filteredGlazes, setFilteredGlazes] = useState(glazes)
     const [showAddFilter, setShowAddFilter] = useState(false)
+    const [caption, setCaption] = useState("None")
 
     // Use Effects
     useEffect(() => {
+        console.log("Refreshing")
         updatePageTitle("Glazes")
         
         // handle query filters
@@ -24,11 +26,29 @@ function Glazes() {
         let queryIncludedIngredients= searchParams.getAll("includedIngredient")
         let queryExcludedIngredients = searchParams.getAll("excludedIngredient")
 
-        setFilteredGlazes(glazes.filter(glaze => 
+        let tempGlazes = glazes.filter(glaze => 
             (queryBases.length === 0 || queryBases.includes(glaze.base)) &&
             (queryColors.length === 0 || queryColors.includes(glaze.color)) &&
             (queryIncludedIngredients.length === 0 || glazeContainsIngredients(glaze, queryIncludedIngredients, (list, method) => searchParams.get("includeAll") ? list.every(method) : list.some(method))) &&
-            (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients, (list, method) => list.every(method)))))
+            (queryExcludedIngredients.length === 0 || !glazeContainsIngredients(glaze, queryExcludedIngredients, (list, method) => list.every(method))))
+
+
+        let sort = searchParams.get("sort")
+        const sorting = (a, b) => {
+            if (sort === "Date (New to Old)") return b.date.localeCompare(a.date)
+            else if (sort === "Date (Old to New)") return a.date.localeCompare(b.date)
+            else if (sort === "Name (A to Z)") return a.name.localeCompare(b.name)
+            else if (sort === "Name (Z to A)") return b.name.localeCompare(a.name)
+            else {
+                let nums =  a.id.split("-")
+                let nums2 = b.id.split("-")
+                if (nums[0] === nums2[0]) return nums[0] > nums2[0]
+                else return nums[1] > nums2[1]
+            }
+        }
+        setFilteredGlazes(tempGlazes.sort(sorting))
+
+        setCaption(searchParams.get("caption"))
     
         // handle query sidebar
         let querySidebar = searchParams.get("sidebar")
@@ -91,8 +111,14 @@ function Glazes() {
         }
     }
 
-    const sorting = (a, b) => {
-        return b.date.localeCompare(a.date)
+    const getCaption = (glaze) => {
+        if (caption === "None") return
+        
+        let cap = ""
+        if (caption === "Name") cap = glaze.name
+        else if (caption === "Date") cap = glaze.date
+
+        return <p style={{"margin-top": 0}}>{cap}</p>
     }
 
     return (<>
@@ -109,10 +135,9 @@ function Glazes() {
             </div>
             <div className="glazes-container">
                 {filteredGlazes
-                    //.sort(sorting)
                     .map((glaze, i) => 
                         glaze.status !== "inactive" && glaze.id &&
-                        <button key={glaze+i} onClick={() => openSidebar(glaze)}>
+                        <button key={glaze+i} onClick={() => openSidebar(glaze)} className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}>
                             <img
                                 id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                                 className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
@@ -124,6 +149,7 @@ function Glazes() {
                                 }
                                 alt={`glaze with id: ${glaze.id}`}
                             />
+                            {getCaption(glaze)}
                         </button>
                 )}
             </div>
