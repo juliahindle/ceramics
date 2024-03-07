@@ -38,15 +38,8 @@ function Glazes() {
             else if (sort === "Date (Old to New)") return a.date.localeCompare(b.date)
             else if (sort === "Name (A to Z)") return a.name.localeCompare(b.name)
             else if (sort === "Name (Z to A)") return b.name.localeCompare(a.name)
-            else {
-                let nums =  a.id.split("-")
-                let nums2 = b.id.split("-")
-                if (nums[0] === nums2[0]) return nums[0] > nums2[0]
-                else return nums[1] > nums2[1]
-            }
         }
-        console.log("Sort:" + sort)
-        console.log(glazes)
+    
         setFilteredGlazes(tempGlazes.sort(sorting))
 
         setCaption(searchParams.get("caption"))
