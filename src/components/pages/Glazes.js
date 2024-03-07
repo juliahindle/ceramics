@@ -17,7 +17,6 @@ function Glazes() {
 
     // Use Effects
     useEffect(() => {
-        console.log("Refreshing")
         updatePageTitle("Glazes")
         
         // handle query filters
@@ -46,6 +45,8 @@ function Glazes() {
                 else return nums[1] > nums2[1]
             }
         }
+        console.log("Sort:" + sort)
+        console.log(glazes)
         setFilteredGlazes(tempGlazes.sort(sorting))
 
         setCaption(searchParams.get("caption"))
@@ -121,7 +122,7 @@ function Glazes() {
         else if (caption === "Base Glaze") cap = glaze.base
         else if (caption === "Clay") cap = glaze.clay + " Stoneware"
 
-        return <p style={{"margin-top": 0}}>{cap}</p>
+        return <p className="caption">{cap}</p>
     }
 
     return (<>
@@ -140,7 +141,7 @@ function Glazes() {
                 {filteredGlazes
                     .map((glaze, i) => 
                         glaze.status !== "inactive" && glaze.id &&
-                        <button key={glaze+i} onClick={() => openSidebar(glaze)} className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}>
+                        <button key={glaze.id+i} onClick={() => openSidebar(glaze)} className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}>
                             <img
                                 id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
                                 className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}

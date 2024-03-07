@@ -33,7 +33,7 @@ export const resetScroll = () => {
 }
 
 export const getGlazePhotoPath = (id, size) => {
-    return `images/glazes/${size}/${id}.png`
+    return `images/glazes/${size}-new/${id}.jpg`
 }
 
 export const getPotteryPhotoPath = (id, size) => {
