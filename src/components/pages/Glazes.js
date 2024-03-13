@@ -67,7 +67,7 @@ function Glazes() {
     }, [])
 
     useEffect(() => {
-        setScroll()
+        setTimeout(() => setScroll(selectedGlaze.glaze.id), 400)
     }, [selectedGlaze])
 
     // Methods
@@ -90,6 +90,7 @@ function Glazes() {
 
     const closeSidebar = () => {
         setShowSidebar(false)
+        setTimeout(() => setScroll(selectedGlaze.glaze.id), 500)
         searchParams.delete("sidebar")
         setSearchParams(searchParams)
     }
@@ -136,7 +137,7 @@ function Glazes() {
                         glaze.status !== "inactive" && glaze.id &&
                         <button key={glaze.id+i} onClick={() => openSidebar(glaze)} className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}>
                             <img
-                                id={(selectedGlaze.glaze.id === glaze.id ? "selected-glaze" : undefined)}
+                                id={glaze.id}
                                 className={(selectedGlaze.glaze.id === glaze.id ? "selected" : undefined)}
                                 src={getGlazePhotoPath(glaze.id, "4x")}
                                 srcSet={

@@ -12,6 +12,7 @@ import About from 'components/pages/About'
 import Resources from 'components/pages/Resources'
 import Glazes from 'components/pages/Glazes'
 import Pottery from 'components/pages/Pottery'
+import MakeYourOwnJewelryEnamel from 'components/pages/resources/MakeYourOwnJewelryEnamel'
 import GlazeAdditiveComboGenerator from 'components/pages/resources/GlazeAdditiveComboGenerator'
 import DigitizingYourGlazeNotes from 'components/pages/resources/DigitizingYourGlazeNotes'
 import PeriodicTableForPotters from 'components/pages/resources/PeriodicTableForPotters'
@@ -66,6 +67,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/pottery" element={<Pottery />} />
                     <Route path="/resources" element={<Resources />} />
+                    <Route path="/make-your-own-jewelry-enamel" element={<MakeYourOwnJewelryEnamel />} />
                     <Route path="/glaze-additive-combo-generator" element={<GlazeAdditiveComboGenerator />} />
                     <Route path="/digitizing-your-glaze-notes" element={<DigitizingYourGlazeNotes />} />
                     <Route path="/periodic-table-for-potters" element={<PeriodicTableForPotters />} />

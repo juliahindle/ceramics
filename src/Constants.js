@@ -12,19 +12,19 @@ export const updatePageTitle = (title) => {
     document.title = title + " - Julia Hindle Ceramics"
 }
 
-export const setScroll = () => {
-    const selectedGlaze = document.getElementById("selected-glaze")
+export const setScroll = (id) => {
+    const selectedGlaze = document.getElementById(id)
     const main = document.getElementById("main")
     if (selectedGlaze && !isInViewport(selectedGlaze)) {
-        main.scrollTop = selectedGlaze.offsetTop - 45
+        selectedGlaze.scrollIntoView({ behavior: "smooth", block: "center" })
     }
 }
 
 const isInViewport = (element) => {
     const rect = element.getBoundingClientRect()
     return (
-        rect.bottom >= 0 &&
-        rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+        rect.bottom - 20 >= 0 &&
+        rect.top + element.clientHeight <= (window.innerHeight || document.documentElement.clientHeight)
     )
 }
 

@@ -14,8 +14,9 @@ function Resources() {
     return (
         <section className="resources">
             <div className="container">
-                {resources.map((resource, index) => 
-                    resource.status !== "inactive" &&
+                {resources
+                 .filter(resource => resource.status !== 'inactive')
+                 .map((resource, index) => 
                     <div className='parent'>
                         <Link to={"/" + resource.url}>
                             <div className={"content index-" + index%6}>
