@@ -2236,9 +2236,9 @@
         "date": "2023-07-02"
     },{
         "id": "48-0",
-        "name": "JH High Alkaline 1 Base",
+        "name": "JH High Alkali 1 Base",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Clear",
         "source": {
             "creator": "Julia Hindle"
@@ -2250,7 +2250,7 @@
         "id": "48-1",
         "name": "JH Seascape",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2263,7 +2263,7 @@
         "id": "48-2",
         "name": "JH Fairy Moss",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2276,7 +2276,7 @@
         "id": "48-3",
         "name": "JH Fumes",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Tan/Brown",
         "source": {
             "creator": "Julia Hindle"
@@ -2290,7 +2290,7 @@
         "id": "48-4",
         "name": "JH Wax",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Orange",
         "source": {
             "creator": "Julia Hindle"
@@ -2303,7 +2303,7 @@
         "id": "48-5",
         "name": "JH Woodland",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2317,7 +2317,7 @@
         "id": "48-6",
         "name": "JH Everglades",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2332,7 +2332,7 @@
         "id": "48-7",
         "name": "JH Tinkerbell",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2345,7 +2345,7 @@
         "id": "48-8",
         "name": "JH Unakite",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2359,7 +2359,7 @@
         "id": "48-9",
         "name": "JH Athens",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2372,7 +2372,7 @@
         "id": "48-10",
         "name": "JH Pacific",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2385,7 +2385,7 @@
         "id": "48-11",
         "name": "JH Honeycomb",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Yellow",
         "source": {
             "creator": "Julia Hindle"
@@ -2398,7 +2398,7 @@
         "id": "48-12",
         "name": "JH Corrosion",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Tan/Brown",
         "source": {
             "creator": "Julia Hindle"
@@ -2412,7 +2412,7 @@
         "id": "48-13",
         "name": "JH Kettlecorn",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Orange",
         "source": {
             "creator": "Julia Hindle"
@@ -2426,7 +2426,7 @@
         "id": "48-14",
         "name": "JH Moss Agate",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2440,7 +2440,7 @@
         "id": "48-15",
         "name": "JH Antique Blue",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2454,7 +2454,7 @@
         "id": "48-16",
         "name": "JH Bubblegum",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Pink",
         "source": {
             "creator": "Julia Hindle"
@@ -2467,7 +2467,7 @@
         "id": "48-17",
         "name": "JH Lucky Charm",
         "clay": 240,
-        "base": "JH High Alkaline 1",
+        "base": "JH High Alkali 1",
         "color": "Purple",
         "source": {
             "creator": "Julia Hindle"
@@ -2492,9 +2492,9 @@
         "date": "2023-07-02"
     },{
         "id": "50-0",
-        "name": "JH High Alkaline 2 Base",
+        "name": "JH High Alkali 2 Base",
         "clay": 240,
-        "base": "JH High Alkaline 2",
+        "base": "JH High Alkali 2",
         "color": "Clear",
         "source": {
             "creator": "Julia Hindle"
@@ -2506,7 +2506,7 @@
         "id": "50-1",
         "name": "JH Cassis",
         "clay": 240,
-        "base": "JH High Alkaline 2",
+        "base": "JH High Alkali 2",
         "color": "Blue",
         "source": {
             "creator": "Julia Hindle"
@@ -2519,7 +2519,7 @@
         "id": "50-2",
         "name": "JH Hedge",
         "clay": 240,
-        "base": "JH High Alkaline 2",
+        "base": "JH High Alkali 2",
         "color": "Green",
         "source": {
             "creator": "Julia Hindle"
@@ -2532,7 +2532,7 @@
         "id": "50-3",
         "name": "JH Green Tea",
         "clay": 240,
-        "base": "JH High Alkaline 2",
+        "base": "JH High Alkali 2",
         "color": "Yellow",
         "source": {
             "creator": "Julia Hindle"
@@ -2545,7 +2545,7 @@
         "id": "50-4",
         "name": "JH Sap",
         "clay": 240,
-        "base": "JH High Alkaline 2",
+        "base": "JH High Alkali 2",
         "color": "Yellow",
         "source": {
             "creator": "Julia Hindle"
