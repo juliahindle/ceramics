@@ -1,29 +1,10 @@
 import { useState } from "react"
 
-function Column({name, dataPoints, height, highlighted, setHighlighted}) {
+function Column({name, dataPoints, height, onMouseOver, onMouseOut, resolveClassName}) {
 
-    const resolveClassName = (label) => {
-        let cleanedLabel = label.replace(" ", "-").replace("(", "").replace(")", "")
-        let hoverClass = ""
-        if (highlighted) {
-            hoverClass = "deselected"
-        }
-        if (highlighted === cleanedLabel) {
-            hoverClass = "selected"
-        }
-        return cleanedLabel + " " + hoverClass
-    }
-
+    
     const decimalToPercent = (decimal) => {
         return parseFloat((decimal*100).toFixed(2)) + "%"
-    }
-
-    const onMouseOver = (e) => {
-        setHighlighted(e.currentTarget.classList[0])
-    }
-
-    const onMouseOut = () => {
-        setHighlighted("")
     }
 
     return (
