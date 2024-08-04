@@ -89,16 +89,18 @@ hr {
 // Resource
 section.resource {
   width: 100%;
-  padding: 10px 40px 40px;
   
-  @media only screen and (max-width: 600px) {
-    padding: 10px 30px 30px;
+  div.preview {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
-  
 
   div.description {
-    padding-bottom: 60px;
     box-sizing: border-box;
+    padding: 10px 40px 60px 40px;
 
     h1 {
       margin-bottom: 10px;
@@ -109,6 +111,104 @@ section.resource {
     p {
       font-size: 20px;
       font-weight: 300;
+    }
+  }
+
+  div.content {
+    padding: 0 40px 30px 40px;
+
+    h2 {
+      margin-top: 50px;
+      font-size: 30px;
+      font-weight: 500;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    div.group {
+      margin-left: 3px;
+      padding-right: 80px;
+      padding-left: 40px;
+      border-left: #000 solid 3px;
+
+      ul,
+      ol {
+        padding: 0;
+
+        li {
+          margin: 0;
+          padding: 8px 0;
+          list-style-type: none;
+
+          h3 {
+            width: fit-content;
+            padding: 5px 20px;
+            border-radius: 20px;
+            background-color: #000;
+            color: #fff;
+          }
+
+          .section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            padding-bottom: 10px;
+
+            img {
+              width: 40%;
+              min-width: 40%;
+              max-width: 700px;
+              height: auto;
+              margin-right: 40px;
+              box-shadow: 0 0 15px rgb(#000, 15%);
+            }
+
+            p {
+              min-width: 60%;
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+
+
+  @media only screen and (max-width: 1390px) {
+    div.content div.group {
+      margin-left: 0;
+      padding: 0;
+      border-left: unset;
+
+      ul,
+      ol {
+        li {
+          .section {
+            flex-direction: column;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    div.description {
+      padding: 10px 30px 60px 30px;
+    }
+
+    div.content {
+      padding: 0 30px;
     }
   }
 }
