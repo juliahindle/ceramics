@@ -4,4 +4,35 @@ section.make-your-own-jewelry-enamel {
     div.preview {
         background-image: url("../../public/images/resources/previews/make-your-own-jewelry-enamel.png");
     }
+
+    div.description {
+        div.image-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 20px;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    ul span{
+        display: block;
+    }
+
+    a.spotlight {
+        color: #000;
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    img.enamel {
+        width: 100px;
+    }
 }
