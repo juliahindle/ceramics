@@ -4,12 +4,23 @@ section.periodic-table-for-potters {
   div.container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 40px;
+    padding: 40px;
+    padding-top: 0;
+
+    div.description {
+      padding-right: 0;
+      padding-left: 0;
+    }
 
     img.document {
       display: block;
       width: 100%;
       box-shadow: 0 0 15px rgb(#000, 15%);
+    }
+
+    @media only screen and (max-width: 600px) {
+      padding: 30px;
+      padding-top: 0;
     }
   }
 }
