@@ -186,14 +186,14 @@ function MakeYourOwnJewelryEnamel() {
                     <div className="enamel-container">
                         <div class="enamel"><img src="images/enamels/1.png"/>100% Frit 3269</div>
                         <div class="enamel"><img src="images/enamels/4.png"/>90% Frit 3269<br/>10% Zircopax</div>
-                        <div class="enamel"><img src="images/enamels/20.png"/>80% Frit 3269<br/>9% Zircopax<br/>11% USP Red</div>
-                        <div class="enamel"><img src="images/enamels/21.png"/>87% Frit 3269<br/>13% USP Red</div>
-                        <div class="enamel"><img src="images/enamels/22.png"/>87% Frit 3269<br/>13% USP 2</div>
-                        <div class="enamel"><img src="images/enamels/23.png"/>80% Frit 3269<br/>9% Zircopax<br/>11% USP 2</div>
+                        <div class="enamel"><img src="images/enamels/20.png"/>80% Frit 3269<br/>9% Zircopax<br/>11% USP<br/>Strawberry Red</div>
+                        <div class="enamel"><img src="images/enamels/21.png"/>87% Frit 3269<br/>13% USP<br/>Strawberry Red</div>
+                        <div class="enamel"><img src="images/enamels/22.png"/>87% Frit 3269<br/>13% USP Orange</div>
+                        <div class="enamel"><img src="images/enamels/23.png"/>80% Frit 3269<br/>9% Zircopax<br/>11% USP Orange</div>
                         <div class="enamel"><img src="images/enamels/7-4.png"/>76% Frit 3269<br/>12% Zircopax<br/>12% MS 6410</div>
                         <div class="enamel"><img src="images/enamels/6.png"/>82% Frit 3269<br/>12% Zircopax<br/>6% MS 6410</div>
-                        <div class="enamel"><img src="images/enamels/26.png"/>76% Frit 3269<br/>12% Zircopax<br/>USP 3</div>
-                        <div class="enamel"><img src="images/enamels/25.png"/>87% Frit 3269<br/>13% USP 3</div>
+                        <div class="enamel"><img src="images/enamels/26.png"/>76% Frit 3269<br/>12% Zircopax<br/>USP Lime</div>
+                        <div class="enamel"><img src="images/enamels/25.png"/>87% Frit 3269<br/>13% USP Lime</div>
                         <div class="enamel"><img src="images/enamels/8.png"/>82% Frit 3269<br/>12% Zircopax<br/>6% MS 6376</div>
                         <div class="enamel"><img src="images/enamels/9-2.png"/>76% Frit 3269<br/>12% Zircopax<br/>12% MS 6376</div>
                         <div class="enamel"><img src="images/enamels/5-2.png"/>88% Frit 3269<br/>6% Zircopax<br/>6% MS 6368</div>
