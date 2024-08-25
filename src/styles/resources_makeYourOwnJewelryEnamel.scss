@@ -9,7 +9,16 @@ section.make-your-own-jewelry-enamel {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
+        grid-row-gap: 20px;
         width: 100%;
+        max-width: 1540px;
+
+        &.two {
+            grid-template-columns: 1fr 1fr;
+             img {
+                max-height: none;
+             }
+        }
 
         img {
             width: 100%;
@@ -22,7 +31,6 @@ section.make-your-own-jewelry-enamel {
 
     a.spotlight {
         color: #000;
-        text-decoration: none;
     }
 
     img {
@@ -41,5 +49,21 @@ section.make-your-own-jewelry-enamel {
 
     div.enamel img {
         width: 100px;
+    }
+
+    div.enamel-container div.enamel {
+        padding: 10px;
+    }
+
+    div.content div.group ol.steps {
+        padding-left: 22px;
+
+        li {
+            list-style: auto;
+        }
+    }
+
+    div.content p.smaller {
+        font-size: 16px;
     }
 }
