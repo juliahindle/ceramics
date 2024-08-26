@@ -77,7 +77,7 @@ function MakeYourOwnJewelryEnamel() {
                 <div className="group">
                     <p>
                         The similarities between ceramic frits and enamel frits got my gears turning. 
-                        I wanted to see how similar the chemical makeups of the two were, but while that information is readily available for ceramic frits, enamel information was severely lacking online and in literature.
+                        I wanted to see how similar the ingredients of the two were, but while that information is readily available for ceramic frits, enamel information was severely lacking online and in literature.
                         I ended up looking at old patents like <a href="https://patents.google.com/patent/RU92004142A/en?q=(jewelry+enamel)&oq=jewelry+enamel" target="_blank" rel="noreferrer">this one</a> from 1997 and <a href="https://patents.google.com/patent/SU1491823A1/en?q=(jewelry+enamel)&oq=jewelry+enamel" target="_blank" rel="noreferrer">this one</a> from 1989 to get the info I was after.
                         I did research to find all ceramic frits with melting temperatures around 1400°F-1700°F and similar chemical makeups to what little I could find about enamel frits. 
                         The melting temperature of copper is 1984°F, so I knew we needed to land below that number.
@@ -114,8 +114,8 @@ function MakeYourOwnJewelryEnamel() {
                     </p>
                     <p>
                         <b>Opacifiers</b> are minerals that make your glass more opaque or more white. 
-                        For glazes, the three we commonly use are tin oxide, zircopax (brand name for zirconium silicate), and titanium dioxide.
-                        It was pretty easy to try all three, and zircopax unequivocally won. 
+                        For glazes, the three we commonly use are tin oxide, Zircopax (brand name for zirconium silicate), and titanium dioxide.
+                        It was pretty easy to try all three, and Zircopax performed the best. 
                     </p>
                     <p>
                         It took me some time to figure out the right ratio between the frit, stains, and zircopax, but eventually nailed down a formula.
@@ -174,11 +174,11 @@ function MakeYourOwnJewelryEnamel() {
                 </div>
                 <h2 id="mixing-the-enamel">Choosing the Enamel Recipe</h2>
                 <p>
-                    I found the best ratios of ingredients to be 80%-100% Frit 3269, 0%-10% Zircopax, and 0-15% stains/colorants. 
+                    I found the best ratios of ingredients to be 60%-100% Frit 3269, 0%-10% Zircopax, and 0-15% stains/colorants. 
                     I'm including some of my recipes here, but you can also feel free to experiment and try your own ingredient combos.
                 </p>
                 <p>
-                    MS stands for mason stain, which can be purchased from any ceramic supply store like The Ceramic Shop. 
+                    MS stands for mason stain, which can be purchased from any ceramic supply store like <a href="https://www.theceramicshop.com/store/department/57/stains/" target="_blank" rel="noreferrer">The Ceramic Shop</a>. 
                     USP stands for US Pigment, which is a company that makes and sells their own stains.
                     See their online website <a href="https://uspigment.com/product-category/inclusion-stains/" target="_blank" rel="noreferrer">here</a>.
                 </p>
@@ -225,7 +225,7 @@ function MakeYourOwnJewelryEnamel() {
                         <li>Once you have the right amount, tare the scale again and start scooping in your next ingredient.</li>
                         <li>Repeat until all ingredients are in the jar.</li>
                         <li>Close the lid tightly and then shake it aggressively for about a minute.</li>
-                        <li>Wait a minute for the dust to settle before opening the jar.</li>
+                        <li>Wait another minute aferwards for the dust to settle before opening the jar.</li>
                     </ol>
                     <p>That's it! Now you can move onto application.</p></div>
                 <h2 id="mixing-the-enamel">Applying the Enamel</h2>
