@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.29ede6a4.css",
-    "main.js": "/static/js/main.45612d9d.js",
+    "main.js": "/static/js/main.ccc270e1.js",
     "static/media/make-your-own-jewelry-enamel.png": "/static/media/make-your-own-jewelry-enamel.03d3fcd73e3d5778ead8.png",
     "static/media/background.jpg": "/static/media/background.0751cb8ac1d6e9dbb3ac.jpg",
     "static/media/pointer.svg": "/static/media/pointer.6157addb83e810cd9ea6.svg",
     "static/media/default.svg": "/static/media/default.5941929f7119e67e010a.svg",
     "index.html": "/index.html",
     "main.29ede6a4.css.map": "/static/css/main.29ede6a4.css.map",
-    "main.45612d9d.js.map": "/static/js/main.45612d9d.js.map"
+    "main.ccc270e1.js.map": "/static/js/main.ccc270e1.js.map"
   },
   "entrypoints": [
     "static/css/main.29ede6a4.css",
-    "static/js/main.45612d9d.js"
+    "static/js/main.ccc270e1.js"
   ]
 }
