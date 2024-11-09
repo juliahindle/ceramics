@@ -100,7 +100,7 @@ function MakeYourOwnJewelryEnamel() {
                     <div className="enamel"><img src={`images/enamels/i5301.png`}/>5301</div>
                     <p>
                         The number you see under each photo is the name of the frit, which is usually just a 2-4 digit number that its known by. 
-                        I finally saw started getting more fluid melts when I re-tried <a href="https://digitalfire.com/material/553" target="_blank" rel="noreferrer">Frit 79</a> and <a href="https://digitalfire.com/material/371" target="_blank" rel="noreferrer">Frit 3269</a> and perfected my technique with the torch (more on that later).
+                        I finally started getting more fluid melts when I re-tried <a href="https://digitalfire.com/material/553" target="_blank" rel="noreferrer">Frit 79</a> and <a href="https://digitalfire.com/material/371" target="_blank" rel="noreferrer">Frit 3269</a> and perfected my technique with the torch (more on that later).
                     </p>
                     <div className="enamel"><img src={`images/enamels/i79-2.png`}/>79</div>
                     <div className="enamel"><img src={`images/enamels/i3269-2.png`}/>3269</div>
@@ -120,7 +120,7 @@ function MakeYourOwnJewelryEnamel() {
                     <p>
                         It took me some time to figure out the right ratio between the frit, stains, and zircopax, but eventually nailed down a formula.
                         I found that in general for every 6 parts of the frit, you can add up to 1 part zircopax, 1 part stains.
-                        All of the recipes I've tried so far can be found in the <a className="spotlight" href="#mixing-the-enamel"><b>Mixing the Enamel</b></a> section.
+                        All of the recipes I've tried so far can be found in the <a className="spotlight" href="#choosing-the-enamel-recipe"><b>Choosing the Enamel Recipe</b></a> section.
                     </p>
                     <p>
                         Another challenge for me was figuring out the best way to heat the piece enough to get a fluid enamel melt without the color dulling or black specks popping up in the surface of the enamel.
@@ -172,7 +172,7 @@ function MakeYourOwnJewelryEnamel() {
                     </ul>
                     <p>In this article, I'm going to focus on where my enamel process differs from norm. If you're not familiar with basic enamel techniques already, you can read up on it in <a href="https://www.cooksongold.com/blog/learn/basic-guide-on-how-to-enamel/" target="_blank" rel="noreferrer">this article</a> or watch <a href="https://www.youtube.com/watch?v=HRya8Wq6yBs" target="_blank" rel="noreferrer">this video</a></p>
                 </div>
-                <h2 id="mixing-the-enamel">Choosing the Enamel Recipe</h2>
+                <h2 id="choosing-the-enamel-recipe">Choosing the Enamel Recipe</h2>
                 <p>
                     I found the best ratios of ingredients to be 60%-100% Frit 3269, 0%-10% Zircopax, and 0-15% stains/colorants. 
                     I'm including some of my recipes here, but you can also feel free to experiment and try your own ingredient combos.
@@ -180,7 +180,7 @@ function MakeYourOwnJewelryEnamel() {
                 <p>
                     MS stands for mason stain, which can be purchased from any ceramic supply store like <a href="https://www.theceramicshop.com/store/department/57/stains/" target="_blank" rel="noreferrer">The Ceramic Shop</a>. 
                     USP stands for US Pigment, which is a company that makes and sells their own stains.
-                    See their online website <a href="https://uspigment.com/product-category/inclusion-stains/" target="_blank" rel="noreferrer">here</a>.
+                    See their online storefront <a href="https://uspigment.com/product-category/inclusion-stains/" target="_blank" rel="noreferrer">here</a>.
                 </p>
                 <div className="group">
                     <div className="enamel-container">
