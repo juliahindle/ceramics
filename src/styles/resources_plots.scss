@@ -72,22 +72,26 @@ div.plot-container {
     
                     &.selected {
                         opacity: 1;
+
+                        span 
+                        {
+                            opacity: 1;
+                            transition-duration: 0s; // fast in
+                        }
                     }
 
                     span {
                         position: absolute;
-                        font-size: 14px;
+                        font-size: 15px;
                         color: white;
                         text-shadow:
-                            0.07em 0 white,
-                            0 0.07em white,
-                            -0.07em 0 white,
-                            0 -0.07em white;
-                        text-shadow:
-                            0.07em 0 black,
-                            0 0.07em black,
-                            -0.07em 0 black,
-                            0 -0.07em black;
+                            1px 0 black,
+                            0 1px black,
+                            -1px 0 black,
+                            0 -1px black,
+                            0 0 2px black;
+                        opacity: 0;
+                        // transition: opacity 0.2s; // slow out, I actually don't like this anymore lol
                     }
                 }
             }
@@ -158,15 +162,15 @@ div.plot-container {
             }
 
             &.Li2O-Lithium {
-                background: $j-red-light;
-            }
-
-            &.TiO2-Titanium {
                 background: $j-plum-light;
             }
 
-            &.SrO-Strontium {
+            &.TiO2-Titanium {
                 background: $j-purple-light;
+            }
+
+            &.SrO-Strontium {
+                background: lightgray;
             }
         }
     }

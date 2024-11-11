@@ -116,7 +116,7 @@ function ChemicalBreakdownsOfCommonMaterials() {
                     ]}
                 />
                 <Plot 
-                    width={620}
+                    width={720}
                     height={400}
                     title={"Feldspars"}
                     useTicks={true}

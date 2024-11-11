@@ -49,7 +49,7 @@ function Plot({width, height, title, columnWidth, columnsData, useTicks = false,
 
     return (
         <div className="plot-container">
-            <h3 style={{width: width+7}}>{title}</h3>
+            <h3 style={{width: width+25}}>{title}</h3>
             <div className="data-container">
                 {useTicks && <>
                     <div class="labels" style={{height: height-6}}>
