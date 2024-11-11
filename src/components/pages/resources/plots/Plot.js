@@ -3,7 +3,7 @@ import Column from 'components/pages/resources/plots/Column'
 import { useState, useEffect } from 'react'
 
 
-function Plot({width, height, columnsData}) {
+function Plot({width, height, title, columnWidth, columnsData, useTicks = false, useLabels = false}) {
     const [highlighted, setHighlighted] = useState("")
     const [legendData, setLegendData] = useState([])
 
@@ -19,13 +19,17 @@ function Plot({width, height, columnsData}) {
         setLegendData(newLegendData)
     }, [])
 
-    const resolveClassName = (label) => {
-        let cleanedLabel = label.replace(" ", "-").replace("(", "").replace(")", "")
+    const resolveLabelName = (label) => {
+        return label.replace(" ", "-").replace("(", "").replace(")", "")
+    }
+
+    const resolveClassName = (label, localHighlight = false) => {
+        let cleanedLabel = resolveLabelName(label)
         let hoverClass = ""
         if (highlighted) {
             hoverClass = "deselected"
         }
-        if (highlighted === cleanedLabel) {
+        if (highlighted === cleanedLabel || localHighlight) {
             hoverClass = "selected"
         }
         return cleanedLabel + " " + hoverClass
@@ -39,34 +43,56 @@ function Plot({width, height, columnsData}) {
         setHighlighted("")
     }
 
+    const isHighlighted = (label) => {
+        return label && resolveLabelName(label) === highlighted
+    }
+
     return (
         <div className="plot-container">
-            <div className="plot" width={width} height={height}>
-                {columnsData.map((columnData, i) => 
-                    <Column
-                        key={i + JSON.stringify(columnData)}
-                        index={i}
-                        name={columnData.name}
-                        dataPoints={columnData.data}
-                        height={height}
-                        onMouseOver={onMouseOver}
-                        onMouseOut={onMouseOut}
-                        resolveClassName={resolveClassName}
-
-                    />
-                )}
-            </div>
-            <div className="legend">
-                {legendData.map((label, i) => 
-                    <div 
-                        className={resolveClassName(label)}
-                        onMouseOver={onMouseOver}
-                        onMouseOut={onMouseOut}
-                    >
-                        <div className={"color " + label.replace(" ", "-").replace("(", "").replace(")", "")}></div>
-                        <div className="label">{label}</div>
+            <h3 style={{width: width+7}}>{title}</h3>
+            <div className="data-container">
+                {useTicks && <>
+                    <div class="labels" style={{height: height-6}}>
+                        <p>100%</p>
+                        <p>90%</p>
+                        <p>80%</p>
+                        <p>70%</p>
+                        <p>60%</p>
+                        <p>50%</p>
+                        <p>40%</p>
+                        <p>30%</p>
+                        <p>20%</p>
+                        <p>10%</p>
                     </div>
-                )}
+                    <div class="ticks"></div>
+                </>}
+                <div className="plot" style={{width: width, height: height}}>   {/* TODO: make this work */}
+                    {columnsData.map((columnData, i) => 
+                        <Column
+                            key={i + JSON.stringify(columnData)}
+                            index={i}
+                            name={columnData.name}
+                            dataPoints={columnData.data}
+                            width={columnWidth}
+                            height={height}
+                            isHighlighted={isHighlighted}
+                            resolveClassName={resolveClassName}
+                            useLabels={useLabels}
+                        />
+                    )}
+                </div>
+                <div className="legend">
+                    {legendData.map((label, i) => 
+                        <div 
+                            className={resolveClassName(label)}
+                            onMouseOver={onMouseOver}
+                            onMouseOut={onMouseOut}
+                        >
+                            <div className={"color " + label.replace(" ", "-").replace("(", "").replace(")", "")}></div>
+                            <div className="label">{label}</div>
+                        </div>
+                    )}
+                </div>
             </div>
         </div>
     )

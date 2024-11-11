@@ -1,0 +1,11 @@
+@import 'common';
+
+section.chemical-breakdowns-of-common-materials {
+    div.content {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px; 
+        row-gap: 70px;
+        padding-bottom: 80px;
+    }
+}

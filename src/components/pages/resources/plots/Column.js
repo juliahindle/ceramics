@@ -1,24 +1,19 @@
 import { useState } from "react"
+import Segment from './Segment'
 
-function Column({name, dataPoints, height, onMouseOver, onMouseOut, resolveClassName}) {
-
-    
-    const decimalToPercent = (decimal) => {
-        return parseFloat((decimal*100).toFixed(2)) + "%"
-    }
+function Column({name, dataPoints, height, isHighlighted, resolveClassName}) {
 
     return (
         <div className="column">
             {dataPoints.map((dataPoint, i) => 
-                <div 
+                <Segment
                     key={i + JSON.stringify(dataPoint)} 
-                    className={resolveClassName(dataPoint.label)}
-                    title={dataPoint.label + ": " + decimalToPercent(dataPoint.value)}
-                    style={{'height': dataPoint.value*height + "px"}}
-                    onMouseOver={onMouseOver}
-                    onMouseOut={onMouseOut}
-                >
-                </div>
+                    label={dataPoint.label}
+                    value={dataPoint.value}
+                    height={height}
+                    isHighlighted={isHighlighted}
+                    resolveClassName={resolveClassName}
+                />
             )}
             <p>{name}</p>
         </div>

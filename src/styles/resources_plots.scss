@@ -1,88 +1,173 @@
 @import 'common';
 
-.plot-container {
-    display: flex;
+div.plot-container {
+    h3 {
+        text-align: center;
+        margin: 0 38px 15px;
+        font-size: 24px;
+        font-weight: 500;
+    }
 
-    .plot {
-        width: 520px;
-        height: 400px;
-        border-bottom: 2px solid black;
-        border-left: 2px solid black;
+    div.data-container {
         display: flex;
 
-        .column {
-            position: relative;
+        div.labels {
+            font-size: 10px;
             display: flex;
-            flex-direction: column-reverse;
-            margin-left: 20px;
-            height: 100%;
-            width: 100px;
-            cursor: $j-pointer;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 4px;
+            color: gray;
 
             p {
-                position: absolute;
-                text-align: center;
-                bottom: -50px;
-                width: 100%;
+                position: relative;
+                bottom: 16px;
+                text-align: right;
+                width: 28px;
             }
         }
-    } 
 
-    .legend {
-        margin-left: 50px;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: flex-end;
+        div.ticks {
+            width: 5px;
+            height: 394px;
+            background-size: 40px 40px;
+            background-image: linear-gradient(to bottom, gray 2px, transparent 0.5px);
+        }
 
-        div {
+        div.plot {
+            border-bottom: 2px solid black;
+            border-left: 2px solid black;
             display: flex;
-            align-items: center;
-            padding: 2px;
+            padding-right: 20px;
 
-            .color {
-                width: 20px;
-                height: 20px;
-                margin-right: 10px;
+            div.column {
+                position: relative;
+                display: flex;
+                flex-direction: column-reverse;
+                margin-left: 20px;
+                height: 100%;
+                width: 100%;
+                cursor: $j-pointer;
+
+                p {
+                    position: absolute;
+                    text-align: center;
+                    top: 390px;
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
+
+                div.segment {
+                    opacity: 1;
+                    transition: opacity .2s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    &.deselected {
+                        opacity: 0.25;
+                    }
+    
+                    &.selected {
+                        opacity: 1;
+                    }
+
+                    span {
+                        position: absolute;
+                        font-size: 14px;
+                        color: white;
+                        text-shadow:
+                            0.07em 0 white,
+                            0 0.07em white,
+                            -0.07em 0 white,
+                            0 -0.07em white;
+                        text-shadow:
+                            0.07em 0 black,
+                            0 0.07em black,
+                            -0.07em 0 black,
+                            0 -0.07em black;
+                    }
+                }
+            }
+        } 
+
+        div.legend {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+
+            div {
+                display: flex;
+                align-items: center;
+                padding: 2px;
+
+                div.color {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
             }
         }
-    }
 
-    div {
-        opacity: 1;
-        transition: opacity .2s;
+        div.color { // for legend items and column segments
+            &.SiO2-Silicon {
+                background: $j-teal;
+            }
+            
+            &.Al2O3-Aluminum {
+                background: $j-blue;
+            }
 
-        &.deselected {
-            opacity: 0.25;
-        }
+            &.CaO-Calcium {
+                background: $j-pink;
+            }
 
-        &.selected {
-            opacity: 1;
-        }
-    }
+            &.K2O-Potassium {
+                background: $j-yellow;
+            }
 
-    div.color, .column div {
-        &.SiO2-Silicon {
-            background: $j-teal;
-        }
-        
-        &.Al2O3-Aluminum {
-            background: $j-blue;
-        }
+            &.Na2O-Sodium {
+                background: $j-red;
+            }
 
-        &.CaO-Calcium {
-            background: $j-pink;
-        }
+            &.Fe2O3-Iron {
+                background: $j-plum;
+            }
 
-        &.K2O-Potassium {
-            background: $j-yellow;
-        }
+            &.MgO-Magnesium {
+                background: $j-purple;
+            }
 
-        &.Na2O-Sodium {
-            background: $j-red;
-        }
+            &.B2O3-Boron {
+                background: $j-teal-light;
+            }
 
-        &.B2O3-Boron {
-            background: $j-plum;
+            &.ZnO-Zinc {
+                background: $j-blue-light;
+            }
+
+            &.P2O5-Phosphorus {
+                background: $j-pink-light;
+            }
+
+            &.ZrO2-Zirconium {
+                background: $j-yellow-light;
+            }
+
+            &.Li2O-Lithium {
+                background: $j-red-light;
+            }
+
+            &.TiO2-Titanium {
+                background: $j-plum-light;
+            }
+
+            &.SrO-Strontium {
+                background: $j-purple-light;
+            }
         }
     }
 }
