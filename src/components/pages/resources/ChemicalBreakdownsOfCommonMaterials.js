@@ -69,20 +69,20 @@ function ChemicalBreakdownsOfCommonMaterials() {
                             ]
                         },
                         {
-                            name: "Fusion 79", 
+                            name: "Ferro 3195", 
                             data: [
-                                {label: "SiO2 (Silicon)", value: "53"},
-                                {label: "Al2O3 (Aluminum)", value: "9"},
-                                {label: "CaO (Calcium)", value: "4.8"},
-                                {label: "K2O (Potassium)", value: "1.2"},
-                                {label: "Na2O (Sodium)", value: "4"},
-                                {label: "B2O3 (Boron)", value: "26.5"},
+                                {label: "SiO2 (Silicon)", value: "48.35"},
+                                {label: "Al2O3 (Aluminum)", value: "11.98"},
+                                {label: "CaO (Calcium)", value: "11.36"},
+                                {label: "K2O (Potassium)", value: ""},
+                                {label: "Na2O (Sodium)", value: "5.69"},
+                                {label: "B2O3 (Boron)", value: "22.62"},
                                 {label: "ZnO (Zinc)", value: ""},
-                                {label: "Li2O (Lithium)", value: "0.5"},
-                                {label: "SrO (Strontium)", value: "1"}
+                                {label: "Li2O (Lithium)", value: ""},
+                                {label: "SrO (Strontium)", value: ""}
 
                             ]
-                        }, 
+                        },
                         {
                             name: "Ferro 3269", 
                             data: [
@@ -99,20 +99,20 @@ function ChemicalBreakdownsOfCommonMaterials() {
                             ]
                         }, 
                         {
-                            name: "Ferro 3195", 
+                            name: "Fusion 79", 
                             data: [
-                                {label: "SiO2 (Silicon)", value: "48.35"},
-                                {label: "Al2O3 (Aluminum)", value: "11.98"},
-                                {label: "CaO (Calcium)", value: "11.36"},
-                                {label: "K2O (Potassium)", value: ""},
-                                {label: "Na2O (Sodium)", value: "5.69"},
-                                {label: "B2O3 (Boron)", value: "22.62"},
+                                {label: "SiO2 (Silicon)", value: "53"},
+                                {label: "Al2O3 (Aluminum)", value: "9"},
+                                {label: "CaO (Calcium)", value: "4.8"},
+                                {label: "K2O (Potassium)", value: "1.2"},
+                                {label: "Na2O (Sodium)", value: "4"},
+                                {label: "B2O3 (Boron)", value: "26.5"},
                                 {label: "ZnO (Zinc)", value: ""},
-                                {label: "Li2O (Lithium)", value: ""},
-                                {label: "SrO (Strontium)", value: ""}
+                                {label: "Li2O (Lithium)", value: "0.5"},
+                                {label: "SrO (Strontium)", value: "1"}
 
                             ]
-                        }
+                        }, 
                     ]}
                 />
                 <Plot 

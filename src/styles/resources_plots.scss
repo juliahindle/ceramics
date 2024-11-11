@@ -12,18 +12,18 @@ div.plot-container {
         display: flex;
 
         div.labels {
-            font-size: 10px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             padding-right: 4px;
-            color: gray;
 
             p {
                 position: relative;
                 bottom: 16px;
                 text-align: right;
                 width: 28px;
+                font-size: 10px;
+                color: gray;
             }
         }
 
