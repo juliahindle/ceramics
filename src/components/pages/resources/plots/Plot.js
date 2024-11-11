@@ -3,7 +3,7 @@ import Column from 'components/pages/resources/plots/Column'
 import { useState, useEffect } from 'react'
 
 
-function Plot({width, height, title, columnWidth, columnsData, useTicks = false, useLabels = false}) {
+function Plot({width, height, title, columnsData, useTicks = false, useLabels = false}) {
     const [highlighted, setHighlighted] = useState("")
     const [legendData, setLegendData] = useState([])
 
@@ -66,14 +66,13 @@ function Plot({width, height, title, columnWidth, columnsData, useTicks = false,
                     </div>
                     <div class="ticks"></div>
                 </>}
-                <div className="plot" style={{width: width, height: height}}>   {/* TODO: make this work */}
+                <div className="plot" style={{width: width, height: height}}>
                     {columnsData.map((columnData, i) => 
                         <Column
                             key={i + JSON.stringify(columnData)}
                             index={i}
                             name={columnData.name}
                             dataPoints={columnData.data}
-                            width={columnWidth}
                             height={height}
                             isHighlighted={isHighlighted}
                             resolveClassName={resolveClassName}
