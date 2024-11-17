@@ -6,6 +6,7 @@ import frits from 'data/chemicals/frits.json'
 import feldspars from 'data/chemicals/feldspars.json'
 import clays from 'data/chemicals/clays.json'
 import others from 'data/chemicals/others.json'
+import { Link } from 'react-router-dom'
 
 function ChemicalBreakdownsOfCommonMaterials() {
     const [scale, setScale] = useState(1)
@@ -46,6 +47,8 @@ function ChemicalBreakdownsOfCommonMaterials() {
                     These interactive charts show the chemical percent breakdowns of common glaze ingredients organized by category.
                     <br/><br/>
                     For any ingredients that don't add up to 100% on these charts, the remainder is material that burns out during the kiln firing, also known as LOI (loss on ignition).
+                    <br/><br/>
+                    Check out <Link to={"/periodic-table-for-potters"}>Periodic Table for Potters</Link> as well for help understanding what each chemical does in a glaze.
                 </p>
             </div>
             <div className="content" >
