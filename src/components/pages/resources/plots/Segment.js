@@ -22,7 +22,11 @@ function Column({label, value, scale, resolveClassName}) {
             onMouseOver={onMouseOver}
             onMouseOut={onMouseOut}
         >
-            <span>{value > 0 && format(value) + "%"}</span>
+            <span>{
+                value > 0 && 
+                (localHighlight ? label.split(" ")[0] + ": " : "")
+                + format(value) + "%"}
+            </span>
         </div>
     )
 }
