@@ -45,11 +45,9 @@ function ChemicalBreakdownsOfCommonMaterials() {
                 <p>
                     When you're choosing what ingredients to include in a glaze, it can be helpful to understand the chemistry of the ingredients. 
                     These interactive charts show the chemical percent breakdowns of common glaze ingredients organized by category.
-                    <br/><br/>
-                    For any ingredients that don't add up to 100% on these charts, the remainder is material that burns out during the kiln firing, also known as LOI (loss on ignition).
-                    <br/><br/>
-                    Check out <Link to={"/periodic-table-for-potters"}>Periodic Table for Potters</Link> as well for help understanding what each chemical does in a glaze.
                 </p>
+                <p>For any ingredients that don't add up to 100% on these charts, the remainder is material that burns out during the kiln firing, also known as LOI (loss on ignition).</p>
+                <p>Check out <Link to={"/periodic-table-for-potters"}>Periodic Table for Potters</Link> as well for help understanding what each chemical does in a glaze.</p>
             </div>
             <div className="content" >
                 <div className="scaler" style={{scale: scale.toString()}}>
