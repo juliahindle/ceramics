@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Segment from './Segment'
 
-function Column({name, dataPoints, scale, resolveClassName}) {
+function Column({name, dataPoints, height, scale, resolveClassName}) {
     return (
         <div className="column">
             {dataPoints.map((dataPoint, i) => 
@@ -13,7 +13,7 @@ function Column({name, dataPoints, scale, resolveClassName}) {
                     resolveClassName={resolveClassName}
                 />
             )}
-            <p>{name}</p>
+            <p style={{top: height-10 + "px"}}>{name}</p>
         </div>
     )
 }

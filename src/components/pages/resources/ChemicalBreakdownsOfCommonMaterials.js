@@ -9,6 +9,7 @@ import others from 'data/chemicals/others.json'
 
 function ChemicalBreakdownsOfCommonMaterials() {
     const [scale, setScale] = useState(1)
+    const [height, setHeight] = useState(400)
 
     const WIDTH = 1250
 
@@ -31,6 +32,10 @@ function ChemicalBreakdownsOfCommonMaterials() {
         }
     }, [])
 
+    useEffect(() => {
+        scale >= 0.75 ? setHeight(400) : setHeight(500)
+    }, [scale])
+
     return (
         <section className="resource chemical-breakdowns-of-common-materials">
             <div className="description">
@@ -46,35 +51,27 @@ function ChemicalBreakdownsOfCommonMaterials() {
             <div className="content" >
                 <div className="scaler" style={{scale: scale.toString()}}>
                     <Plot 
-                        width={600}
-                        height={400}
+                        width={800}
+                        height={height}
                         title={"Clays"}
-                        useTicks={true}
-                        useLabels={false}
                         columnsData={clays}
                     />
                     <Plot 
-                        width={500}
-                        height={400}
+                        width={800}
+                        height={height}
                         title={"Frits"}
-                        useTicks={true}
-                        useLabels={true}
                         columnsData={frits}
                     />
                     <Plot 
-                        width={720}
-                        height={400}
+                        width={800}
+                        height={height}
                         title={"Feldspars"}
-                        useTicks={true}
-                        useLabels={false}
                         columnsData={feldspars}
                     />
                     <Plot 
                         width={800}
-                        height={400}
+                        height={height}
                         title={"Other"}
-                        useTicks={true}
-                        useLabels={false}
                         columnsData={others}
                     />
                 </div>
