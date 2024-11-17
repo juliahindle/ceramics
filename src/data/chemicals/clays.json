@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Ball Clay",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "59"},
+            {"label": "Al2O3 (Aluminum)", "value": "25"},
+            {"label": "CaO (Calcium)", "value": "0.3"},
+            {"label": "K2O (Potassium)", "value": "0.9"},
+            {"label": "Na2O (Sodium)", "value": "0.4"},
+            {"label": "Fe2O3 (Iron)", "value": "1"},
+            {"label": "MgO (Magnesium)", "value": "0.3"},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": "1"}
+        ]
+    },
+    {
+        "name": "Bentonite",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "59"},
+            {"label": "Al2O3 (Aluminum)", "value": "20"},
+            {"label": "CaO (Calcium)", "value": "1"},
+            {"label": "K2O (Potassium)", "value": "1"},
+            {"label": "Na2O (Sodium)", "value": "3"},
+            {"label": "Fe2O3 (Iron)", "value": "3.5"},
+            {"label": "MgO (Magnesium)", "value": "2"},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    },
+    {
+        "name": "EP Kaolin",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "47.29"},
+            {"label": "Al2O3 (Aluminum)", "value": "40.21"},
+            {"label": "CaO (Calcium)", "value": ""},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Redart",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "64.95"},
+            {"label": "Al2O3 (Aluminum)", "value": "15.51"},
+            {"label": "CaO (Calcium)", "value": "0.26"},
+            {"label": "K2O (Potassium)", "value": "4.15"},
+            {"label": "Na2O (Sodium)", "value": "0.38"},
+            {"label": "Fe2O3 (Iron)", "value": "7.05"},
+            {"label": "MgO (Magnesium)", "value": "1.59"},
+            {"label": "P2O5 (Phosphorus)", "value": "0.22"},
+            {"label": "TiO2 (Titanium)", "value": "1.09"}
+        ]
+    },
+    {
+        "name": "Gauge Red",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "40.8"},
+            {"label": "Al2O3 (Aluminum)", "value": "28"},
+            {"label": "CaO (Calcium)", "value": "0.01"},
+            {"label": "K2O (Potassium)", "value": "0.14"},
+            {"label": "Na2O (Sodium)", "value": "0.05"},
+            {"label": "Fe2O3 (Iron)", "value": "18.1"},
+            {"label": "MgO (Magnesium)", "value": "0.19"},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": "1.21"}
+        ]
+    },
+    {
+        "name": "Alberta Slip",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "54.54"},
+            {"label": "Al2O3 (Aluminum)", "value": "15.48"},
+            {"label": "CaO (Calcium)", "value": "6.01"},
+            {"label": "K2O (Potassium)", "value": "3.57"},
+            {"label": "Na2O (Sodium)", "value": "2.24"},
+            {"label": "Fe2O3 (Iron)", "value": "4.58"},
+            {"label": "MgO (Magnesium)", "value": "3.97"},
+            {"label": "P2O5 (Phosphorus)", "value": "0.1"},
+            {"label": "TiO2 (Titanium)", "value": "0.31"}
+        ]
+    },
+    {
+        "name": "Albany Slip",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "57.82"},
+            {"label": "Al2O3 (Aluminum)", "value": "14.63"},
+            {"label": "CaO (Calcium)", "value": "5.81"},
+            {"label": "K2O (Potassium)", "value": "3.2"},
+            {"label": "Na2O (Sodium)", "value": "0.8"},
+            {"label": "Fe2O3 (Iron)", "value": "5.21"},
+            {"label": "MgO (Magnesium)", "value": "2.71"},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": "0.5"}
+        ]
+    }
+]

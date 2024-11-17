@@ -1,8 +1,7 @@
 import { useState } from "react"
 import Segment from './Segment'
 
-function Column({name, dataPoints, height, isHighlighted, resolveClassName}) {
-
+function Column({name, dataPoints, scale, resolveClassName}) {
     return (
         <div className="column">
             {dataPoints.map((dataPoint, i) => 
@@ -10,8 +9,7 @@ function Column({name, dataPoints, height, isHighlighted, resolveClassName}) {
                     key={i + JSON.stringify(dataPoint)} 
                     label={dataPoint.label}
                     value={dataPoint.value}
-                    height={height}
-                    isHighlighted={isHighlighted}
+                    scale={scale}
                     resolveClassName={resolveClassName}
                 />
             )}

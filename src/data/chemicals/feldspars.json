@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Nepheline Syenite",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "60.7"},
+            {"label": "Al2O3 (Aluminum)", "value": "23.3"},
+            {"label": "CaO (Calcium)", "value": "0.7"},
+            {"label": "K2O (Potassium)", "value": "4.6"},
+            {"label": "Na2O (Sodium)", "value": "9.8"},
+            {"label": "Fe2O3 (Iron)", "value": "0.1"},
+            {"label": "MgO (Magnesium)", "value": "0.1"},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "F4",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "66.7"},
+            {"label": "Al2O3 (Aluminum)", "value": "19.6"},
+            {"label": "CaO (Calcium)", "value": "1.7"},
+            {"label": "K2O (Potassium)", "value": "4.8"},
+            {"label": "Na2O (Sodium)", "value": "6.9"},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Minspar 200",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "68.8"},
+            {"label": "Al2O3 (Aluminum)", "value": "18.2"},
+            {"label": "CaO (Calcium)", "value": "1.5"},
+            {"label": "K2O (Potassium)", "value": "4.1"},
+            {"label": "Na2O (Sodium)", "value": "6.5"},
+            {"label": "Fe2O3 (Iron)", "value": "0.07"},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "G-200",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "66.3"},
+            {"label": "Al2O3 (Aluminum)", "value": "18.5"},
+            {"label": "CaO (Calcium)", "value": "0.8"},
+            {"label": "K2O (Potassium)", "value": "10.8"},
+            {"label": "Na2O (Sodium)", "value": "3.1"},
+            {"label": "Fe2O3 (Iron)", "value": "0.08"},
+            {"label": "MgO (Magnesium)", "value": "0.05"},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "FFF",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "66.3"},
+            {"label": "Al2O3 (Aluminum)", "value": "18.6"},
+            {"label": "CaO (Calcium)", "value": ""},
+            {"label": "K2O (Potassium)", "value": "6.2"},
+            {"label": "Na2O (Sodium)", "value": "5.5"},
+            {"label": "Fe2O3 (Iron)", "value": "0.1"},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Custer",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "68.5"},
+            {"label": "Al2O3 (Aluminum)", "value": "17"},
+            {"label": "CaO (Calcium)", "value": "0.3"},
+            {"label": "K2O (Potassium)", "value": "10"},
+            {"label": "Na2O (Sodium)", "value": "3"},
+            {"label": "Fe2O3 (Iron)", "value": "0.1"},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Spodumene",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "64.59"},
+            {"label": "Al2O3 (Aluminum)", "value": "27.41"},
+            {"label": "CaO (Calcium)", "value": ""},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": "8.01"},
+            {"label": "TiO2 (Titanium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Cornwall Stone",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "72.76"},
+            {"label": "Al2O3 (Aluminum)", "value": "16.33"},
+            {"label": "CaO (Calcium)", "value": "1.81"},
+            {"label": "K2O (Potassium)", "value": "4.3"},
+            {"label": "Na2O (Sodium)", "value": "3.3"},
+            {"label": "Fe2O3 (Iron)", "value": "0.2"},
+            {"label": "MgO (Magnesium)", "value": "1.4"},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": "0.15"}
+        ]
+    }
+]

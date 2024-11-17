@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Limestone",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "1"},
+            {"label": "Al2O3 (Aluminum)", "value": "1"},
+            {"label": "CaO (Calcium)", "value": "52"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": "0.5"},
+            {"label": "MgO (Magnesium)", "value": "1"},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Whiting",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": ""},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": "56.1"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Bone Ash",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": ""},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": "55.82"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": "42.39"},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Gillipsie Borate",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "11.8"},
+            {"label": "Al2O3 (Aluminum)", "value": "1.7"},
+            {"label": "CaO (Calcium)", "value": "23"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": "3.77"},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": "3.9"},
+            {"label": "B2O3 (Boron)", "value": "24.5"},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": "0.45"}
+        ]
+    },
+    {
+        "name": "Gerstley Borate",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "14.8"},
+            {"label": "Al2O3 (Aluminum)", "value": "1"},
+            {"label": "CaO (Calcium)", "value": "19.4"},
+            {"label": "K2O (Potassium)", "value": "0.4"},
+            {"label": "Na2O (Sodium)", "value": "4"},
+            {"label": "Fe2O3 (Iron)", "value": "0.4"},
+            {"label": "MgO (Magnesium)", "value": "3.5"},
+            {"label": "B2O3 (Boron)", "value": "26.8"},
+            {"label": "P2O5 (Phosphorus)", "value": "0.1"},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": "0.1"},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Dolomite",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": ""},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": "30.49"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": "31.9"},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Wollastonite",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "51.72"},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": "48.28"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Zircopax",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "32.79"},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": ""},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": ""},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": "67.21"},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Talc",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "63.38"},
+            {"label": "Al2O3 (Aluminum)", "value": ""},
+            {"label": "CaO (Calcium)", "value": ""},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": ""},
+            {"label": "Fe2O3 (Iron)", "value": ""},
+            {"label": "MgO (Magnesium)", "value": "31.87"},
+            {"label": "B2O3 (Boron)", "value": ""},
+            {"label": "P2O5 (Phosphorus)", "value": ""},
+            {"label": "ZrO2 (Zirconium)", "value": ""},
+            {"label": "TiO2 (Titanium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    }
+]

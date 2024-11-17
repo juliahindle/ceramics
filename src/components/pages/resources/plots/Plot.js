@@ -43,10 +43,6 @@ function Plot({width, height, title, columnsData, useTicks = false, useLabels = 
         setHighlighted("")
     }
 
-    const isHighlighted = (label) => {
-        return label && resolveLabelName(label) === highlighted
-    }
-
     return (
         <div className="plot-container">
             <h3 style={{width: width+25}}>{title}</h3>
@@ -73,8 +69,7 @@ function Plot({width, height, title, columnsData, useTicks = false, useLabels = 
                             index={i}
                             name={columnData.name}
                             dataPoints={columnData.data}
-                            height={height}
-                            isHighlighted={isHighlighted}
+                            scale={height/100}
                             resolveClassName={resolveClassName}
                             useLabels={useLabels}
                         />

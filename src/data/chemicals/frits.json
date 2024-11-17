@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Ferro 3110",
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "69.77"},
+            {"label": "Al2O3 (Aluminum)", "value": "3.37"},
+            {"label": "CaO (Calcium)", "value": "0.29"},
+            {"label": "K2O (Potassium)", "value": "2.36"},
+            {"label": "Na2O (Sodium)", "value": "15.24"},
+            {"label": "B2O3 (Boron)", "value": "2.64"},
+            {"label": "ZnO (Zinc)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Ferro 3124", 
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "54.94"},
+            {"label": "Al2O3 (Aluminum)", "value": "10.01"},
+            {"label": "CaO (Calcium)", "value": "14.28"},
+            {"label": "K2O (Potassium)", "value": "0.68"},
+            {"label": "Na2O (Sodium)", "value": "6.4"},
+            {"label": "B2O3 (Boron)", "value": "13.74"},
+            {"label": "ZnO (Zinc)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    }, 
+    {
+        "name": "Ferro 3134", 
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "45.56"},
+            {"label": "Al2O3 (Aluminum)", "value": "2"},
+            {"label": "CaO (Calcium)", "value": "19.51"},
+            {"label": "Na2O (Sodium)", "value": "10.14"},
+            {"label": "B2O3 (Boron)", "value": "22.79"},
+            {"label": "ZnO (Zinc)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+        ]
+    },
+    {
+        "name": "Ferro 3195", 
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "48.35"},
+            {"label": "Al2O3 (Aluminum)", "value": "11.98"},
+            {"label": "CaO (Calcium)", "value": "11.36"},
+            {"label": "K2O (Potassium)", "value": ""},
+            {"label": "Na2O (Sodium)", "value": "5.69"},
+            {"label": "B2O3 (Boron)", "value": "22.62"},
+            {"label": "ZnO (Zinc)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+
+        ]
+    },
+    {
+        "name": "Ferro 3269", 
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "51.23"},
+            {"label": "Al2O3 (Aluminum)", "value": "12.4"},
+            {"label": "CaO (Calcium)", "value": "0.41"},
+            {"label": "K2O (Potassium)", "value": "7.42"},
+            {"label": "Na2O (Sodium)", "value": "10.97"},
+            {"label": "B2O3 (Boron)", "value": "15.06"},
+            {"label": "ZnO (Zinc)", "value": "0.97"},
+            {"label": "Li2O (Lithium)", "value": ""},
+            {"label": "SrO (Strontium)", "value": ""}
+
+        ]
+    }, 
+    {
+        "name": "Fusion 79", 
+        "data": [
+            {"label": "SiO2 (Silicon)", "value": "53"},
+            {"label": "Al2O3 (Aluminum)", "value": "9"},
+            {"label": "CaO (Calcium)", "value": "4.8"},
+            {"label": "K2O (Potassium)", "value": "1.2"},
+            {"label": "Na2O (Sodium)", "value": "4"},
+            {"label": "B2O3 (Boron)", "value": "26.5"},
+            {"label": "ZnO (Zinc)", "value": ""},
+            {"label": "Li2O (Lithium)", "value": "0.5"},
+            {"label": "SrO (Strontium)", "value": "1"}
+
+        ]
+    }
+]

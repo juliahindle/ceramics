@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Column({label, value, height, isHighlighted, resolveClassName}) {
+function Column({label, value, scale, resolveClassName}) {
     const [localHighlight, setLocalHighlight] = useState(false)
 
     const onMouseOver = () => {
@@ -18,7 +18,7 @@ function Column({label, value, height, isHighlighted, resolveClassName}) {
     return (
         <div
             className={"segment color " + resolveClassName(label, localHighlight)}
-            style={{height: value*height + "px"}}
+            style={{height: value*scale + "px"}}
             onMouseOver={onMouseOver}
             onMouseOut={onMouseOut}
         >
