@@ -10,7 +10,7 @@ import others from 'data/chemicals/others.json'
 function ChemicalBreakdownsOfCommonMaterials() {
     const [scale, setScale] = useState(1)
 
-    const WIDTH = 1100
+    const WIDTH = 1250
 
     useEffect(() => {
         updatePageTitle("Chemical Breakdowns of Common Materials")
@@ -39,7 +39,8 @@ function ChemicalBreakdownsOfCommonMaterials() {
                 <p>
                     When you're choosing what ingredients to include in a glaze, it can be helpful to understand the chemistry of the ingredients. 
                     These interactive charts show the chemical percent breakdowns of common glaze ingredients organized by category.
-                    For any ingredients where the chemicals don't add up to 100%, the remained is consider LOI (lost on ignition), a.k.a. it burns out during the kiln firing.
+                    <br/><br/>
+                    For any ingredients that don't add up to 100% on these charts, the remainder is material that burns out during the kiln firing, also known as LOI (loss on ignition).
                 </p>
             </div>
             <div className="content" >
@@ -53,7 +54,7 @@ function ChemicalBreakdownsOfCommonMaterials() {
                         columnsData={clays}
                     />
                     <Plot 
-                        width={470}
+                        width={500}
                         height={400}
                         title={"Frits"}
                         useTicks={true}

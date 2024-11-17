@@ -1,8 +1,9 @@
 @import 'common';
 
 section.chemical-breakdowns-of-common-materials {
-    div.content{
-        div.scaler  {
+    div.content {
+        height: 100px;
+        div.scaler {
             transform-origin: 0 0;
             display: grid;
             grid-template-columns: 1fr;
