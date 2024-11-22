@@ -7,7 +7,7 @@ import feldspars from 'data/chemicals/feldspars.json'
 import clays from 'data/chemicals/clays.json'
 import others from 'data/chemicals/others.json'
 import { Link } from 'react-router-dom'
-
+//TODO: Bug - when you resize the screen on another tab and then go back to this one, the size of the charts are wrong
 function ChemicalBreakdownsOfCommonMaterials() {
     const [scale, setScale] = useState(1)
     const [height, setHeight] = useState(400)
