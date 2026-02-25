@@ -67,7 +67,7 @@ function MakeYourOwnJewelryEnamel() {
                         <div><img src="images/resources/make-your-own-jewelry-enamel/pottery_example2.jpeg"/><a href="https://www.instagram.com/p/BzYmJ2kHzFC/" target="_blank" rel="noreferrer">floriangadsby</a></div>
                     </div>
                     <p>
-                        Whereas enamel is usually applied in as a powder to metal, glazes start as powder but are then generally mixed with water so it can be applied to clay with a paint brush, spray gun, or be dipped into.
+                        Whereas enamel is usually applied as a powder to metal, glazes start as powder but are then generally mixed with water so it can be applied to clay with a paint brush, spray gun, or be dipped into.
                         One of the ingredients commonly used in glazes are <b>ceramic frits</b>. 
                         They're manufactured the same way enamel frits are, with the difference being that ceramic frits are formulated to melt at higher temperatures over longer periods of time.
                         This is because ceramics are generally fired for 6-12 hours in a kiln up to 2,100°F-2,300°F compared to enamel's 1-2 minutes at 1450°F-1500°F.
