@@ -17,7 +17,7 @@ function PotteryImage({pot}) {
                     `${getPotteryPhotoPath(pot.id, "1x")} 1x`
                 }
                 alt={"pottery photo " + pot.id}
-                onClick={() => setDescriptionToggle(prev => !prev)}
+                onClick={() => setDescriptionToggle(prev => !prev && (pot.glazes || pot.description))}
             ></img>
             <p className={descriptionToggle ? "enabled" : "disabled"}>
                 Glazes used:

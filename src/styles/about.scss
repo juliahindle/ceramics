@@ -60,13 +60,18 @@ section.about {
         }
 
         // Block 4
-        &.studio2 {
-          flex: calc(2991/3492);
+        &.studio {
+          flex: calc(3426/3426);
           margin-right: 30px;
         }
 
-        &.powders2 {
-          flex: calc(3585/2689);
+        &.studio2 {
+          flex: calc(4267/4532);
+          margin-right: 30px;
+        }
+
+        &.studio3 {
+          flex: calc(2228/2550);
         }
 
         // Block 5
