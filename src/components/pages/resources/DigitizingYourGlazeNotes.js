@@ -62,7 +62,7 @@ function DigitizingYourGlazeNotes() {
                 
                 <h2>Spreadsheet walk-through</h2>
                 <div className="group">
-                    <p>There are four main sections to my spreadsheet:</p>
+                    <p>There are four main sections to my spreadsheet: </p>
                     <ol>
                         <li>
                             <h3>1.&nbsp;&nbsp;Glaze Log</h3>
