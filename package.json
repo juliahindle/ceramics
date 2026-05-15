@@ -6,8 +6,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "gh-pages": "^4.0.0",
+    "axios": "^1.16.1",
+    "gh-pages": "^6.3.0",
     "googleapis": "^108.0.0",
     "history": "^5.3.0",
     "react": "^18.2.0",
@@ -44,8 +44,10 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
     "sass": "^1.54.9",
     "sass-lint": "^1.13.1"
   },
-  "homepage": "http://www.juliahindle.com/"
+  "homepage": "https://www.juliahindle.com/"
 }
